@@ -1,26 +1,40 @@
-$rad0
+
+
+
+$rad0: 2.75rem;
+$gray0: #333;
+$gray5: rgb(242, 242, 242);
+$green1: rgb(140, 198, 63);
+$green2: rgb(108, 157, 48);
+$green3: rgb(69, 110, 28);
+
+$shadow: 0.2em 0.25em 0.5em 0 rgba(0,0,0, 0.35);
+
+
+
+
 
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 	
-	--color-gray0: #333;
+	/* --color-gray0: #333;
 	--color-gray5: rgb(242, 242, 242);
 	--color-green1: rgb(140, 198, 63);
 	--color-green2: rgb(108, 157, 48);
 	--color-green3: rgb(69, 110, 28);
-
 	--def-shadow: 0.2em 0.25em 0.5em 0 rgba(0,0,0, 0.35);
 	--radius0: 2.75em 0 2.75em 0;
-	--radius1: 0 2.75em 0 2.75em;
+	--radius1: 0 2.75em 0 2.75em; */
+
 }
 
 
 body {
-	background-color: var(--color-gray5);
+	background-color: $gray5;
 	
-	.shadow { box-shadow: var(--def-shadow); }
+	.shadow { box-shadow: $shadow; }
 	.Lrad	{ border-radius: $rad0 0 $rad0 0 ;}
 	.Rrad { border-radius: 0 $rad0 0 $rad0 ; }
 
@@ -52,7 +66,7 @@ body {
 				grid-template-columns: repeat(3, auto) ;
 				align-items: center;
 				height: 3rem;
-				background-color: var(--color-gray0);
+				background-color: $gray0;
 				width: 100%;
 				// border-radius: var(--radius0);
 
@@ -86,7 +100,7 @@ body {
 
 			#navbar {
 				height: 100%;
-				background-color: var(--color-gray0);
+				background-color: $gray0;
 				width: 100%;
 				// border-radius: var(--radius1);
 			
