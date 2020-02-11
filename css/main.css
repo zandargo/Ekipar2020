@@ -3,14 +3,7 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  /* --color-gray0: #333;
-	--color-gray5: rgb(242, 242, 242);
-	--color-green1: rgb(140, 198, 63);
-	--color-green2: rgb(108, 157, 48);
-	--color-green3: rgb(69, 110, 28);
-	--def-shadow: 0.2em 0.25em 0.5em 0 rgba(0,0,0, 0.35);
-	--radius0: 2.75em 0 2.75em 0;
-	--radius1: 0 2.75em 0 2.75em; */
+  font-family: "Roboto Condensed";
 }
 
 body {
@@ -37,13 +30,31 @@ body .Rrad {
   border-radius: 0 2.75rem 0 2.75rem;
 }
 
+body h3 {
+  font-size: 1.35rem;
+  font-weight: 500;
+}
+
+body h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 0.5rem;
+  margin-top: 0.5rem;
+}
+
+body h5 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 1rem;
+}
+
 body #main-wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 150px auto;
-      grid-template-columns: 150px auto;
-  -ms-grid-rows: 50px 500px;
-      grid-template-rows: 50px 500px;
+  -ms-grid-columns: 200px auto;
+      grid-template-columns: 200px auto;
+  -ms-grid-rows: 50px 1400px;
+      grid-template-rows: 50px 1400px;
   -webkit-column-gap: 20px;
           column-gap: 20px;
   row-gap: 20px;
@@ -105,17 +116,45 @@ body #main-wrapper #div-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-bottom: 3rem;
 }
 
 body #main-wrapper #div-nav #navbar {
   height: 100%;
+  color: #f2f2f2;
   background-color: #333;
   width: 100%;
+  font-weight: 400;
+  font-variant-caps: small-caps;
+}
+
+body #main-wrapper #div-content {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 2;
+  grid-row: 2;
 }
 
 body #div-footer {
+  display: block;
   width: 100%;
-  height: 60px;
-  background-color: #6c9d30;
+  height: 2.5rem;
+  background-color: rgba(140, 198, 63, 0.9);
+  color: #456e1c;
+  margin-top: 200px;
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 2.5rem;
+}
+
+body #div-footer strong {
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 /*# sourceMappingURL=main.css.map */
