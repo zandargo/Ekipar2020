@@ -4,6 +4,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Roboto Condensed";
+  font-size: 10pt;
 }
 
 body {
@@ -18,8 +19,13 @@ body {
 }
 
 body .shadow {
-  -webkit-box-shadow: 0.2em 0.25em 0.5em 0 rgba(0, 0, 0, 0.35);
-          box-shadow: 0.2em 0.25em 0.5em 0 rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0.2rem 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.35);
+          box-shadow: 0.2rem 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.35);
+}
+
+body .shadowin {
+  -webkit-box-shadow: inset 0.2rem 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.35);
+          box-shadow: inset 0.2rem 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.35);
 }
 
 body .Lrad {
@@ -35,24 +41,26 @@ body h3 {
   font-weight: 500;
 }
 
-body h4 {
+body .N0 {
   font-size: 1.2rem;
   font-weight: 500;
-  margin: 0 0.5rem;
-  margin-top: 0.5rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  padding-left: 1rem;
 }
 
-body h5 {
+body .N1 {
   font-size: 1rem;
   font-weight: 500;
-  margin: 0 1rem;
+  margin-left: 1rem;
+  padding-left: 2rem;
 }
 
 body #main-wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 200px auto;
-      grid-template-columns: 200px auto;
+  -ms-grid-columns: 230px auto;
+      grid-template-columns: 230px auto;
   -ms-grid-rows: 50px 1400px;
       grid-template-rows: 50px 1400px;
   -webkit-column-gap: 20px;
@@ -121,11 +129,54 @@ body #main-wrapper #div-nav {
 
 body #main-wrapper #div-nav #navbar {
   height: 100%;
+  padding: 2.5rem 0;
+  padding-left: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   color: #f2f2f2;
   background-color: #333;
   width: 100%;
   font-weight: 400;
   font-variant-caps: small-caps;
+}
+
+body #main-wrapper #div-nav #navbar button {
+  width: 200px;
+  text-align: left;
+  background-color: inherit;
+  color: #f2f2f2;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+}
+
+body #main-wrapper #div-nav #navbar button:hover {
+  background-color: #555;
+}
+
+body #main-wrapper #div-nav #navbar button.active {
+  color: black;
+  text-transform: uppercase;
+  background-color: #8cc63f;
+  padding-top: 0.25rem;
+  padding-left: 3rem;
+  width: 240px;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  float: left;
+  position: relative;
+  border-radius: 2.75rem 0 2.75rem 0;
+  -webkit-box-shadow: 0.3rem 0.35rem 0.35rem 0 rgba(0, 0, 0, 0.35);
+          box-shadow: 0.3rem 0.35rem 0.35rem 0 rgba(0, 0, 0, 0.35);
 }
 
 body #main-wrapper #div-content {

@@ -36,14 +36,42 @@
 		<!-- Anime.JS Script -->
 		<script src="./js/lib/anime.min.js"></script>
 
-		<!-- JS Script: Script principal (custom made) -->
-		<script src="./js/script.js"></script>
-
 		<!-- CSS GERAL -->
 		<link rel="stylesheet" type="text/css" href="./css/main.css" />
 
 		<!-- Favicon -->
 		<link rel="icon" type="image/png" href="./favicon-16x16.png" />
+
+		<style>
+			/* width */
+			::-webkit-scrollbar {
+				width: 16px;
+			}
+
+			/* Track */
+			::-webkit-scrollbar-track {
+				background: #333;
+				box-shadow: inset 0 0 5px black;
+			}
+
+			/* Handle */
+			::-webkit-scrollbar-thumb {
+				background: rgb(140, 198, 63);
+				/* border-radius: 6px; */
+				box-shadow: inset 0 0 5px black;
+			}
+
+			/* Handle on hover */
+			::-webkit-scrollbar-thumb:hover {
+				background: rgb(108, 157, 48);
+				box-shadow: inset 0 0 5px black;
+			}
+
+			/* ::-webkit-scrollbar-track-piece {
+				background: #ddd;
+				box-shadow: inset 0 0 5px black;
+			} */
+		</style>
 	</head>
 
 	<body>
@@ -58,7 +86,7 @@
 
 					<img
 						id="img-logo-cubo"
-						src="./img/LOGO_EKIPAR_Cubo2.svg"
+						src="./img/LOGO_EKIPAR_Cubo3.svg"
 						alt="Ekipar Engenharia"
 					/>
 				</div>
@@ -66,65 +94,185 @@
 
 			<div id="div-nav">
 				<div id="navbar" class="shadow Rrad">
-					<h4>A Empresa</h4>
-					<h5>Localização e Contato</h5>
-					<h5>Parceiros e Clientes</h5>
-					<h5>Pesquisa</h5>
-					<h4>Componentes Individuais</h4>
-					<h5>Aquecedor 1</h5>
-					<h5>Aquecedor 2</h5>
-					<h5>Mini-Centrífuga p/ Óleos</h5>
-					<h5>Mixer</h5>
-					<h5>Visor de Fluxo</h5>
-					<h4>Equipamentos</h4>
-					<h5>Bancada Hidráulica</h5>
-					<h5>Biopeixe 1</h5>
-					<h5>Biopeixe 2</h5>
-					<h5>Caldeira B.C. Automatizada</h5>
-					<h5>Caldeira Didática</h5>
-					<h5>Cavalo-de-Pau</h5>
-					<h5>Destilaria 1</h5>
-					<h5>Destilaria 2</h5>
-					<h5>Destilaria 3</h5>
-					<h5>Extr. Óleos Essenciais</h5>
-					<h5>Extrator de Líquido</h5>
-					<h5>Fermentador</h5>
-					<h5>Flotador</h5>
-					<h5>Forno de Secagem 1</h5>
-					<h5>Forno de Secagem 2</h5>
-					<h5>Kit Didático 1</h5>
-					<h5>Mini-Reator 1</h5>
-					<h5>Mini-torre Fracionadora</h5>
-					<h5>Mini-usina Biodiesel 1</h5>
-					<h5>Mini-usina Biodiesel 2</h5>
-					<h5>Mini-usina Biodiesel 3</h5>
-					<h5>Pirólise 1</h5>
-					<h5>Pirólise 2</h5>
-					<h5>Pirólise Bancada</h5>
-					<h5>Poliglicerol</h5>
-					<h5>Polimerizador 1</h5>
-					<h5>Purificador de Óleo</h5>
-					<h5>Reator Batelada 20L</h5>
-					<h5>Reator Hiperbárico</h5>
-					<h5>Reator Multifuncional</h5>
-					<h5>Separador de Imiscíveis</h5>
-					<h5>Separador de Óleo</h5>
-					<h5>Sist. Troca Térmica 1</h5>
-					<h5>Sist. Troca Térmica 2</h5>
-					<h5>Unidade de Tratamento 1</h5>
-					<h4>Projetos Laboratoriais</h4>
-					<h5>Lab. de Automação</h5>
-					<h5>Lab. de Biocombustíveis</h5>
-					<h5>Lab. de Líquidos</h5>
-					<h5>Lab. de Óleos</h5>
+					<button class="tablink N0" onclick="openTab(event, 'aempresa')">
+						A Empresa
+					</button>
+					<button class="tablink N1" onclick="openTab(event, 'local')">
+						Localização e Contato
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Parceiros e Clientes
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Pesquisa
+					</button>
+					<button class="tablink N0" onclick="openTab(event, '')">
+						Componentes Individuais
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Aquecedor 1
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Aquecedor 2
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Mini-Centrífuga p/ Óleos
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Mixer
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Visor de Fluxo
+					</button>
+					<button class="tablink N0" onclick="openTab(event, '')">
+						Equipamentos
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Bancada Hidráulica
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Biopeixe 1
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Biopeixe 2
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Caldeira B.C. Automatizada
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Caldeira Didática
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Cavalo-de-Pau
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Destilaria 1
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Destilaria 2
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Destilaria 3
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Extr. Óleos Essenciais
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Extrator de Líquido
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Fermentador
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Flotador
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Forno de Secagem 1
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Forno de Secagem 2
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Kit Didático 1
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Mini-Reator 1
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Mini-torre Fracionadora
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Mini-usina Biodiesel 1
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Mini-usina Biodiesel 2
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Mini-usina Biodiesel 3
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Pirólise 1
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Pirólise 2
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Pirólise Bancada
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Poliglicerol
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Polimerizador 1
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Purificador de Óleo
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Reator Batelada 20L
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Reator Hiperbárico
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Reator Multifuncional
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Separador de Imiscíveis
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Separador de Óleo
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Sist. Troca Térmica 1
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Sist. Troca Térmica 2
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Unidade de Tratamento 1
+					</button>
+					<button class="tablink N0" onclick="openTab(event, '')">
+						Projetos Laboratoriais
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Lab. de Automação
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Lab. de Biocombustíveis
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Lab. de Líquidos
+					</button>
+					<button class="tablink N1" onclick="openTab(event, '')">
+						Lab. de Óleos
+					</button>
 				</div>
 			</div>
 
-			<div id="div-content"></div>
+			<div id="div-content">
+				<div id="aempresa" class="tabcontent">
+					<h1>A Empresa</h1>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+						adipisci vero, nemo ab aspernatur soluta!
+					</p>
+				</div>
+				<div id="local" class="tabcontent">
+					<h1>Localização</h1>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+						adipisci vero, nemo ab aspernatur soluta!
+					</p>
+				</div>
+			</div>
 		</div>
 
 		<div id="div-footer">
 			<strong>Ekipar &copy; 2013. Todos os direitos reservados.</strong>
 		</div>
+
+		<!-- JS Script: Script principal (custom made) -->
+		<script src="./js/script.js"></script>
 	</body>
 </html>

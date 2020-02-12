@@ -1,5 +1,8 @@
 $rad0: 2.75rem;
+$margin0: 1rem;
+
 $gray0: #333;
+$gray1: #555;
 $gray5: rgb(242, 242, 242);
 $green1: rgb(140, 198, 63);
 $green2: rgb(108, 157, 48);
@@ -7,12 +10,16 @@ $green3: rgb(69, 110, 28);
 $green1t90: rgba(140, 198, 63, 0.9);
 $green2t90: rgba(108, 157, 48, 0.9);
 $green3t90: rgba(69, 110, 28, 0.9);
-$shadow: 0.2em 0.25em 0.5em 0 rgba(0, 0, 0, 0.35);
+$shadow: 0.2rem 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.35);
+$shadow1: 0.3rem 0.35rem 0.35rem 0 rgba(0, 0, 0, 0.35);
+$shadow-in: inset $shadow;
+
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 	font-family: "Roboto Condensed";
+	font-size: 10pt;
 }
 
 body {
@@ -21,6 +28,9 @@ body {
 	flex-direction: column;
 	.shadow {
 		box-shadow: $shadow;
+	}
+	.shadowin {
+		box-shadow: $shadow-in;
 	}
 
 	// Raio à esquerda
@@ -38,23 +48,25 @@ body {
 		font-weight: 500;
 	}
 
-	h4 {
+	.N0 {
 		font-size: 1.2rem;
 		font-weight: 500;
-		margin: 0 0.5rem;
-		margin-top: 0.5rem;
+		margin-left: $margin0;
+		margin-top: $margin0;
+		padding-left: $margin0;
 	}
 
-	h5 {
+	.N1 {
 		font-size: 1rem;
 		font-weight: 500;
-		margin: 0 1rem;
+		margin-left: $margin0;
+		padding-left: 2 * $margin0;
 	}
 
 	// Wrapper geral do conteúdo do site
 	#main-wrapper {
 		display: grid;
-		grid-template-columns: 200px auto;
+		grid-template-columns: 230px auto;
 		grid-template-rows: 50px 1400px;
 		column-gap: 20px;
 		row-gap: 20px;
@@ -108,11 +120,72 @@ body {
 			//Barra lateral estilizada
 			#navbar {
 				height: 100%;
+				padding: 2.5rem 0;
+				padding-left: 0.5rem;
+				display: flex;
+				flex-direction: column;
 				color: $gray5;
 				background-color: $gray0;
 				width: 100%;
 				font-weight: 400;
 				font-variant-caps: small-caps;
+
+				//Botões tab
+				button {
+					// display: block;
+					width: 200px;
+					text-align: left;
+					background-color: inherit;
+					color: $gray5;
+					// padding: 0 $margin0;
+					border: none;
+					outline: none;
+					text-align: left;
+					cursor: pointer;
+					transition: 0.35s;
+
+					&:hover {
+						// background-color: $green3t90;
+						background-color: $gray1;
+					}
+
+					&.active {
+						color: black;
+						text-transform: uppercase;
+						// font-variant-caps: inherit;
+						background-color: $green1;
+						padding-top: 0.25rem;
+						padding-left: 3rem;
+						width: 240px;
+						line-height: 2rem;
+						font-size: 1.2rem;
+						font-weight: 700;
+						float: left;
+						position: relative;
+						// border-bottom-left-radius: 0.5rem;
+						// border-top-left-radius: 0.5rem;
+						border-radius: $rad0 0 $rad0 0;
+						box-shadow: $shadow1;
+
+						// &::after {
+						// 	width: 0px;
+						// 	height: 0px;
+						// 	background: #fff;
+						// 	content: "";
+						// 	color: $green1;
+						// 	position: absolute;
+						// 	bottom: 0;
+						// 	right: -2.5rem;
+						// 	// border-bottom-left-radius: 0.5rem;
+						// 	// border-top-left-radius: 0.5rem;
+						// 	// border-top: 1rem solid $gray5;
+						// 	// border-right: 1rem solid $gray5;
+						// 	// border-left: 1rem solid $green1;
+						// 	// border-bottom: 1rem solid $gray5;
+						// 	box-shadow: $shadow;
+						// }
+					}
+				}
 			}
 		}
 
