@@ -66,6 +66,24 @@ body {
 		padding-left: 2 * $margin0;
 	}
 
+	//Imagem de fundo
+	.background {
+		display: float;
+		z-index: -1;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0.1;
+		align-items: center;
+		justify-content: center;
+
+		img {
+			height: 100%;
+		}
+	}
+
 	// Wrapper geral do conteúdo do site
 	#main-wrapper {
 		display: grid;
@@ -198,6 +216,42 @@ body {
 		#div-content {
 			grid-column: 2;
 			grid-row: 2;
+			width: 100%;
+
+			#aempresa {
+				display: flex;
+				flex-direction: column;
+				padding: 5rem 10px;
+				justify-content: center;
+				align-content: center;
+				// margin: 0 auto;
+
+				.biglogo {
+					width: 100%;
+					img {
+						display: block;
+						margin-left: auto;
+						margin-right: auto;
+						width: 90%;
+						max-height: 150px;
+					}
+				}
+				.textosobre {
+					background-color: $gray5;
+					border-radius: $rad0 0 $rad0 0;
+					width: 100%;
+					text-align: justify;
+					font-size: 1.25rem;
+					padding: 2rem;
+					box-shadow: 0.2rem 0.25rem 0.5rem 0.25rem rgba(0, 0, 0, 0.35);
+
+					strong {
+						font-size: 1.35rem;
+						font-weight: 600;
+						font-variant-caps: small-caps;
+					}
+				}
+			}
 		}
 	}
 
@@ -222,4 +276,93 @@ body {
 			font-weight: 500;
 		}
 	}
+}
+
+//DIV whatsapp da Ucelo
+.whats-float {
+	width: 80px;
+	height: 80px;
+	position: fixed;
+	bottom: 1%;
+	margin-top: -40px;
+	right: 30px;
+	display: block;
+	z-index: 99;
+	border-radius: 50%;
+}
+.whats-float:before {
+	width: 100%;
+	height: 100%;
+	background: #29b53f;
+	position: absolute;
+	content: "";
+	top: 0;
+	right: 0;
+	display: block;
+	border-radius: 50%;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.whats-float:after {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	content: "";
+	background: url(../images/whats.svg) no-repeat center;
+	top: 50%;
+	left: 50%;
+	margin: -25px 0 0 -25px;
+}
+.box-texto-whats {
+	width: 0;
+	height: 60px;
+	background: #29b53f;
+	border-radius: 30px;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+	display: block;
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	right: 40px;
+	z-index: -1;
+	overflow: hidden;
+}
+.box-texto-whats > span {
+	color: #fff;
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	width: 300px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding-right: 30px;
+	line-height: 1em;
+	transform: translateX(100px);
+}
+.box-texto-whats > span > strong {
+	font-weight: 700;
+	font-size: 23px;
+	line-height: 1em;
+}
+.whats-float:hover .box-texto-whats {
+	width: 300px;
+}
+.whats-float:hover .box-texto-whats > span {
+	transform: translateX(0);
+	transition-delay: 0.1s;
+}
+.box-texto-whats,
+.box-texto-whats > span,
+.whats-float:hover .box-texto-whats,
+.whats-float:hover .box-texto-whats > span {
+	-webkit-transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+	-moz-transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+	-o-transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+	transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+	-webkit-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+	-moz-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+	-o-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+	transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
