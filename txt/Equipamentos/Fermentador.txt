@@ -1,0 +1,20 @@
+Fermentador
+DESCRIÇÃO
+MINI-USINA DIDÁTICA PARA PRODUÇÃO DE ETANOL
+
+Os combustíveis derivados de petróleo são produtos que aos poucos serão substituídos por combustíveis oriundos de fontes Renováveis. Neste contexto estão os alcoóis obtidos da fermentação alcoólica e o biodiesel oriundo de óleos vegetais e gordura animal. No Brasil, vários cursos superiores e formadores de técnicos na área de biocombustíveis foram formados. Visando este mercado, inúmeros equipamentos são lançados com intuito de capacitar estes profissionais. No entanto, em termos de plantas com pequena capacidade e que possibilite a transferência de conhecimento a estes profissionais, o mercado ainda encontra-se bastante deficitário. Assim, a Ekipar desenvolveu um sistema completo em termos de operações unitárias que englobam uma unidade destinada a produção de etanol. O sistema possui vazão de 10 L com equipamentos que contemplam agitadores, trocadores de calor, transferência de massa, automação e controle.
+
+FUNCIONAMENTO
+
+A unidade parte do principio da propriedade de fermentação do caldo alcoólico. Para tanto, o sistema possui tanques de fermentação, decantadores, sistema de inserção de inoculo fermentativo, dentre outros equipamentos.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Dornas de fermentação em aço inox AISI 316;
+Bombas dosadoras de elementos necessários a manutenção de pH;
+Ciclones de remoção de leveduras;
+Tanques de alimentação e obtenção do calco fermentado; 
+Quadro elétrico;
+Automação com IHM;
+Procedimento operacional Padrão (POP).

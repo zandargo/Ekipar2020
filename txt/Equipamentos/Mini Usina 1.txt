@@ -1,0 +1,23 @@
+Mini-usina Biodiesel 1
+DESCRIÇÃO
+MINI-USINA EM BATELADA DE BANCADA PARA PRODUÇÃO DE BIODIESEL
+
+Os combustíveis derivados de petróleo são produtos que aos poucos serão substituídos por combustíveis oriundos de fontes Renováveis. Neste contexto estão os alcoóis obtidos da fermentação alcoólica e o biodiesel oriundo de óleos vegetais e gordura animal. No Brasil, vários cursos superiores e formadores de técnicos na área de biocombustíveis foram formados. Visando este mercado, inúmeros equipamentos são lançados com intuito de capacitar estes profissionais. No entanto, em termos de plantas com pequena capacidade e que possibilite a transferência de conhecimento a estes profissionais, o mercado ainda encontra-se bastante deficitário. Assim, a Ekipar desenvolveu um sistema de bancada o qual possui como principais etapas a produção e lavagem a seco do biodiesel.
+
+FUNCIONAMENTO
+
+Sistema de Transesterificação e Lavagem: Unidade modular com tanques em aço inox, reator batelada aço inox AISI 304. Sistema de agitação controlado por inversores de frequência, sistema de mistura estático e sistema de aquecimento estático. 
+
+Sistema de Lavagem da fase éster em coluna extratora com resinas de troca Iônica: O sistema é constituído de coluna em aço inox AISI 304.  O sistema de lavagem utiliza o princípio de lavagem por contato iônico no qual o sabão formado no processo é retirado ao longo da coluna de lavagem. Após a etapa a coluna é regenerada por álcool do próprio processo.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+
+
+Módulo 1:
+Reator Batelada, volume de 2L, em aço inox, pás de agitação em teflon, agitadores com inversores de frequência;
+Visor de nível em vidro boro silicato;
+Indicador de temperatura tipo J;
+Coluna de lavagem em aço inox AISI 304;
+POP – Procedimento operacional Padrão.

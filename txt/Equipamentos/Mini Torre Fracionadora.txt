@@ -1,0 +1,24 @@
+Mini-torre Fracionadora
+DESCRIÇÃO
+MICRO-DESTILARIA EM BATELADA COM FRACIONAMENTO EM PRATOS COM BORBULHADORES
+
+A formação de profissionais que tenham um conhecimento prático é um dos fatores que as empresas mais visam no momento. A junção do conhecimento prático com o teórico faz com que os profissionais ao se depararem com situações reais consigam resolver situações e com isso trazer soluções técnica às empresas contratantes. Assim, micro destilaria foi projetada para realizar pesquisas que necessitem de um sistema de separação que envolva a separação por diferença de pontos de ebulição. O equipamento possui internamente pratos de separação com borbulhadores e sangrias laterais para amostragem de produto. A unidade é acompanhada por sensores de temperatura que possibilitam conhecer a temperatura de cada fração recuperada.
+
+FUNCIONAMENTO
+
+A Micro destilaria foi projetada para que os pesquisadores, alunos em engenharia ou cursos técnicos de formação possam interagir com sistema de forma direta. O sistema funciona utilizando o principio de separação por diferença de pontos de ebulição. A mistura a ser separada deverá ser alimentada no balão. Ao serem aquecidas, as frações serão direcionadas a estágios diferentes da coluna. Na coluna as frações serão recuperadas na lateral da coluna por inserção de tubos laterais.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Coluna de destilação em aço inox AISI 304, diâmetro de 2", pratos com borbulhadores, 4 estágios* separados por flanges e vedação por papelão hidráulico;
+Trocador de calor em aço inox AISI 304, chapa 3/16", 32 tubos BWG, vedação com papelão hidráulico;
+Tanque de Condensados em aço inox AISI 304, chapa 3/16", suspiro destinado a equalização da pressão, visores de nível lateral em boro silicato, válvula inferior destinada a retirada de material a ser analisada;
+Tubulação SCH40, pintura epóxi de acordo com normas industriais;
+Indicador de Pressão tipo Bourbon;
+Sensores de Pressão tipo Termopar K;
+Manta aquecedora para balão de fundo redondo;
+Válvula de segurança com abertura de até 5 bar de pressão interna;
+Esquide em aço carbono com rodízios;
+POP (Procedimento operacional padrão).
+*o número de estágios pode varia de acordo com as necessidades do projeto

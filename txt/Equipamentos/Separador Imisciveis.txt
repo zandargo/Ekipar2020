@@ -1,0 +1,29 @@
+Separador de Imiscíveis
+DESCRIÇÃO
+SISTEMA DE TESTES EM SEPARAÇÃO DE SUBSTANCIAS IMISCÍVEIS
+
+A separação de substancia utilizando a diferença de densidades/massa molecular é uma das operações de separação mais utilizadas nas indústrias de transformação química. Através desta utilização deste principio produtos são purificados e subprodutos são isolados do processo do produtivo. Entre as operações unitárias utilizadas neste processo estão os decantadores verticais, decantadores horizontais e os Ciclones. Ambos os equipamentos são utilizados com a mesma funcionalidade no entanto, com eficiência de processo diferenciadas.
+
+FUNCIONAMENTO
+
+A corrente com mistura de óleo e água são bombeados a um misturador estático (MIX). A mistura é direcionada ao hidrociclone decantador, ou ao Flotador.Nestes irá ocorrer a separação de fases. No entanto a eficiência de separação de ambos será avaliada com os dados obtidos na saída do sistema. Nos sistemas são observados zonas de coalescência, decantação por análise de numero de Reynolds e perfis de decantação.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Tanques de alimentação para óleo e água em aço carbono;
+Misturador estático tipo convergente;
+Decantador horizontal em aço inox;
+Separador Hidrociclone;
+Flotador em aço inox;
+Indicador de temperatura;
+Sensor de Temperatura;
+Visor de nível em vidro boro silicato;
+Indicador de Vazão tipo rotâmetro;
+Indicadores de vazão para água e óleo tipo rotâmetros;
+Tanque para utilização de surfactante;
+Caldeira de aquecimento de olé térmico;
+Sistema de bombeamento com bombas tipo centrífuga;
+Suporte do sistema tipo esquide em aço carbono;
+Quadro elétrico com inversores de frequência;
+POP (Procedimento operacional padrão).

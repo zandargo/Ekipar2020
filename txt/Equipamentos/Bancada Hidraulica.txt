@@ -1,0 +1,25 @@
+Bancada Hidráulica
+DESCRIÇÃO
+BANCADA HIDRÁULICA
+
+A formação de profissionais que tenham um conhecimento prático é um dos fatores que as empresas mais visam no momento. A junção do conhecimento prático com o teórico faz com que os profissionais, ao se depararem com situações reais, consigam resolvê-las e com isso trazer soluções técnica às empresas contratantes. Assim, a bancada hidráulica foi projetada para realizar o treinamento de profissionais em montagem de tubulações industriais com diferentes configurações espaciais. Perdas de energia por atrito e arranjos diferenciados de tubos são verificados por instrumentação.
+
+FUNCIONAMENTO
+
+Diferentes configurações são montadas de maneira a se verificar a perda de energia da bomba do sistema por atrito. Para isso, os profissionais são submetidos a realizarem a montagem de tubulações seguindo fluxogramas específicos dos arranjos industriais. Na prática da montagem, os alunos ou o profissional irão verificar tanto fenômenos de transferência de calor como, com auxílio do docente, conhecer assuntos referentes ao teorema de Bernoulli e momentum.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Tanques de alimentação para óleo e água em aço carbono com chapa de 3/16";
+Tubos Sch40 de 1/2";
+Indicadores de vazão tipo rotâmetro;
+Indicadores de pressão tipo Bourbon;
+Válvulas de controle tipo globo de 1/2";
+Válvulas de retenção de 1/2";
+Válvulas de alívio de 1/2";
+Resistência de imersão de 800 W;
+Inversores de frequência;
+Esquide com rodízios destinado ao suporte de todos os equipamentos;
+Quadro elétrico com inversores de frequência;
+POP (Procedimento operacional padrão).

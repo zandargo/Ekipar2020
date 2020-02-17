@@ -1,0 +1,44 @@
+Mini-usina Biodiesel 2
+DESCRIÇÃO
+MINI-USINA EM BATELADA COM AQUECIMENTO PARA PRODUÇÃO DE BIODIESEL
+
+Os combustíveis derivados de petróleo são produtos que aos poucos serão substituídos por combustíveis oriundos de fontes renováveis. Neste contexto estão os álcoois obtidos da fermentação alcoólica e o biodiesel oriundo de óleos vegetais e gordura animal. No Brasil, vários cursos superiores e formadores de técnicos na área de biocombustíveis foram formados. Visando este mercado, inúmeros equipamentos são lançados com intuito de capacitar estes profissionais. No entanto, em termos de plantas com pequena capacidade e que possibilite a transferência de conhecimento a estes profissionais, o mercado ainda encontra-se bastante deficitário. Assim, a Ekipar desenvolveu um sistema completo em termos de operações unitárias que englobam uma unidade destinada a produção de biodiesel.
+
+FUNCIONAMENTO
+
+O sistema de produção de biodiesel apresenta os três grandes blocos processuais existentes em uma unidade produtora a saber: 
+
+Bloco 1 (ou módulo 1)
+Sistema de Transesterificação: Unidade modular com tanques em aço inox, reatores CSTR em aço inox AISI 304. Sistema de agitação contro lado por inversores de frequência, sistema de mistura estático e sistema de aquecimento estático. 
+Sistema de Lavagem da fase éster em coluna extratora com resinas de troca Iônica: O sistema é constituído de coluna em aço inox AISI 304 O sistema de lavagem utiliza o princípio de lavagem por contato iônico no qual o sabão formado no processo é retirado ao longo da coluna de lavagem. Após a etapa, a coluna é regenerada por álcool do próprio processo. 
+
+Bloco 2 (ou módulo 2)
+Mini Destilaria destinada a recuperação do álcool em excesso: No processo de transesterificação do óleo e obtenção posterior de biodiesel o álcool, seja ele metanol ou etanol, é usado em excesso. Este reagente deverá ser recuperado e reutilizado na etapa inicial de alimentação. Assim, todo álcool utilizado no processo e que não reagiu é recuperado no sistema de destilação com torre de recheios projetada para esta unidade fabril.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+
+
+Módulo 1
+Reatores CSTR, volume de 2L, em aço inox AISI 316, pás de agitação em teflon, agitadores com inversores de frequência;
+Sistema de aquecimento tipo caldeira com resistência de imersão;
+Bomba de engrenagem;
+Válvulas de controle de fluxo tipo globo;
+Válvulas abertura rápida tipo esfera;
+Inversores de frequência;
+Esquide com rodízios destinado ao suporte de todos os equipamentos;
+Quadro elétrico com inversores de frequência;
+POP (Procedimento operacional padrão).
+Módulo 2
+Coluna de destilação em aço inox AISI 304, diâmetro de 4", recheio cerâmico com 1/8 do diâmetro da coluna, 4 estágios separados por flanges e vedação por papelão hidráulico;
+Trocador de calor em aço inox AISI 304, chapa 3/16", 32 tubos BWG, vedação com papelão hidráulico;
+Tanque de alimentação em aço inox AISI 304, chapa 3/16", suspiro destinado a equalização da pressão, visores de nível lateral em vidro boro silicato, válvula inferior destinado a descarga de material;
+Tanque de condensados em aço inox AISI 304, chapa 3/16", suspiro destinado a equalização da pressão, visores de nível lateral em boro silicato, válvula inferior destinada a retirada de material a ser analisada;
+Tubulação SCH40, pintura epóxi de acordo com normas industriais;
+Bombas centrífugas de 1/2 c.v. destinado ao transporte de fluídos no sistema;
+Indicador de Pressão tipo Bourbon;
+Sensores de Pressão tipo Termopar J;
+Válvula de segurança com abertura de até 5 bar de pressão interna;
+Esquide em aço carbono co rodízios;
+POP (Procedimento operacional padrão).

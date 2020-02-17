@@ -1,0 +1,21 @@
+Forno de Secagem 1
+DESCRIÇÃO
+FORNO EM BATELADA DESTINADO À SECAGEM DE MATERIAIS
+
+O processo de secagem de material sólido é um dos processos de beneficiamento de sólidos mais realizados no mundo. A secagem de material é uma das atividades que exige equipamentos específicos. Assim, a utilização de equipamentos que possam ser utilizados e testados em laboratório é de suma importância ao desenvolvimento de novas pesquisas e, essas pesquisas possam estimular maiores desenvolvimento no setor de materiais da industria química.
+
+FUNCIONAMENTO
+
+O forno de secagem de material em batelada foi desenvolvido para ser utilizado em laboratórios que estudam o desenvolvimento de novos materiais. O equipamento possui um compartimento que pode ser preenchido com diferentes materiais. Estes podem ser secos a partir de contato com resistências elétricas que podem chegar à temperatura de 300°C. O equipamento possui sistema de controle no qual a matéria a ser seca poderá ser monitorada durante o processo de secagem.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Cuba em aço inox AISI 304, chapa 3/16", vedação com papelão hidráulico;
+Agitação interna com pás estilo "raspador";
+Moto-redutor destinado a proporcionar um maior torque ao sistema de secagem;
+Manômetro tipo Bourbon destinado ao acompanhamento da pressão durante a secagem;
+Sensores de pressão tipo Termopar J;
+Válvula de segurança com abertura de até 5 bar de pressão interna;
+Esquide em aço carbono destinado a sustentação do sistema, perfil em L de 1.1/2";
+POP (Procedimento operacional padrão).

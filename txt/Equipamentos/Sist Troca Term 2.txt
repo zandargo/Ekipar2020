@@ -1,0 +1,28 @@
+Sist. Troca Térmica 2
+DESCRIÇÃO
+SISTEMA AUTOMATIZADO DE TROCA TÉRMICA
+
+A área de automação industrial é um setor em unidades de produção que possui um elevado conhecimento. A utilização de equipamentos sofisticados acoplados ao conhecimento de operações unitárias, bem como seu completo funcionamento na área de operações de transformação, é algo de engenheiros e técnicos devem compreender. Não basta conhecer os instrumentos destinados a automação. É necessário entender as variáveis as quais se deseja controlar. Com isso, a Ekipar desenvolveu a unidade de automação industrial que contempla as principais variáveis de controle. Com isso, set point de vazão, temperatura, pressão e nível serão compreendidos e facilmente absorvidos por alunos de engenharia. Fora isso, a unidade possui sistemas em aço e, juntamente com este sistema, equipamentos em acrílico que mostram o interno de como é este sistema. Neste sistema são encontrados todos os tipos de válvulas de processo e instrumentos para tubulação. Trata-se, portanto, de um equipamento completo no qual o alunos terá uma compreensão de como são os equipamentos reais, as variáveis de processo, instrumentos, CLP e Supervisório.
+
+FUNCIONAMENTO
+
+O sistema de automação foi projetado para que o aluno conheça as diversas operações de fluxo e troca térmica. A unidade possui equipamentos aos quais estão incorporados as variáveis de nível, vazão, temperatura e pressão. O equipamentos possui trocadores de calor, tanques de pressão, caldeiras de óleo térmico, torre de refrigeração, tubulação com rotâmetros, tubulação em acrílico (destinada a observação de fluxo de material), controlador lógico programável e supervisório.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Tanques de alimentação em aço inox, chapa 3/16", com visor de nível e sensores de nível capacitivos;
+Trocadores de calor em aço inox AISI 304, chapa 3/16", 32 tubos BWG, vedação com papelão hidráulico, destinados a compreensão de aquecimento e resfriamento;
+Aquecedor em aço inox AISI 316 com resistência interna de 2kW;
+Trocador em acrílico, destinado a compreensão de fluxo de corrente e mecânica construtiva;
+Tubulação em acrílico destinado a compreensão de fluxo de material e funcionamento de válvulas de controle (válvula borboleta);
+Tubulação SCH40, pintura epóxi de acordo com normas industriais;
+Bombas centrífugas de 1/2 c.v. destinadas ao transporte de fluídos no sistema;
+Torre de refrigeração modular;
+Indicador de pressão tipo Bourbon;
+Inversores de frequência;
+CLP – Controlador lógico Programável;
+Supervisório em plataforma SCADA;
+Sensores de Pressão tipo Termopar J;
+Estrutura em aço carbono com rodízios;
+POP (Procedimento operacional padrão).

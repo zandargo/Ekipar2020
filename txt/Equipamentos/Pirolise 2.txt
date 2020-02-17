@@ -1,0 +1,28 @@
+Pirólise 2
+DESCRIÇÃO
+UNIDADE PILOTO CONTÍNUA DESTINADA À PIRÓLISE DE BIOMASSA
+
+Os estudos envolvendo a reutilização de biomassa para produção de energia estão cada dia mais evidenciados. A utilização de matéria que possa ser reutilizada na geração de energia são pesquisas que estão sendo alavancadas em todo o planeta. Com isso, o conceito de sustentabilidade e engenharia reversa está ganhando cada vez mais a atenção dos centros de pesquisas. No desejo de possibilitar que pesquisadores possam estudar e avaliar o potencial das diversas fontes de matéria para geração de bio óleo e biogás, foi desenvolvido uma planta em contínua para pirólise de materiais diversos.
+
+FUNCIONAMENTO
+
+Unidade modular com tanques em aço inox, reator contínuo vertical em aço inox AISI 304. O equipamento possui trocadores de calor em aço inox com tanques acoplados para a coleta de bio óleo. A matéria prima após a quebra por aquecimento gera o óleo e o gás. Este bio óleo é coletado em tanques de coleta e posteriormente analisado. O gás formado é levado colunas de vidro boro silicato e podem ser coletados ou queimados em um queimador na parte superior da unidade.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+
+Módulo 1: Pirólise do Material
+Reator com alimentação contínua, volume de 3L, em aço inox, aquecimento por resistência elétrica de 10kW;
+Termopar tipo K destinado ao controle do aquecimento;
+Indicador de pressão tipo Bourbon;
+Motor de 3/4 c.v.;
+
+Módulo 2: Recuperação do bio óleo e lavagem do gás gerado
+Trocadores de calor casco e tubos em aço inox AISI 304;
+Tanques de 2L em aço inox;
+Coluna de separação em aço inox AISI 316 com sangrias laterais;
+Termopares tipo K em toda a unidade, destinados ao monitoramento do sistema;
+Torre de resfriamento;
+Esquide em aço carbono;
+POP (Procedimento Operacional padrão).

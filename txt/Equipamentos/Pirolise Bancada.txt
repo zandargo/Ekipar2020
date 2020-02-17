@@ -1,0 +1,25 @@
+Pirólise Bancada
+DESCRIÇÃO
+DESCRIÇÃO
+
+Os estudos envolvendo a reutilização de biomassa para produção de energia estão cada dia mais evidenciados. A utilização de matéria que possa reutilizada na geração de energia são pesquisas que estão sendo alavancadas em todo o planeta. Com isso, o conceito de sustentabilidade e engenharia reversa está ganhando cada vez mais a atenção dos centros de pesquisas. No desejo de possibilitar que pesquisadores possam estudar e avaliar o potencial das diversas fontes de matéria para geração de bio óleo e biogás, foi desenvolvido uma planta em batelada, em pequeno porte, para pirólise de materiais diversos. O sistema apresenta uma plataforma móvel e de baixo custo que pode ser alocado em qualquer local de pesquisa. Para tanto, a unidade conta de uma plataforma que foi desenvolvida para operar em bancada. Isso é possível devido ao fato do sistema possuir uma capacidade em volumes reduzidos.
+
+FUNCIONAMENTO
+Sistema de pirólise: A Unidade foi projetada para operar a temperaturas de até 650°C. Para tanto, o sistema possui um reator batelada em aço inox AISI 316L. Para o aquecimento, a unidade foi desenvolvida com resistências isoladas por material cerâmico. Os vapores gerados, condensáveis, serão capitados em trocadores de calor ligados em série.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Módulo 1 – Pirólise do Material 
+
+Reator Batelada, volume de 1L, em aço inox, sem agitação, em aço; 
+Aquecimento por resistência elétrica de 10KW; 
+Termopar tipo K destinado ao controle do aquecimento; 
+Indicador de pressão tipo Bourbon; 
+Isolamento em cerâmica. 
+
+Módulo 2 – Recuperação do bio óleo e lavagem do gás gerado 
+Trocadores de calor casco e tubos em aço inox AISI 304;
+Tanques de 200 mL em aço inox;
+Esquide em aço carbono com rodízios;
+Procedimento Operacional padrão – POP

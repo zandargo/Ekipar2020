@@ -1,0 +1,23 @@
+Sist. Troca Térmica 1
+DESCRIÇÃO
+SISTEMA DE TROCA TÉRMICA
+
+Em unidades de processamento um dos equipamentos mais conhecidos e utilizados são os trocadores de calor. Acoplados a sistemas de troca térmica, os trocadores de calor fecham os ciclos inerentes aos sistemas de transferência de calor. Engenheiros e estudantes, sejam técnicos ou alunos de engenharia, necessitam entender o real funcionamento destes equipamentos. Com isso, não apenas os materiais construtivos, como também as normas de fabricação devem ser expostas de forma a tornar os profissionais cada vez mais preparados nesta operação unitária tão crucial as unidades de transformação.
+
+FUNCIONAMENTO
+
+O sistema de troca térmica, com trocador casco e tubos, foi projetado para o treinamento de profissionais na área de transformação industrial. O sistema consta de equipamentos que contemplam um circuito fechado ao qual estão inclusos bombas, vasos de circulação, instrumentos de processo e utilizadas industriais. Assim, a unidade é capaz, juntamente com o professor responsável pela transferência de conhecimento, de proporcionar ao estudante um vasto conhecimento em unidade de transferência de calor, utilidades industriais e instrumentação industrial.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Trocador de calor em aço inox AISI 304, chapa 3/16", 32 tubos BWG, vedação com papelão hidráulico;
+Tanque de alimentação em aço inox AISI 304, chapa 3/16", suspiro destinado a equalização da pressão, visores de nível lateral em vidro boro silicato, válvula inferior destinado a descarga de material;
+Aquecedor elétrico com potencia de 15 kW em aço inox AISI 304, chapa 3/16”. Isolamento externo utilizando lã de rocha com espessura de 1". Tampos laterais com chapa de 1/4" PMTA de 8 bar de pressão;
+Tubulação SCH40, pintura epóxi de acordo com normas industriais;
+Bombas centrífugas de 1/2 c.v. destinado ao transporte de fluídos no sistema;
+Indicador de pressão tipo Bourbon;
+Sensores de pressão tipo Termopar J;
+Válvula de segurança com abertura de até 5 bar de pressão interna;
+Esquide em aço carbono com rodízios;
+POP (Procedimento operacional padrão).

@@ -1,0 +1,24 @@
+Flotador
+DESCRIÇÃO
+SISTEMA DE FLOTAÇÃO A AR DISSOLVIDO
+
+A flotação é um processo que envolve três fases: líquida, sólida e gasosa. É utilizada para separar partículas suspensas ou materiais graxos ou oleosos de uma fase líquida. A separação é produzida pela combinação de bolhas de gás, geralmente o ar, com a partícula, resultando em um agregado, cuja densidade é menor que a do líquido e, portanto, podendo assim, ser coletado posteriormente.
+
+FUNCIONAMENTO
+
+Os efluentes são misturados em um sistema de mistura estático (Mixer) e posteriormente são levados a um tanque de agitação e mistura de surfactantes. A atuação do surfactante ocasionará a quebra da emulsão água-óleo. No mesmo tanque é misturado água com ar dissolvido. Após a quebra da emulsão, o óleo é removido em compartimentos específicos. A água recuperada é retirada do sistema por sistema de bombeamento. Neste tipo de sistema são tratados efluentes de reatores, durante o tratamento de esgotos sanitários.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Tanques de alimentação para óleo e água em aço carbono;
+Misturador estático tipo convergente;
+Banco de agitadores com motor redutor;
+Tanque FAD em acrílico;
+Indicadores de vazão para água e óleo tipo rotâmetros;
+Tanque para utilização de surfactante;
+Sistema de bombeamento com bombas tipo centrífuga;
+Indicador de pressão tipo Bourbon;
+Suporte do sistema tipo esquide em aço carbono;
+Quadro elétrico com inversores de frequência;
+POP (Procedimento operacional padrão).

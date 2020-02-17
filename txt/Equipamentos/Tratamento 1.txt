@@ -1,0 +1,23 @@
+Unidade de Tratamento 1
+DESCRIÇÃO
+ESTAÇÃO DE TRATAMENTO DE ÁGUA E ESGOTO – ETE/ETA
+
+A água é um dos recursos naturais mais importantes em nosso planeta. A correta compreensão entre suas propriedades químicas é de suma importância ao correto manuseios desta substância química. A água é encontrada em oceanos, lagos e no subsolo. No entanto, nem toda a água encontra-se em condições de consumo ao ser humano. Para que a mesma esteja em condições de serem consumidas é necessário que passe por uma serie de etapas físico-químicas. Nestas etapas ocorre a remoção de impurezas que são extremamente prejudiciais à saúde humana.
+
+FUNCIONAMENTO
+
+Na unidade, o processo de tratamento utiliza processos físicos e químicos para que a água adquira as propriedades desejadas que a tornem própria para o consumo. A estação utilizam grandes formas para deter impurezas maiores como vegetais, depois disso a água segue para uma etapa de floculação quando, através de agentes químicos como o sulfato de alumínio, as partículas de sujeira se aglomeram para em seguida decantarem no fundo de um tanque. 
+
+Posteriormente, a água passa por uma etapa de filtração, passando através de filtros compostos por carvão, areia e cascalho. Ao final, recebe aditivos químicos os quais corrigem a acidez da água, o cloro que age como desinfetante e o flúor que é adicionado para reduzir o problema de cáries na população.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Tanque de alimentação em aço inox, 80 Litros; 
+Medidor de Venturi; 
+Filtro de areia; 
+Sistema de gradeamento em aço inox; 
+Floculador; 
+Sistema de cloração; 
+ Bomba centrifuga com motor de 3/4 c.v.; 
+ POP – Procedimento Operacional Padrão.

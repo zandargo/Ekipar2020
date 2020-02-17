@@ -1,0 +1,21 @@
+Forno de Secagem 2
+DESCRIÇÃO
+FORNO CONTÍNUO DESTINADO À SECAGEM DE MATERIAIS
+
+A secagem de material sólido requer sistemas específicos que possam fornecer ao material as características necessárias a sua utilização. Assim tempo e temperatura de operação são cruciais à correta operacionalidade destes produtos.
+
+FUNCIONAMENTO
+
+O forno contínuo foi projetado para secar os produtos sólidos de forma intermitente. O material é alimentado em sua boca de alimentação e por um parafuso helicoidal (sem fim). A matéria solida fica em contato com a superfície aquecida por fluido quente que passa pela camisa. O percurso do material dura em torno de 1 hora, permitindo seu aquecimento durante este tempo. Na extremidade oposta o material seco é coletado.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Alimentador vertical em aço inox AISI 316;
+Motor de 1/4 c.v.;
+Parafuso helicoidal em aço inox AISI 316;
+Forno com camisa externa em aço inox AISI 316;
+Sensores de temperatura e pressão;
+Quadro elétrico trifásico;
+Esquide em aço carbono destinado a suportar a estrutura;
+POP – Procedimento operacional Padrão.

@@ -1,0 +1,63 @@
+Mini-usina Biodiesel 3
+DESCRIÇÃO
+MINI-USINA CONTÍNUA DIDÁTICA COM TODAS AS ETAPAS PARA PRODUÇÃO DE BIODIESEL
+
+Os combustíveis derivados de petróleo são produtos que aos poucos serão substituídos por combustíveis oriundos de fontes renováveis. Neste contexto estão os álcoois obtidos da fermentação alcoólica e o biodiesel oriundo de óleos vegetais e gordura animal. No Brasil, vários cursos superiores e formadores de técnicos na área de biocombustíveis foram formados. Visando este mercado, inúmeros equipamentos são lançados com intuito de capacitar estes profissionais. No entanto, em termos de plantas com pequena capacidade e que possibilitem a transferência de conhecimento a estes profissionais, o mercado ainda encontra-se bastante deficitário. Assim, a Ekipar desenvolveu um sistema completo em termos de operações unitárias que englobam uma unidade destinada a produção de biodiesel. O sistema possui vazão de 10L/h com equipamentos que contemplam agitadores, trocadores de calor, transferência de massa, automação e controle.
+
+FUNCIONAMENTO
+
+O sistema de produção de biodiesel apresenta os três grandes blocos processuais existentes em uma unidade produtora a saber: 
+
+Bloco 1 (ou módulo 1) – Sistema de Transesterificação: Unidade modular com tanques em aço inox, reatores CSTR em vidro borosilicato, reatores PFR em vidro borosilicato. Sistema de agitação controlado por inversores de frequência, alimentação monitorada por indicadores de vazão, decantador horizontal em vidro, sistema de mistura estático e sistema de aquecimento estático. 
+
+Bloco 2 (ou módulo 2) – Sistema de Lavagem da fase éster em coluna extratora Contra corrente: O sistema é constituído de coluna em vidro destinado a visualização do fenômeno de troca de massa, aquecedor elétrico de óleo térmico destinado ao aquecimento de uma das correntes, pratos ou estágios de troca de massa. O bloco de lavagem da fase éster apresenta uma sistemática contra corrente em que o solvente poderá ser água ou glicerina reprocessada.
+
+Bloco 3 (ou módulo 3) – Mini Destilaria destinada a recuperação do álcool em excesso: No processo de transesterificação do óleo e obtenção posterior de biodiesel, o álcool, seja ele metanol ou etanol, é usado em excesso. Este reagente deverá ser recuperado e reutilizado na etapa inicial de alimentação. Assim, todo álcool utilizado no processo e que não reagiu é recuperado no sistema de destilação com torre de recheios projetada para esta unidade fabril.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+
+
+Módulo 1:
+Reatores CSTR, volume de 2L, em vidro borosilicato, pás de agitação em teflon, agitadores com inversores de frequência;
+Reatores PFR em vidro borosilicato, recheios em com anéis de raschig em borosilicato, juntas em teflon e acoplamento personalizado em teflon;
+Decantador Horizontal em vidro borosilicato, zona de coalescência recheada com anéis de raschig em material cerâmico, acoplamento em tecnyl;
+Aquecedor elétrico estático em aço inox AISI 304 com espiras destinadas ao fluxo contínuo de óleo vegetal;
+Mixer estático em aço inox AISI 304;
+Tanque de alimentação de óleo vegetal em aço carbono, chapa 3/16";
+Tanque de alimentação de álcool etílico ou metílico em aço carbono, chapa 3/16";
+Tanque de alimentação de solução catalisadora em aço inox AISI 304, chapa 3/16";
+Bombas centrífugas, potencia de 1/4 c.v.;
+Bomba de engrenagem, potencia de 1/2 c.v.;
+Indicadores de Vazão de área variável tipo rotâmetro;
+Indicadores de nível tipo haste lateral;
+Tubulação em tubos de teflon;
+Válvulas em aço carbono ou teflon. 
+
+Módulo 2:
+Tanques de alimentação para óleo e água em aço carbono com chapa de 3/16";
+Torre de extração líquido–líquido com cinco estágios em vidro borosilicato, prato de contato entre as fases teflon;
+Tubulação em teflon e válvulas punk-flow;
+Sistema de aquecimento tipo caldeira com resistência de imersão;
+Bomba de engrenagem;
+Bomba centrífuga;
+Válvulas de controle de fluxo tipo globo;
+Válvulas abertura rápida tipo esfera;
+Inversores de frequência;
+Esquide com rodízios destinado ao suporte de todos os equipamentos;
+Quadro elétrico com inversores de frequência;
+POP (Procedimento operacional padrão).
+
+Módulo 3:
+Coluna de destilação em aço inox AISI 304, diâmetro de 4”, recheio cerâmico com 1/8 do diâmetro da coluna, 4 estágios separados por flanges e vedação por papelão hidráulico;
+Trocador de calor em aço inox AISI 304, chapa 3/16", 32 tubos BWG, vedação com papelão hidráulico;
+Tanque de alimentação em aço inox AISI 304, chapa 3/16", suspiro destinado a equalização da pressão, visores de nível lateral em vidro borosilicato, válvula inferior destinado a descarga de material;
+Tanque de condensados em aço inox AISI 304, chapa 3/16", suspiro destinado a equalização da pressão, visores de nível lateral em borosilicato, válvula inferior destinada a retirada de material a ser analisada;
+Tubulação SCH40, pintura epóxi de acordo com normas industriais;
+Bombas centrífugas de 1/2 c.v. destinado ao transporte de fluídos no sistema;
+Indicador de Pressão tipo Bourbon;
+Sensores de Pressão tipo Termopar J;
+Válvula de segurança com abertura de até 5 bar de pressão interna;
+Esquide em aço carbono com rodízios;
+POP (Procedimento operacional padrão).

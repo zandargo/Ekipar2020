@@ -1,0 +1,24 @@
+Destilaria 2
+DESCRIÇÃO
+MINI-DESTILARIA 2 COM AUTOMAÇÃO E CONTROLE MANUAL
+
+A formação de profissionais que tenham conhecimento prático é um dos fatores que as empresas mais visam no momento. A junção do conhecimento prático com o teórico faz com que os profissionais ao se depararem com situações reais consigam resolvê-las e, com isso, trazer soluções técnica às empresas contratantes. Assim, a Mini-Destilaria 2 foi projetada para realizar o treinamento de profissionais em montagem de tubulações industriais, transferência de calor e massa. A unidade foi projetada para destilar etanol e água. Fora isso, cada equipamento de processo possui características específicas quanto à pressão e temperatura. Vasos de pressão são relacionados à espessura da parede do material e quanto de esforço essa suporta.
+
+FUNCIONAMENTO
+
+A Mini-Destilaria 2 foi projetada para que os alunos em engenharia ou cursos técnicos de formação possam interagir com sistema de forma direta. A mistura água e etanol é bombeada ao refervedor do sistema que é aquecido via resistências submersas. A mistura, ao entrar em ebulição, é direcionada aos estágios de contato e transferência de massa. O etanol é condensado no topo da coluna do trocador calor com corrente de água bombeada proveniente da torre de refrigeração. O material destilado é recuperado em um tanque de condensados e posteriormente levado para análise do teor de pureza.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Coluna de destilação em aço inox AISI 304, diâmetro de 4”, recheio cerâmico com 1/8 do diâmetro da coluna, 4 estágios separados por flanges e vedação por papelão hidráulico;
+Trocador de calor em aço inox AISI 304, chapa 3/16", 32 tubos BWG, vedação com papelão hidráulico;
+Tanque de alimentação em aço inox AISI 304, chapa 3/16", suspiro destinado a equalização da pressão, visores de nível lateral em vidro boro silicato, válvula inferior destinado a descarga de material;
+Tanque de condensados em aço inox AISI 304, chapa 3/16", suspiro destinado a equalização da pressão, visores de nível lateral em boro silicato, válvula inferior destinada a retirada de material a ser analisada;
+Tubulação SCH40, pintura epóxi de acordo com normas industriais;
+Bombas centrífugas de 1/2 c.v. destinado ao transporte de fluídos no sistema;
+Indicador de pressão tipo Bourbon;
+Sensores de pressão tipo Termopar J;
+Válvula de segurança com abertura de até 5 bar de pressão interna;
+Esquide em aço carbono com rodízios;
+POP (Procedimento operacional padrão).

@@ -1,0 +1,9 @@
+Mini-Reator 1
+DESCRIÇÃO
+REATOR PARA SÍNTESES DIVERSAS EM BAIXAS PRESSÕES (2 Litros)
+
+Pesquisas envolvendo a transformação de substâncias em novos produtos estão cada vez mais acentuadas. Novas substâncias são sintetizadas todos ao anos no Brasil e no mundo. No entanto, o desenvolvimento destes produtos em alguns casos necessitam de condições especiais em termos de variáveis de processo. Dentre as variáveis mais estudadas e que possuem afinidade com cinéticas reacionais estão a temperatura e a pressão. A necessidade de sistemas especializados para cada tipo de reação proporciona ao mercado o desenvolvimento de sistemas complexos. Sempre lembrando que sistemas simples devem possuir características que possam ajudar aos pesquisadores em suas pesquisas e desenvolvimentos. Pensando nisso, a Ekipar desenvolveu sistemas reacionais com custos reduzidos e que podem ser utilizados em sistemas químicos que não exijam grandes esforços mecânicos.
+
+FUNCIONAMENTO
+
+Os reatores funcionam sob agitação de motores no qual existem inversores de frequência necessários ao controle de velocidade do sistema. O aquecimento é realizado por meio de camisa de circulação de fluido (aquecimento/resfriamento). Dependendo do sistema, o mesmo poderá ainda possuir trocador destinado a condensação de voláteis existente no meio.

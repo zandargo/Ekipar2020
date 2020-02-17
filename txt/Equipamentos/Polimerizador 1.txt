@@ -1,0 +1,27 @@
+Purificador de Óleo
+DESCRIÇÃO
+SISTEMA DE PURIFICAÇÃO DE ÓLEO RESIDUAL
+
+O consumo mundial de alimentos fritos tem aumentado nos últimos anos, pois as pessoas dispõem de menos tempo para preparar seus alimentos e o processo de fritura é uma alternativa rápida. Com isso, tem-se gerado grande quantidade de óleos residuais de fritura. Este produto ao ser lançado nos esgotos pode causar uma serie de problemas ambientais. No entanto o óleo de fritura, após o correto tratamento, poderá ser reutilizado na cadeia produtiva de biodiesel. Assim, a Ekipar desenvolveu o sistema destinado a purificação e secagem do óleo residual. O sistema possui a capacidade de retirar particulados e remover a umidade do óleo coletado.
+
+FUNCIONAMENTO
+
+O sistema de purificação de óleo residual foi projetado para tratar de forma completa óleo a ser reciclado. A unidade apresenta as principais operações necessárias a purificação do óleo. Este material é alocado em tanque de abastecimento e, posteriormente, é enviado a uma centrífuga na qual todo material particulado e retirado do meio. Após a retirada de material particulado, o óleo ainda úmido é direcionado a um tanque flash, sistema no qual ocorre a secagem do óleo. Após esta etapa o óleo está pronto para ser reutilizado na cadeia produtiva de biodiesel.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Tanques em aço carbono (dois), chapa 3/16", volume de 15 Litros;
+Trocador de calor em aço carbono, chapa 3/16", 32 tubos BWG, vedação em papelão hidráulico;
+Tanque de condensados em aço carbono, chapa 3/16", com suspiro destinado a equalização da pressão, visores de nível lateral em boro silicato,válvula inferior destinada a retirada de material a ser analisada;
+Aquecedor elétrico em aço carbono, volume de 30L, chapa 3/16", potência de 8Kw;
+Tubulação SCH40, pintura epóxi de acordo com normas industriais;
+Bomba de engrenagem de 1/2 c.v. destinada ao transporte de fluidos no sistema;
+Bomba de vácuo destinada a secagem do óleo;
+Tanque flash em aço inox AISI 304, chapa 3/16", sistema de quebra névoa, serpentina com tubos BWG, visor de nível;
+Indicador de Pressão tipo Bourbon;
+Sensores de Pressão tipo Termopar J;
+Válvula de segurança com abertura de até 5 bar de pressão interna;
+Esquide em aço carbono com rodízios;
+Quadro elétrico com inversor de frequência;
+POP (Procedimento operacional padrão).

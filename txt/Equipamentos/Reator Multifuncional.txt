@@ -1,0 +1,29 @@
+Reator Multifuncional
+DESCRIÇÃO
+REATOR MULTIFUNCIONAL DESTINADO À PRODUÇÃO DE BIODIESEL
+
+Os combustíveis derivados de petróleo são produtos que aos poucos serão substituídos por combustíveis oriundos de fontes renováveis. Neste contexto estão os alcoóis obtidos da fermentação alcoólica e o biodiesel oriundo de óleos vegetais e gordura animal. No Brasil, vários cursos superiores e formadores de técnicos na área de biocombustíveis foram criados. Visando este mercado, inúmeros equipamentos são lançados com intuito de capacitar estes profissionais. No entanto, em termos de plantas com pequena capacidade e que possibilite a tranferência de conhecimento a estes profissionais, o mercado ainda encontra-se bastante deficitário. Assim, a Ekipar desenvolveu um sistema completo em termos de operações unitárias que englobam uma unidade destinada a produção de biodiesel. O sistema possui vazão de 100L/h com equipamentos que contemplam agitadores, trocadores de calor, transferência de massa, automação e controle.
+
+FUNCIONAMENTO
+
+O projeto Reator Multifuncional equivale a uma usina compacta de biodiesel, onde as etapas de reação, decantação da fase glicerinosa, lavagem com água e secagem, são efetuados em um único equipamento. O reator central é complementado por um sistema de aquecimento elétrico, um tanque de coleta de glicerina, colunas de troca iônica para o estudo alternativo da purificação do biodiesel a seco, que elimina a emissão das águas de lavagem que podem apresentar certo impacto ambiental em decorrência do descarte inadequado deste material. A Figura abaixo apresenta o sistema com as etapas do processo que são executadas em um único equipamento.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+
+Módulo 1 
+Reator por batelada, volume de 800L, em aço inox , pás de agitação em aço, agitadores com inversores de frequência;
+Decantador vertical em aço inox, zona de coalecencia no próprio reator;
+Aquecedor elétrico estático em aço inox AISI 304 com espiras destinadas ao fluxo contínuo de óleo vegetal;
+Mixer estático em aço inox AISI 304;
+Tanque de alimentação de óleo vegetal em aço carbono, chapa 3/16";
+Tanque de alimentação de álcool etílico ou metílico em aço carbono, chapa 3/16";
+Tanque de alimentação de solução catalisadora em aço inox AISI 304, chapa 3/16";
+Bombas centrífugas, potência de 1/4 c.v.;
+Bomba de engrenagem, potência de 1/2 c.v.;
+Indicadores de vazão de área variável tipo rotâmetro;
+Indicadores de nível tipo haste lateral;
+Tubulação em tubos de teflon;
+Válvulas em aço carbono ou teflon;
+POP – Procedimento operacional Padrão

@@ -1,0 +1,27 @@
+Pirólise 1
+DESCRIÇÃO
+UNIDADE DE PEQUENO PORTE DESTINADA A PIRÓLISE DE BIOMASSA
+
+Os estudos envolvendo a reutilização de biomassa para produção de energia estão cada dia mais evidenciados. A utilização de matéria que possa ser reutilizada na geração de energia são pesquisas que estão sendo alavancadas em todo o planeta. Com isso, o conceito de sustentabilidade e engenharia reversa está ganhando cada vez mais a atenção dos centros de pesquisas. No desejo de possibilitar que pesquisadores possam estudar e avaliar o potencial das diversas fontes de matéria para geração de bio óleo e biogás, foi desenvolvido uma planta em batelada para pirólise de materiais diversos. O sistema apresenta uma plataforma móvel e de baixo custo que pode ser alocado em qualquer local de pesquisa.
+
+FUNCIONAMENTO
+
+Sistema de pirólise: Unidade modular com tanques em aço inox, reator batelada aço inox AISI 304. Sistema de agitação controlado por inversores de frequência, sistema de mistura estático e sistema de aquecimento estático. O equipamento possui trocadores de calor em aço inox com tanques acoplados para a coleta de bio óleo. A matéria prima após a quebra por aquecimento gera o óleo e o gás. Este bio óleo é coletado em tanques de coleta e posteriormente analisado. O gás formado é levado colunas de vidro boro silicato e podem ser coletados ou queimados em um queimador na parte superior da unidade.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+
+Módulo 1: Pirólise do Material
+Reator por batelada, volume de 3L, em aço inox, pás de agitação em aço, agitadores com inversores de frequência;
+Aquecimento por resistência elétrica de 10kW;
+Termopar tipo K destinado ao controle do aquecimento;
+Indicador de pressão tipo Bourbon;
+Motor de 3/4 c.v.
+
+Módulo 2: Recuperação do bio óleo e lavagem do gás gerado
+Trocadores de calor casco e tubos em aço inox AISI 304;
+Tanques de 2L em aço inox;
+Coluna em vidro boro silicato destinada a lavagem do gás gerado durante a pirólise;
+Esquide em aço carbono com rodízios;
+Procedimento Operacional padrão – POP.

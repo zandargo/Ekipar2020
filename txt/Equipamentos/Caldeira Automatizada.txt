@@ -1,0 +1,25 @@
+Caldeira B.C. Automatizada
+DESCRIÇÃO
+CALDEIRA DE BAIXO CUSTO AUTOMATIZADA
+
+A área de automação industrial é um setor em unidades de produção que possui um elevado conhecimento. A utilização de equipamentos sofisticados acoplados ao conhecimento de operações unitárias bem como seu completo funcionamento na área de operações de transformação é algo de engenheiros e técnicos devem compreender. Não basta conhecer os instrumentos destinados a automação. É necessário entender as variáveis as quais se deseja controlar. Com isso, a Ekipar desenvolveu a mini caldeira de baixo custo que contempla as principais variáveis de controle. Com isso, set point de vazão, temperatura, pressão e nível serão compreendidos e facilmente absorvidos por alunos de engenharia. Neste sistema são encontrados todos os tipos de válvulas de processo e instrumentos para tubulação. Trata-se, portanto, de um equipamento completo no qual o alunos terá uma compreensão de como são os equipamentos reais, as variáveis de processo, instrumentos, CLP e Supervisório.
+
+FUNCIONAMENTO
+
+O sistema de Automação foi projetado para que o aluno conheça as diversas operações de fluxo e troca térmica. A unidade possui equipamentos aos quais estão incorporadas as variáveis de nível, vazão, temperatura e pressão. O equipamento possui elementos que possibilitam a compreensão da mudança de fase de líquido para vapor. A unidade é alimentada cm auxilio de bomba de fluxo contínuo controlada por inversor de frequência. As tubulações possuem trechos com visores em vidro boro silicato. O fluxo de material é acompanhado com visores de fluxo tipo rotâmetros e placas de orifício. A caldeira possui válvulas de segurança e visores de nível em vidro boro silicato.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Tanques de alimentação em aço inoxidável, chapa 3/16", com visor de nível e sensores de nível capacitivos; 
+Sensor de vazão tipo placa de orifício com sensores de pressão tipo Bourdon; 
+Visor de vazão tipo Rotâmetro; 
+Visor de fluxo em vidro boro silicato destinado a compreensão de fluxo de material e funcionamento de válvulas de controle (válvula borbuleta); 
+Válvulas on-off com atuadores elétricos; 
+Tubulação SCH40, pintura epóxi de acordo com normas industriais; 
+Bombas centrífugas de ½ c.v. destinado ao transporte de fluídos no sistema; 
+Inversor de Freqüência; 
+CLP – Controlador lógico Programável; 
+Supervisório em Plataforma SCADA Sensores de Pressão Termopar tipo J; 
+Esquide em aço carbono com rodízios; 
+POP (Procedimento operacional padrão).

@@ -1,0 +1,19 @@
+Poliglicerol
+DESCRIÇÃO
+SISTEMA POLIGLICEROL
+
+O estudo de sínteses de novos produtos é um ramo da química que ocorre desde datas remotas. A necessidade de se encontrar novas substância e sintetizar produtos não acessíveis ao homem ainda hoje é fonte de intensos estudos e pesquisas. Pensando nisso, a Ekipar desenvolveu um sistema destinado à síntese de produtos diversificados. O Sistema Poliglicerol é um equipamento destinado a pesquisas que envolvam a inserção de atmosferas inertes e altas temperaturas.
+
+FUNCIONAMENTO
+
+A unidade foi projetada para funcionar em modo batelada. Para tanto, os reagentes devem ser inseridos no reator tipo tanque agitado. Este possui a particularidade de trabalhar em atmosfera inerte. O equipamento conta ainda com um sistema de condensação de vapores que são removidos durante as reações de síntese. A unidade vem ainda acoplada com torre de resfriamento e caldeira para aquecimento do sistema.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Reator em aço inox AISI 316L, volume de 20 L, agitação por pás tipo hélice, motor de 1/2 c.v.;
+Trocador de calor em aço inox AISI 304;
+Caldeira elétrica com resistências de 2kW;
+Torre de refrigeração com bomba de 1/2 c.v. e motor de 1/2 c.v.;
+Estrutura com rodízios e dispositivo de freios;
+POP - Procedimento operacional Padrão.

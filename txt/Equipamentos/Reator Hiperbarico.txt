@@ -1,0 +1,21 @@
+Reator Hiperbárico
+DESCRIÇÃO
+MINI-REATOR PARA ALTAS PRESSÕES
+
+Pesquisas envolvendo a transformação de substancias em novos produtos estão cada vez mais acentuadas. Novas substancias são sintetizadas todos ao anos no Brasil e no mundo. No entanto o desenvolvimento destes produtos, em alguns casos, necessitam de condições especiais em termos de variáveis de processo. Dentre as variáveis mais estudadas e que possuem afinidade com cinéticas reacionais estão a temperatura e a pressão. Em termos de temperatura, grande parte dos materiais para a indústria química pode suportar com certo grau de segurança. Para o caso da pressão, um dos grandes problemas desta variável e que poderá prejudicar os ensaios reacionais são pontos de vazamentos, esforços mecânicos e grau de ruptura. Pensando nisso, a Ekipar desenvolveu uma tecnologia nacional em termo de reator para sínteses de substancias que exigem condições elevadas de temperatura e pressão.
+
+FUNCIONAMENTO
+
+O reator para altas pressões desenvolvido pela Ekipar foi desenvolvido para ser um sistema simples e de fácil manipulação. O reator apresenta uma entrada superior na qual são alocados os reagentes a serem transformados. O equipamento possui um recipiente interno em teflon destinado a manter os reagentes sem o contato com aço. Uma manta isolante mantém a temperatura interna equilibrada. O aquecimento é realizado com auxilio de chapa de aquecimento com agitador magnético acoplado. Temperatura e pressão são monitoradas por interface homem-máquina (IHM) o qual realiza o controle do sistema. Todo o equipamento é isolado do meio externo por meio de uma capela em vidro.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Reator em aço inox AISI 304, Barra circular 110mm x 145mm;
+Chapa aquecedora com controle de temperatura e velocidade de agitação;
+Isolamento externo em vibra de vidro;
+Capela em vidro temperado;
+Válvula de alívio, pressão de abertura 1500 a 2000Psi a 288°C – 1/4"NPT;
+Termopar tipo "T", rosca G1/4" para alta pressão;
+Conector macho G1/4" para tubulação alta pressão 1/4"OD IHM – Interface homem máquina;
+POP (Procedimento operacional padrão).

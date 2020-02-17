@@ -1,0 +1,13 @@
+Mixer
+DESCRIÇÃO
+Misturador Estático de Fluxo
+
+As unidades industriais, em sua grande maioria, produzem determinados produtos a partir da mistura e reação de outros constituintes. Muitas das correntes que possuem substâncias sólidas necessitam ser diluídas em tanques agitados. No entanto, no caso de misturas líquidas, a utilização de tanque agitados poderá ter um custo bastante elevado. Uma vez que o efeito da turbulência pode ocasionar a saída de regimes entre laminar e turbulento, a utilização de misturadores estáticos poderá facilitar e reduzir os custos.
+
+FUNCIONAMENTO
+
+As misturas de líquidos serão bombeadas ao mixer. Ao entrarem em contato com as pás invertidas, internas ao equipamento, sofrerão efeito da camada limite e bordo de ataque. Com isso, ocorrerá a mudança de regime de laminar para turbulento. Assim, as substancias serão misturadas e enviadas às etapas posteriores das unidades de processamento.
+
+DETALHAMENTO
+
+Equipamento com diâmetro variado (de acordo com o processo). Os diâmetros devem variar com a vazão desejada. O equipamento poderá ser em aço inox ou carbono.

@@ -1,0 +1,29 @@
+Biopeixe 2
+DESCRIÇÃO
+MÁQUINA DESTINADA A EXTRAÇÃO DE ÓLEO DE VÍSCERAS DE PEIXES
+
+A busca pela diversificação da matriz energética como estratégia de crescimento econômico sustentável é uma realidade inevitável para os países que buscam a promoção de investimento no setor de biocombustíveis. Dentro deste enfoque, surge a necessidade de progressos tecnológicos promotores da utilização de matérias-primas que possuam valor agregado, alta capacidade de produção e custo competitivo. Tal que, o resíduo ou subproduto gerado na exploração de um recurso, possa vir a ser convertido em insumo de valor agregado para outra indústria. Neste sentido, o aproveitamento dos resíduos do peixe, as vísceras, para a produção de biodiesel é uma ótima alternativa para suprir o déficit de matéria prima e reduzir a poluição causada pela liberação dos resíduos nos rios e solo. 
+
+A Máquina Biopeixe surgiu da necessidade de reaproveitar os rejeitos oriundos da produção de pescados. O sistema conta de uma unidade compacta no qual estão inclusas as principais operações necessárias ao processamento e purificação do óleo produzido. Etapas como aquecimento, cocção, degomagem, decantação e filtragem são realizados na unidade.
+
+FUNCIONAMENTO
+
+O sistema possui dois reatores tipo tanque agitado. O primeiro tanque é utilizado na cocção das vísceras, o segundo reator é utilizado para etapas como lavagem, degomagem e secagem. O sistema conta ainda com um equipamento de decantação verticalizado. As etapas que necessitam de aquecimento são alimentadas por aquecedor elétrico com fluido de aquecimento tipo óleo térmico.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Reator de cocção em aço inox de 60 L, chapa 3/16", motor de 1/2 c.v., agitação por pás tipo turbina;
+Reator de cocção em aço inox de 50 L, chapa 3/16", motor de 1/2 c.v., agitação por pás tipo turbina, sistema de condensação destinado a quebra de nevoeiro, zona para inserção de vácuo;
+Trocadores de calor em aço carbono (dois), chapa 3/16", 32 tubos BWG, vedação com papelão hidráulico;
+Tanque de borra em aço inox AISI 304, chapa 3/16", suspiro destinado a equalização da pressão, visores de nível lateral em vidro boro silicato, válvula inferior destinado a descarga de material;
+Tanque de condensados em aço inox AISI 304, chapa 3/16", suspiro destinado a equalização da pressão, visores de nível lateral em boro silicato,válvula inferior destinada a retirada de material a ser analisada;
+Aquecedor elétrico em aço carbono, volume de 30L, chapa 3/16", potencia de 8 kW;
+Tubulação SCH40, pintura epóxi de acordo com normas industriais;
+Bombas de engrenagem (quatro) de 1/2 c.v. destinadas ao transporte de fluídos no sistema;
+Bomba de vácuo destinada a secagem do óleo;
+Indicador de pressão tipo Bourbon;
+Sensores de pressão tipo Termopar J;
+Válvula de segurança com abertura de até 5 bar de pressão interna;
+Esquide em aço carbono com rodízios;
+POP (Procedimento operacional padrão).

@@ -1,0 +1,33 @@
+Caldeira Didática
+DESCRIÇÃO
+UNIDADE DIDÁTICA PARA ESTUDO DE UTILIDADES INDUSTRIAIS
+
+O total funcionamento de unidade de transformações necessita de variados tipos de utilidades industriais. Sistemas reacionais necessitam de aquecimento ou resfriamento de maneira a obter a conversão estimada em pesquisas laboratoriais. Em etapas de resfriamento de correntes ou aquecimentos destas, é necessária a utilização de água ou óleo térmico. Para tanto, o conhecimento de energias térmicas, entalpias, capacidades caloríficas a pressão ou a volume constante, são necessárias ao perfeito funcionamento de unidades industriais e da utilização da utilidade adequada. O estudo de tipos de vapor e o título que cada um deverá fornecer a um processo é uma das atividades mais estudadas e avaliadas por profissionais que trabalham nestas unidades de transformação. Compreender que quanto maior a pressão do sistema mais caro será as unidades de transformação e mais perigosa será sua operacionalidade é uma exigência que engenheiros e técnicos são obrigados a compreender de forma aprofundada. A integração entre as engenharias e a utilização correta de como atuar em unidades de transformação que utilizem os diferentes tipos de utilidades industriais devem abranger custos operacionais, equipamentos de vapor, equipamentos para óleo térmico, tubulações para vapor e suas normas, tipos de bombas, válvulas de processo, válvulas de segurança e purgadores de vapor.
+
+FUNCIONAMENTO
+
+A unidade destinada às utilidades industriais foi projetada para oferecer a alunos uma total compreensão sobre os a utilização de óleo térmico, vapor e água de refrigeração. A unidade é composta por água que é bombeada por bomba centrífuga a uma caldeira que irá aquecê-la até que está receba calor sensível e calor latente. O vapor será direcionado aos trocadores de calor e a equipamentos destinados a purga de condensados. Nestes trocadores a valor irá perder calor latente e parte da matéria irá condensar. O material condensado é enviado a purgadores de boia, balde invertido e termodinâmico. A unidade possui, ainda, torre de refrigeração a qual será responsável pela etapa de condensação de vapores e geração de condensados. Na etapa de instrumentação o sistema é composto por indicadores de fluxo tipo rotâmetros, visores de nível, Termômetros e termopares. Com isso, o sistema será monitorado por controle de temperatura, vazão e nível. A tubulação é representada didaticamente por trechos e circuitos da unidade. Bombas de circulação são controladas por inversores de frequência os quais, com auxilio de rotâmetros, permitem que a vazão de fluídos líquidos sejam manipulados para equipamentos específicos. Os vasos de pressão são certificados pela NR13, norma brasileira que qualifica a construção de equipamentos que devem trabalhar sobre pressões calculadas para cada projeto. Em termos de segurança o sistema possui válvulas de retenção, válvulas de alivio e válvulas de segurança. Todas as válvulas destinadas a segurança do sistema são calibradas de forma a operar em pressões inferiores a pressões de cálculo de espessuras de chapas do equipamento.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Tanque de alimentação: Aço inox, chapa 3/16", com visor de nível e indicador de temperatura lateral;
+Trocadores de calor: Aço inox AISI 304, chapa 3/16", 32 tubos BWG, vedação com papelão hidráulico, destinados a compreensão de aquecimento e resfriamento;
+Aquecedor: Aço inox AISI 316 com resistência interna de 2kW;
+Trocador bitubular: Aço inox;
+Caldeira: Aço inox, chapa 3/16". Normatizada pela NR13. Aquecimento por resistências elétricas de 10kW. Válvula de segurança para 8bar de pressão. Indicadores de pressão tipo Bourbon. Termopar tipo K destinado ao monitoramento da temperatura;
+Tanque destinado à compressão de vapores e condensação: Normatizado pela NR13. Indicador de pressão tipo Bourbon e válvula de segurança;
+Tanque de recuperação: Aço inox, chapa 3/16", destinado à recuperação de vapores oriundos da condensação em trocadores de calor;
+Purgadores: Tipo boia, balde invertido e termodinâmicos;
+Filtros em Y: Destinados a remoção de sujeitas do sistema;
+Válvulas: Vapores, retenção, passagem direta e controle de fluxo;
+Rotâmetros: Destinados ao estudo de vazão na tubulação;
+Indicadores de temperatura: Tipo J, em trechos da tubulação destinados ao monitoramento da perda de temperatura nos trechos do sistema;
+Tubulação: Schedule 40, pintura epóxi de acordo com normas industriais;
+Fluxograma: Montagem em CAD e impressão em acrílico da tubulação de maneira a tornar o sistema mais didático;
+Bombas centrífugas: 1/2 c.v. destinado ao transporte de fluídos no sistema;
+Bomba de engrenagem: 1/2 c.v. destinada ao fluxo de óleo térmico da caldeira elétrica; 
+Torre de refrigeração: Modular;
+Inversores de frequência;
+Esquide em aço carbono com rodízios;
+POP: Procedimento operacional padrão.

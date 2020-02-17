@@ -1,0 +1,25 @@
+Extr. Óleos Essenciais
+DESCRIÇÃO
+SISTEMA DESTINADO À OBTENÇÃO DE ÓLEOS ESSENCIAIS
+
+Os óleos essenciais são considerados a "alma" da planta e são os principais componentes bioquímicos de ação terapêutica das plantas aromáticas e medicinais. Podem ser incorporados no seu dia-a-dia, trazendo vários benefícios para a saúde física, mental e emocional. A forma pela qual esses óleos podem ser extraídos da planta é por arraste a vapor ou extração por solvente. Os óleos obtidos por praticas limpas de extração (sem contaminante tipo solvente) possuem uma aplicabilidade que vai desde sua utilização na produção de farmacêutica como alimentícia. Pesquisas variadas veem sendo utilizadas para extrair diferentes tipos de óleos e analisar sua aplicabilidade. Com isso, a Ekipar, desenvolveu um sistema que possui como objetivo extrair óleos essências em quantidades de maior expressividade.
+
+FUNCIONAMENTO
+
+A unidade foi desenvolvida para extrair óleos de amostras de diferentes espécies. O sistema apresenta uma sistemática de fluxo fechado em termos de utilidades industriais. A unidade possui uma caldeira geradora de vapor que distribui o vapor gerado para um tanque pressurizado com distribuidores internos. O equipamento possui, ainda, trocador de calor destinado a condensação do óleo e vapor de arraste. O condensado é direcionado a um tanque separador de fases. Neste tanque existe visor de nível através do qual o óleo é separado da fase aquosa. Na fase de condensação, a unidade apresenta também uma mini torre de resfriamento.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Caldeira geradora de vapor normatizada, NR13;
+Tanque de alimentação, em aço inox AISI 316L, de materia da qual será removida o óleo essencial;
+Trocador de calor, tipo casco e tubos, em aço inox AISI 316L;
+Tanque de condensados em aço carbono com visor de nível em vidro boro silicato;
+Válvulas de controle tipo gaveta;
+Mini torre de refrigeração;
+Bomba centrifuga;
+Controlador de temperatura;
+Estrutura modular;
+Quadro elétrico;
+Visores de fluxo;
+Procedimento Operacional Padrão.

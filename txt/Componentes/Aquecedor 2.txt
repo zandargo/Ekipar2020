@@ -1,0 +1,20 @@
+Aquecedor 2
+DESCRIÇÃO
+AQUECEDORES DE CORRENTE POR FLUXO CONTÍNUO
+
+O aquecimento de equipamentos e correntes industriais é uma das operações mais utilizadas em unidades de transformação química. As utilidades industriais mais utilizadas em termos de aquecimento são o valor e o óleo térmico. A grande dificuldade na utilização de vapor de água é a necessidade ocorre do fato de se operar a latas pressões e a possibilidade de ocorrer incrustações por formação de sais nos equipamentos. Ao contrário do que ocorre com a utilização do vapor, as caldeiras movidas a óleo térmico possuem a grande vantagem de se trabalhar a baixas pressões e não necessitar de um grau de segurança tão elevado. Com este intuito, a Ekipar possui sua linha de aquecedores a óleo térmico.
+
+FUNCIONAMENTO
+
+O sistema por aquecimento contínuo foi projetado para que o óleo aquecido seja bombeado e enviado a equipamentos que possuem camisas e serpentinas internas. Estes equipamentos característicos da indústria de transformação química. Estes aquecedores para aquecimento de tanques agitados, reatores, trocadores de calor, etc.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Equipamento em aço inox AISI 316, chapa de 3/16", volume de 20L de óleo térmico interno;
+Aquecimento por resistência elétrica de 2KW;
+Bomba de Engrenagem de 1/2 c.v.;
+Termopar tipo J destinado ao controle do aquecimento;
+Indicador de pressão tipo Bourbon;
+Controlador de temperatura;
+POP – Procedimento operacional Padrão.

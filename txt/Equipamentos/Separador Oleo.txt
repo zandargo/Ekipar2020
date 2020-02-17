@@ -1,0 +1,23 @@
+Separador de Óleo
+DESCRIÇÃO
+SISTEMA DE SEPARAÇÃO DE ÓLEO
+
+A separação de substancia utilizando a diferença de densidades/massa molecular é uma das operações de separação mais utilizadas nas indústrias de transformação química. Através da utilização deste principio, produtos são purificados e subprodutos são isolados do processo do produtivo. Entre as operações unitárias utilizadas neste processo estão os decantadores verticais, decantadores horizontais e os ciclones. Estes equipamentos são utilizados com a mesma funcionalidade. As eficiências de processo, no entanto, são diferenciadas.
+
+FUNCIONAMENTO
+
+A corrente com mistura de óleo e água é bombeada a um misturador estático (Mixer). A mistura é direcionada ao hidrociclone ou ao decantador. Em ambos irá ocorrer a separação de fases. No entanto a eficiência de separação de cada um será avaliada com os dados obtidos na saída do sistema. Nos sistemas são observados zonas de coalescência, decantação por análise de numero de Reynolds e perfis de decantação.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Tanques de alimentação para óleo e água em aço carbono;
+Misturador estático tipo convergente; 
+Decantador horizontal em aço inox;
+Separador Hidrociclone;
+Indicadores de vazão para água e óleo tipo rotâmetros;
+Tanque para utilização de surfactante;
+Sistema de bombeamento com bombas tipo centrífuga;
+Suporte do sistema tipo esquide em aço carbono;
+Quadro elétrico com inversores de frequência;
+POP (Procedimento operacional padrão).

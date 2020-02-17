@@ -1,0 +1,30 @@
+Kit Didático 1
+DESCRIÇÃO
+KIT DE TUBOS, CHAPAS E PARAFUSOS
+
+A construção de equipamentos industriais requer o conhecimento da escolha do material a ser utilizado nas operações de produção. As unidades produtoras possuem diferentes tipos de matérias primas. Assim, a integridade dos equipamentos é relacionada ao tipo de material e sua capacidade de suportar ataques corrosivos. Fora isso, cada equipamento de processo possui características específicas quanto à pressão e temperatura. Efeitos de externa e internas, vasos de pressão são relacionados a espessura do material e quanto de esforço esses suportam.
+
+FUNCIONAMENTO
+
+Os Kits foram projetados para que, através de exemplos e planilhas de cálculo, o docente possa apresentar durante sua aula os tipos de materiais e em que situação esses são utilizados. Para isso, o mesmo terá que dominar e conhecer fundamentos de projetos de engenharia e escolha de tipos de materiais para indústria química.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Parafusos sextavados M3 ao M10 em aço carbono;
+Parafusos Allen M4;
+Tubos SCH40 de 4";
+Tubos SCH40 de 2";
+Tubos SCH40 de 1";
+Tubos SCH40 de 3/4";
+Tubos SCH40 de 1/2";
+Tubos SCH40 de 1/4";
+Chapas AISI 304 de 1/2";
+Chapas AISI 304 de 3/8";
+Chapas AISI 304 de 1/4";
+Chapas AISI 304 de 3/16";
+Chapas AISI 304 de 1/8";
+Chapas AISI 304 de 1/16”;
+Chapas AISI 304 de 1/32";
+Esquide em aço carbono com rodízios;
+POP (Procedimento operacional padrão).

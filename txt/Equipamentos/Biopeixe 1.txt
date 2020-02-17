@@ -1,0 +1,24 @@
+Biopeixe 1
+DESCRIÇÃO
+MÁQUINA DESTINADA A EXTRAÇÃO DE ÓLEO DE VÍSCERAS DE PEIXES
+BIOPEIXE 1
+
+A busca pela diversificação da matriz energética como estratégia de crescimento econômico sustentável é uma realidade inevitável para os países que buscam a promoção de investimento no setor de biocombustíveis. Dentro deste enfoque, surge a necessidade de progressos tecnológicos promotores da utilização de matérias-primas que possuam valor agregado, alta capacidade de produção e custo competitivo. Tal que o resíduo ou subproduto gerado na exploração de um recurso possa vir a ser convertido em insumo de valor agregado para outra indústria. Neste sentido, o aproveitamento dos resíduos do peixe e vísceras de frango, para a produção de biodiesel é uma ótima alternativa para suprir o déficit de matéria prima e reduzir a poluição causada pela liberação dos resíduos nos rios e solo. A máquina de extração de óleo e gordura animal surgiu da necessidade de reaproveitar os rejeitos oriundos da produção de carnes e pescados. O sistema conta de uma unidade compacta no qual estão inclusas as principais operações necessárias ao processamento e purificação do óleo produzido. Etapas como aquecimento, cocção, decantação e filtragem são realizados na unidade.
+
+FUNCIONAMENTO
+
+O sistema possui um reator tipo tanque agitado. Este é utilizado na cocção das vísceras. O sistema conta ainda com um equipamento de decantação verticalizado. As etapas que necessitam de aquecimento são alimentadas por aquecedor elétrico com fluido de aquecimento tipo óleo térmico.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Reator para cocção em aço inox de 60 L, chapa 3/16", motor de 1/2 c.v., agitação por pás tipo turbina;
+Tanque de borra em aço inox AISI 304, chapa 3/16", suspiro destinado a equalização da pressão, visores de nível lateral em vidro boro silicato, válvula inferior destinado a descarga de material;
+Tanque para coleta de óleo em aço carbono, chapa 3/16", suspiro destinado a equalização da pressão, visores de nível lateral em vidro boro silicato, válvula inferior destinado a descarga de material;
+Aquecedor elétrico em aço carbono, volume de 30L, chapa 3/16", potência de 8 kW;
+Tubulação SCH40, pintura epóxi de acordo com normas industriais;
+Bombas de engrenagem de 1/2 c.v. destinadas ao transporte de fluídos no sistema;
+Sensores de pressão tipo Termopar J;
+Válvula de segurança com abertura de até 5 bar de pressão interna;
+Esquide em aço carbono com rodízios;
+POP (Procedimento operacional padrão).

@@ -1,0 +1,25 @@
+Destilaria 3
+DESCRIÇÃO
+MINI DESTILARIA 3 DE DIMENSÕES REDUZIDAS PARA ÉSTERES COM AUTOMAÇÃO E CONTROLE MANUAL
+
+A formação de profissionais que tenham um conhecimento prático é um dos fatores que as empresas mais visam no momento. A junção do conhecimento prático com o teórico faz com que os profissionais ao se depararem com situações reais consigam resolver situações e com isso trazer soluções técnica às empresas contratantes. Assim, a Destilaria 3 foi projetada para realizar o treinamento de profissionais em montagem de tubulações industriais, transferência de calor e massa. A unidade foi projetada para destilar etanol, água e ésteres. Fora isso, cada equipamento de processo possui características específicas quanto à pressão e temperatura. Vasos de pressão são relacionados à espessura da parede do material e quanto de esforço esses suporta.
+
+FUNCIONAMENTO
+
+A Destilaria 3 foi projetada para que os alunos em engenharia ou cursos técnicos de formação possam interagir com sistema de forma direta. A mistura de ésteres é bombeada ao refervedor do sistema que é aquecido via resistências ao redor do balão. A mistura ao entrar em ebulição é direcionada aos estágios de contato e transferência de massa. Os ésteres de menor ponto de ebulição são condensados no topo da coluna no trocador calor com corrente de água bombeada da torre de refrigeração. O material destilado é recuperado em um tanque de condensados e posteriormente levado para análise do teor de pureza.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Coluna de destilação em aço inox AISI 304, diâmetro de 4", recheio cerâmico com 1/8 do diâmetro da coluna, 4 estágios separados por flanges e vedação por papelão hidráulico;
+Trocadores de calor (dois) em aço inox AISI 304, chapa 3/16", 32 tubos BWG, vedação com papelão hidráulico;
+Tanque de alimentação em aço inox AISI 304, chapa 3/16", suspiro destinado a equalização da pressão, visores de nível lateral em vidro boro silicato, válvula inferior destinado a descarga de material;
+Tanques de condensados (dois) em aço inox AISI 304, chapa 3/16", suspiro destinado a equalização da pressão, visores de nível lateral em boro silicato,válvula inferior destinada a retirada de material a ser analisada;
+Tubulação SCH40, pintura epóxi de acordo com normas industriais;
+Bomba centrífugas de 1/2 c.v. destinada ao transporte de fluídos no sistema;
+Bomba de vácuo destinada a redução de pressão no sistema;
+Indicador de pressão tipo Bourbon;
+Sensores de temperatura tipo Termopar J;
+Válvula de segurança com abertura de até 5 bar de pressão interna;
+Esquide em aço carbono co rodízios;
+POP (Procedimento operacional padrão).

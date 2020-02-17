@@ -1,0 +1,20 @@
+Cavalo-de-Pau
+DESCRIÇÃO
+CAVALO DE PAU (BOMBA DE VARETA)
+
+A bomba de vareta de sucção ou simplesmente bomba de vareta, também é a parte superficial de uma bomba de pistão, instalada em um poço de petróleo.
+
+FUNCIONAMENTO
+
+Uma unidade de bombeamento é instalada na superfície do reservatório, próximo à cabeça do poço, para transformar o movimento rotativo de um motor em movimento alternativo (ascendente-descendente). Este movimento alternativo é transmitido por meio de uma coluna de hastes de aço (a “vareta”), colocada dentro da coluna de produção, que permanece aberta, para uma bomba que está localizada no fundo do poço. Esta bomba alternativa fornece energia mecânica ao petróleo, que então eleva-se até a superfície.
+
+DETALHAMENTO
+O sistema é composto pelos seguintes itens:
+
+Unidade de bombeamento em aço carbono e pintura epóxi; 
+Motor de 3/4 c.v.;
+Esquide em aço carbono destinado à sustentação estrutural;
+Reservatório em aço inox AISI 316L;
+Sistema de sucção em aço inox e vedação em polietileno;
+Tanque de refluxo em aço inox e vidro boro silicato;
+Quadro elétrico trifásico com inversor de frequência.
