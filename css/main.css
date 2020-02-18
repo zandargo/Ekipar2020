@@ -75,6 +75,11 @@ body .background {
 
 body .background img {
   height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 body #main-wrapper {
@@ -382,4 +387,3 @@ body #div-footer strong {
   -webkit-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
   transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-/*# sourceMappingURL=main.css.map */
