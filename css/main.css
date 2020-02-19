@@ -4,7 +4,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Roboto Condensed";
-  font-size: 10pt;
+  font-size: 11pt;
 }
 
 body {
@@ -43,16 +43,16 @@ body h3 {
 
 body .N0 {
   font-size: 1.2rem;
+  line-height: 1.75rem;
   font-weight: 500;
-  margin-left: 1rem;
   margin-top: 1rem;
   padding-left: 1rem;
 }
 
 body .N1 {
   font-size: 1rem;
+  line-height: 1.5rem;
   font-weight: 500;
-  margin-left: 1rem;
   padding-left: 2rem;
 }
 
@@ -120,7 +120,7 @@ body #main-wrapper #div-header #div-title {
       -ms-flex-align: center;
           align-items: center;
   height: 3.5rem;
-  background-color: #333;
+  background-color: #333333;
   width: 100%;
 }
 
@@ -166,7 +166,7 @@ body #main-wrapper #div-nav #navbar {
       -ms-flex-direction: column;
           flex-direction: column;
   color: #f2f2f2;
-  background-color: #333;
+  background-color: #333333;
   width: 100%;
   font-weight: 400;
   font-variant-caps: small-caps;
@@ -186,7 +186,7 @@ body #main-wrapper #div-nav #navbar button {
 }
 
 body #main-wrapper #div-nav #navbar button:hover {
-  background-color: #555;
+  background-color: #545454;
 }
 
 body #main-wrapper #div-nav #navbar button.active {
@@ -241,7 +241,13 @@ body #main-wrapper #div-content #aempresa .biglogo img {
   max-height: 150px;
 }
 
-body #main-wrapper #div-content #aempresa .textosobre {
+body #main-wrapper #div-content .box-title {
+  width: 100%;
+  background-color: #bfbfbf;
+  font-size: 1.5rem;
+}
+
+body #main-wrapper #div-content .box1 {
   background-color: #f2f2f2;
   border-radius: 2.75rem 0 2.75rem 0;
   width: 100%;
@@ -252,7 +258,7 @@ body #main-wrapper #div-content #aempresa .textosobre {
           box-shadow: 0.2rem 0.25rem 0.5rem 0.25rem rgba(0, 0, 0, 0.35);
 }
 
-body #main-wrapper #div-content #aempresa .textosobre strong {
+body #main-wrapper #div-content .box1 strong {
   font-size: 1.35rem;
   font-weight: 600;
   font-variant-caps: small-caps;

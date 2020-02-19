@@ -1,9 +1,11 @@
 $rad0: 2.75rem;
-$margin0: 1rem;
+$offset0: 1rem;
 
-$gray0: #333;
-$gray1: #555;
-$gray5: rgb(242, 242, 242);
+$gray0: hsl(0, 0%, 20%);
+$gray1: hsl(0, 0%, 33%);
+$gray4: hsl(0, 0%, 75%);
+$gray5: hsl(0, 0%, 95%);
+
 $green1: rgb(140, 198, 63);
 $green1b: rgb(138, 186, 74);
 
@@ -22,7 +24,7 @@ $shadow-in: inset $shadow;
 	margin: 0;
 	box-sizing: border-box;
 	font-family: "Roboto Condensed";
-	font-size: 10pt;
+	font-size: 11pt;
 }
 
 body {
@@ -53,17 +55,17 @@ body {
 
 	.N0 {
 		font-size: 1.2rem;
+		line-height: 1.75rem;
 		font-weight: 500;
-		margin-left: $margin0;
-		margin-top: $margin0;
-		padding-left: $margin0;
+		margin-top: $offset0;
+		padding-left: $offset0;
 	}
 
 	.N1 {
 		font-size: 1rem;
+		line-height: 1.5rem;
 		font-weight: 500;
-		margin-left: $margin0;
-		padding-left: 2 * $margin0;
+		padding-left: 2 * $offset0;
 	}
 
 	//Imagem de fundo
@@ -83,6 +85,8 @@ body {
 			height: 100%;
 			width: 100%;
 			object-fit: cover;
+			// filter: blur(5px);
+			// -webkit-filter: blur(5px);
 			-webkit-transform: scaleX(-1);
 			transform: scaleX(-1);
 		}
@@ -240,20 +244,27 @@ body {
 						max-height: 150px;
 					}
 				}
-				.textosobre {
-					background-color: $gray5;
-					border-radius: $rad0 0 $rad0 0;
-					width: 100%;
-					text-align: justify;
-					font-size: 1.25rem;
-					padding: 2rem;
-					box-shadow: 0.2rem 0.25rem 0.5rem 0.25rem rgba(0, 0, 0, 0.35);
+			}
 
-					strong {
-						font-size: 1.35rem;
-						font-weight: 600;
-						font-variant-caps: small-caps;
-					}
+			.box-title {
+				width: 100%;
+				background-color: $gray4;
+				font-size: 1.5rem;
+			}
+
+			.box1 {
+				background-color: $gray5;
+				border-radius: $rad0 0 $rad0 0;
+				width: 100%;
+				text-align: justify;
+				font-size: 1.25rem;
+				padding: 2rem;
+				box-shadow: 0.2rem 0.25rem 0.5rem 0.25rem rgba(0, 0, 0, 0.35);
+
+				strong {
+					font-size: 1.35rem;
+					font-weight: 600;
+					font-variant-caps: small-caps;
 				}
 			}
 		}
