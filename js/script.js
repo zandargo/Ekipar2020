@@ -1038,3 +1038,9 @@ function openTab(evt, tabName) {
 	document.getElementById(tabName).style.display = "block";
 	evt.currentTarget.className += " active";
 }
+
+//TESTE
+// prettier-ignore
+
+var getKeys = _.pluck(equipamentos, "ID");
+console.log(getKeys);
