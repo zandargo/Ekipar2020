@@ -181,8 +181,8 @@ body #main-wrapper #div-nav #navbar button {
   outline: none;
   text-align: left;
   cursor: pointer;
-  -webkit-transition: 0.35s;
-  transition: 0.35s;
+  -webkit-transition: 5s;
+  transition: 5s;
 }
 
 body #main-wrapper #div-nav #navbar button:hover {
@@ -243,8 +243,14 @@ body #main-wrapper #div-content #aempresa .biglogo img {
 
 body #main-wrapper #div-content .box-title {
   width: 100%;
-  background-color: #bfbfbf;
+  background-image: -webkit-gradient(linear, left top, right top, from(#8cc63f), to(#f2f2f2));
+  background-image: linear-gradient(to right, #8cc63f, #f2f2f2);
   font-size: 1.5rem;
+  border-radius: 1.5rem;
+  font-weight: 700;
+  padding-left: 2rem;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 body #main-wrapper #div-content .box1 {
@@ -256,6 +262,11 @@ body #main-wrapper #div-content .box1 {
   padding: 2rem;
   -webkit-box-shadow: 0.2rem 0.25rem 0.5rem 0.25rem rgba(0, 0, 0, 0.35);
           box-shadow: 0.2rem 0.25rem 0.5rem 0.25rem rgba(0, 0, 0, 0.35);
+}
+
+body #main-wrapper #div-content .box1 p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
 }
 
 body #main-wrapper #div-content .box1 strong {

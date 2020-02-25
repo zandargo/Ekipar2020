@@ -172,7 +172,7 @@ body {
 					outline: none;
 					text-align: left;
 					cursor: pointer;
-					transition: 0.35s;
+					transition: 5s;
 
 					&:hover {
 						// background-color: $green3t90;
@@ -248,8 +248,15 @@ body {
 
 			.box-title {
 				width: 100%;
-				background-color: $gray4;
+				// background-color: $gray4;
+				background-image: linear-gradient(to right, $green1, $gray5);
 				font-size: 1.5rem;
+				border-radius: 1.5rem;
+				font-weight: 700;
+				// padding: 2.5rem, 0;
+				padding-left: 2rem;
+				line-height: 2.5rem;
+				margin-bottom: 1rem;
 			}
 
 			.box1 {
@@ -260,6 +267,11 @@ body {
 				font-size: 1.25rem;
 				padding: 2rem;
 				box-shadow: 0.2rem 0.25rem 0.5rem 0.25rem rgba(0, 0, 0, 0.35);
+
+				p {
+					font-size: 1.2rem;
+					line-height: 1.5rem;
+				}
 
 				strong {
 					font-size: 1.35rem;
