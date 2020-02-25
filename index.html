@@ -24,11 +24,7 @@
 		/>
 
 		<!-- jQuery -->
-		<script
-			src="https://code.jquery.com/jquery-3.4.1.min.js"
-			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-			crossorigin="anonymous"
-		></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 		<!-- Via.js (Dynamic Loads) -->
 		<script src="./js/lib/app.js"></script>
@@ -49,6 +45,14 @@
 
 		<!-- Favicon -->
 		<link rel="icon" type="image/png" href="./favicon.ico" />
+
+		<!-- LinkedIn -->
+		<!-- <script
+			type="text/javascript"
+			src="https://platform.linkedin.com/badges/js/profile.js"
+			async
+			defer
+		></script> -->
 
 		<style>
 			/* width */
@@ -106,6 +110,7 @@
 				</div>
 			</div>
 
+			<!-- Barra de navegação lateral -->
 			<div id="div-nav">
 				<div id="navbar" class="shadow Rrad">
 					<button class="tablink N0" onclick="openTab(event, 'aempresa')">
@@ -122,161 +127,12 @@
 					</button>
 
 					<!-- ÍNÍCIO DOS COMPONENTES INDIVIDUAIS -->
-					<button class="N0" onclick="openTab(event, '')">
-						Componentes Individuais
-					</button>
-					<button
-						class="tablink N1"
-						onclick="openTab(event, 'aquecedor1')"
-					>
-						Aquecedor 1
-					</button>
-					<button
-						class="tablink N1"
-						onclick="openTab(event, 'aquecedor2')"
-					>
-						Aquecedor 2
-					</button>
-					<button
-						class="tablink N1"
-						onclick="openTab(event, 'mini-centrifuga')"
-					>
-						Mini-Centrífuga p/ Óleos
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Mixer
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Visor de Fluxo
-					</button>
 
 					<!-- INÍCIO DOS EQUIPAMENTOS -->
-					<button class="N0" onclick="openTab(event, '')">
-						Equipamentos
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Bancada Hidráulica
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Biopeixe 1
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Biopeixe 2
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Caldeira B.C. Automatizada
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Caldeira Didática
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Cavalo-de-Pau
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Destilaria 1
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Destilaria 2
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Destilaria 3
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Extr. Óleos Essenciais
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Extrator de Líquido
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Fermentador
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Flotador
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Forno de Secagem 1
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Forno de Secagem 2
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Kit Didático 1
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Mini-Reator 1
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Mini-torre Fracionadora
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Mini-usina Biodiesel 1
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Mini-usina Biodiesel 2
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Mini-usina Biodiesel 3
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Pirólise 1
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Pirólise 2
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Pirólise Bancada
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Poliglicerol
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Polimerizador 1
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Purificador de Óleo
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Reator Batelada 20L
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Reator Hiperbárico
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Reator Multifuncional
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Separador de Imiscíveis
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Separador de Óleo
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Sist. Troca Térmica 1
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Sist. Troca Térmica 2
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Unidade de Tratamento 1
-					</button>
-					<button class="tablink N0" onclick="openTab(event, '')">
-						Projetos Laboratoriais
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Lab. de Automação
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Lab. de Biocombustíveis
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Lab. de Líquidos
-					</button>
-					<button class="tablink N1" onclick="openTab(event, '')">
-						Lab. de Óleos
-					</button>
 				</div>
 			</div>
 
+			<!-- Div de conteúdo principal -->
 			<div id="div-content">
 				<!-- A EMPRESA -->
 				<div id="aempresa" class="tabcontent">
@@ -304,12 +160,31 @@
 
 				<!-- LOCALIZAÇÃO -->
 				<div id="local" class="tabcontent">
-					<h1>Localização</h1>
+					<h1>Localização e Contado</h1>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
 						adipisci vero, nemo ab aspernatur soluta!
 					</p>
+					<!-- <div
+						class="LI-profile-badge"
+						data-version="v1"
+						data-size="medium"
+						data-locale="pt_BR"
+						data-type="horizontal"
+						data-theme="dark"
+						data-vanity="madson-br"
+					>
+						<a
+							class="LI-simple-link"
+							href="https://br.linkedin.com/in/madson-br?trk=profile-badge"
+							>☑ Madson Germano</a
+						>
+					</div> -->
 				</div>
+
+				<!-- PARCEIROS E CLIENTES -->
+
+				<!-- PESQUISA -->
 
 				<!-- OUTRAS DIVS ENTRAM AQUI -->
 			</div>
