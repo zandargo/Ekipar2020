@@ -181,8 +181,8 @@ body #main-wrapper #div-nav #navbar button {
   outline: none;
   text-align: left;
   cursor: pointer;
-  -webkit-transition: 5s;
-  transition: 5s;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
 }
 
 body #main-wrapper #div-nav #navbar button:hover {
@@ -194,7 +194,7 @@ body #main-wrapper #div-nav #navbar button.active {
   text-transform: uppercase;
   background-color: #8aba4a;
   padding-left: 3rem;
-  width: 240px;
+  width: 220px;
   line-height: 2rem;
   font-size: 1.25rem;
   font-weight: 700;

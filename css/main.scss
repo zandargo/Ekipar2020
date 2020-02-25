@@ -172,7 +172,7 @@ body {
 					outline: none;
 					text-align: left;
 					cursor: pointer;
-					transition: 5s;
+					transition: 0.35s;
 
 					&:hover {
 						// background-color: $green3t90;
@@ -186,7 +186,7 @@ body {
 						background-color: $green1b;
 						// padding-top: 0.12rem;
 						padding-left: 3rem;
-						width: 240px;
+						width: 220px;
 						line-height: 2rem;
 						font-size: 1.25rem;
 						font-weight: 700;
