@@ -31,6 +31,11 @@ body {
 	background-color: $gray5;
 	display: flex;
 	flex-direction: column;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+
 	.shadow {
 		box-shadow: $shadow;
 	}
@@ -186,12 +191,12 @@ body {
 						text-transform: uppercase;
 						// font-variant-caps: inherit;
 						background-color: $green1b;
-						// padding-top: 0.12rem;
-						padding-left: 1rem;
-						// padding: auto;
+						// padding-left: 1rem;
+						padding: 0;
+						text-align: center;
 						width: 240px;
 						line-height: 2rem;
-						font-size: 1.25rem;
+						font-size: 1.2rem;
 						font-weight: 700;
 						float: left;
 						position: relative;
@@ -231,7 +236,7 @@ body {
 			.box-title {
 				width: 100%;
 				// background-color: $gray4;
-				background-image: linear-gradient(to right, $green1, $gray5);
+				background-image: linear-gradient(to right, $green1b, $gray5);
 				font-size: 1.5rem;
 				border-radius: 1.5rem;
 				font-weight: 700;

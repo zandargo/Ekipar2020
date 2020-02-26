@@ -1137,7 +1137,6 @@ const equipamentos = [
 ];
 
 /* ------- CÓDIGO DE CRIAÇÃO DOS BOTÕES NAVBAR -------*/
-// TODO - jQuery: subir até o topo da página
 
 document.getElementById("navbar").insertAdjacentHTML(
 	/*html*/
@@ -1161,7 +1160,7 @@ document.getElementById("div-content").insertAdjacentHTML(
 	/*html*/
 	"beforeend",
 	`
-		${componentes.map(mapTemplate).join("")}
+		${componentes.map(mapTemplate).join("")}	
 		${equipamentos.map(mapTemplate).join("")}
 		`
 );
@@ -1196,37 +1195,36 @@ ${foods.map(food => `<li>${food}</li>`).join("")}
  */
 
 /* ------- EVENTOS DE CLIQUE NO MOUSE: MOSTRAR SUB PÁGINA ------- */
-
-// Declare all variables
 var i, tabcontent, tablinks;
-// Get all elements with class="tabcontent" and hide them
-tabcontent = document.getElementsByClassName("tabcontent");
-for (i = 0; i < tabcontent.length; i++) {
-	tabcontent[i].style.display = "none";
-}
-
 function openTab(evt, tabName) {
-	// Get all elements with class="tabcontent" and hide them
+	// Ocultar todos class="tabcontent"
 	tabcontent = document.getElementsByClassName("tabcontent");
 	for (i = 0; i < tabcontent.length; i++) {
 		tabcontent[i].style.display = "none";
 	}
 
-	// Get all elements with class="tablinks" and remove the class "active"
+	// Coletar todos class="tablinks" e remover class="active"
 	tablinks = document.getElementsByClassName("tablink");
 	for (i = 0; i < tablinks.length; i++) {
 		tablinks[i].className = tablinks[i].className.replace(" active", "");
 	}
 
-	// Show the current tab, and add an "active" class to the link that opened the tab
+	// Mostrar a div e adicionar class="active"
 	document.getElementById(tabName).style.display = "block";
 	evt.currentTarget.className += " active";
+
+	// Rolar para o tpo da página
+	$("html, body").animate({ scrollTop: 0 }, "slow");
 }
+
+/* ------- INÍCIO DO CARREGAMENTO ------- */
+// Ocultar todos class="tabcontent" no início do carregamento
+$(".tabcontent").hide();
 
 //TESTE
 // prettier-ignore
 /* 
-
+	
 var getKeys = _.pluck(componentes, "navlink");
 console.log(getKeys);
 
