@@ -1173,7 +1173,9 @@ function mapTemplate(obj) {
 			<div class="box-title">
 				${obj.titulo}
 			</div>
-			<p>${obj.descricao}</p>
+			<div class="description">
+				<p>${obj.descricao}</p>
+			</div>
 		</div>
 	</div>
 	`;

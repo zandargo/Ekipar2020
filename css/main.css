@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -214,6 +215,8 @@ body #main-wrapper #div-content {
   -ms-grid-row: 2;
   grid-row: 2;
   width: 100%;
+  /* DIV  - A EMPRESA */
+  /* DIV - CONTATO */
 }
 
 body #main-wrapper #div-content #aempresa {
@@ -242,6 +245,103 @@ body #main-wrapper #div-content #aempresa .biglogo img {
   margin-right: auto;
   width: 90%;
   max-height: 150px;
+}
+
+body #main-wrapper #div-content #local {
+  /* CARTÃO DE VISITA */
+}
+
+body #main-wrapper #div-content #local .card {
+  background-color: #333333;
+  color: #f2f2f2;
+  max-width: 560px;
+  min-height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 5px;
+  -webkit-box-shadow: 0.2rem 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.35);
+          box-shadow: 0.2rem 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.35);
+  margin: 2rem 1rem;
+  /* FOTO */
+  /* TEXTO: NOME E TÍTULO */
+  /* BOTÃO LINKEDIN */
+}
+
+body #main-wrapper #div-content #local .card-img {
+  width: 16%;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+body #main-wrapper #div-content #local .card-img img {
+  width: 100%;
+  border-radius: 50%;
+  margin: auto;
+}
+
+body #main-wrapper #div-content #local .card-text {
+  width: 48%;
+}
+
+body #main-wrapper #div-content #local .card-text strong {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+
+body #main-wrapper #div-content #local .card-text p {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  text-align: justify;
+  margin: 5px auto 15px auto;
+}
+
+body #main-wrapper #div-content #local .card-in {
+  width: 24%;
+  height: 40px;
+  border-radius: 3px;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+body #main-wrapper #div-content #local .card-in a img {
+  max-width: 85%;
+  max-height: 85%;
+}
+
+body #main-wrapper #div-content #local .card-in:hover {
+  background-color: #545454;
 }
 
 body #main-wrapper #div-content .box-title {
