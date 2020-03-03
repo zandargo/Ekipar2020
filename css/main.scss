@@ -17,8 +17,14 @@ $green2t90: rgba(108, 157, 48, 0.9);
 $green3t90: rgba(69, 110, 28, 0.9);
 $shadow: 0.2rem 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.35);
 $shadow1: 0.3rem 0.35rem 0.35rem 0 rgba(0, 0, 0, 0.35);
+$shadow-wpp: 5px 5px 15px rgba(0, 0, 0, 0.5);
 $shadow-in: inset $shadow;
 $glow: 0 0 0 0.25rem rgba(255, 255, 255, 0.85);
+
+$wpp1: #25d366;
+$wpp2: #128c7e;
+$wpp3: #075e54;
+$wpp-size0: 64px;
 
 * {
 	padding: 0;
@@ -283,7 +289,8 @@ body {
 						p {
 							font-size: 1rem;
 							line-height: 1.2rem;
-							text-align: justify;
+							// text-align: justify;
+							text-align: left;
 							margin: 5px auto 15px auto;
 						}
 					}
@@ -355,7 +362,7 @@ body {
 	#div-footer {
 		display: block;
 		width: 100%;
-		height: 2.5rem;
+		height: 2rem;
 		background-color: $green1t90;
 		color: $green3;
 		margin-top: 200px;
@@ -364,7 +371,8 @@ body {
 		text-align: center;
 		align-content: center;
 		align-items: center;
-		line-height: 2.5rem;
+		line-height: 2rem;
+
 		// font-variant-caps: small-caps;
 
 		strong {
@@ -374,7 +382,100 @@ body {
 	}
 }
 
-//DIV whatsapp da Ucelo
+//DIV Whatsapp
+.whats-float {
+	width: $wpp-size0;
+	height: $wpp-size0;
+	position: fixed;
+	bottom: 6%;
+	margin-top: -40px;
+	right: 20px;
+	display: block;
+	z-index: 99;
+	border-radius: 50%;
+
+	&:before {
+		width: 100%;
+		height: 100%;
+		// background: #29b53f;
+		background: $green2;
+		position: absolute;
+		content: "";
+		top: 0;
+		right: 0;
+		display: block;
+		border-radius: 50%;
+		box-shadow: $shadow-wpp;
+	}
+	&:after {
+		width: $wpp-size0 * 0.625;
+		height: $wpp-size0 * 0.625;
+		position: absolute;
+		content: "";
+		background: url(../img/whats.svg) no-repeat center;
+		top: 50%;
+		left: 50%;
+		margin: -1 * $wpp-size0 * 0.625 / 2 0 0 -1 * $wpp-size0 * 0.625 / 2;
+	}
+	.box-texto-whats {
+		width: 0;
+		height: $wpp-size0 * 0.75;
+		background: $green2;
+		border-radius: $wpp-size0 * 0.75 / 2 0 0 $wpp-size0 * 0.75 / 2;
+		box-shadow: $shadow-wpp;
+		display: block;
+		position: absolute;
+		top: 50%;
+		margin-top: -1 * $wpp-size0 * 0.75 / 2;
+		right: 40px;
+		z-index: -1;
+		overflow: hidden;
+
+		span {
+			color: #fff;
+			// font-family: "Open Sans", sans-serif;
+			font-size: 1rem;
+			width: 300px;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			flex-wrap: wrap;
+			padding-right: 30px;
+			line-height: 1em;
+			transform: translateX(100px);
+
+			strong {
+				font-weight: 700;
+				font-size: 1.5rem;
+				line-height: 1.75rem;
+			}
+		}
+	}
+	&:hover .box-texto-whats {
+		width: 300px;
+		span {
+			transform: translateX(0);
+			transition-delay: 0.1s;
+		}
+	}
+}
+.box-texto-whats,
+.box-texto-whats > span,
+.whats-float:hover .box-texto-whats,
+.whats-float:hover .box-texto-whats > span {
+	-webkit-transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+	-moz-transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+	-o-transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+	transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+	-webkit-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+	-moz-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+	-o-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+	transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/* //DIV Whatsapp
 .whats-float {
 	width: 80px;
 	height: 80px;
@@ -461,4 +562,4 @@ body {
 	-moz-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 	-o-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 	transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-}
+} */

@@ -312,7 +312,7 @@ body #main-wrapper #div-content #local .card-text strong {
 body #main-wrapper #div-content #local .card-text p {
   font-size: 1rem;
   line-height: 1.2rem;
-  text-align: justify;
+  text-align: left;
   margin: 5px auto 15px auto;
 }
 
@@ -381,7 +381,7 @@ body #main-wrapper #div-content .box1 strong {
 body #div-footer {
   display: block;
   width: 100%;
-  height: 2.5rem;
+  height: 2rem;
   background-color: rgba(140, 198, 63, 0.9);
   color: #456e1c;
   margin-top: 200px;
@@ -393,7 +393,7 @@ body #div-footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  line-height: 2.5rem;
+  line-height: 2rem;
 }
 
 body #div-footer strong {
@@ -402,12 +402,12 @@ body #div-footer strong {
 }
 
 .whats-float {
-  width: 80px;
-  height: 80px;
+  width: 64px;
+  height: 64px;
   position: fixed;
-  bottom: 1%;
+  bottom: 6%;
   margin-top: -40px;
-  right: 30px;
+  right: 20px;
   display: block;
   z-index: 99;
   border-radius: 50%;
@@ -416,7 +416,7 @@ body #div-footer strong {
 .whats-float:before {
   width: 100%;
   height: 100%;
-  background: #29b53f;
+  background: #6c9d30;
   position: absolute;
   content: "";
   top: 0;
@@ -428,36 +428,35 @@ body #div-footer strong {
 }
 
 .whats-float:after {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   position: absolute;
   content: "";
-  background: url(../images/whats.svg) no-repeat center;
+  background: url(../img/whats.svg) no-repeat center;
   top: 50%;
   left: 50%;
-  margin: -25px 0 0 -25px;
+  margin: -20px 0 0 -20px;
 }
 
-.box-texto-whats {
+.whats-float .box-texto-whats {
   width: 0;
-  height: 60px;
-  background: #29b53f;
-  border-radius: 30px;
+  height: 48px;
+  background: #6c9d30;
+  border-radius: 24px 0 0 24px;
   -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
           box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
   display: block;
   position: absolute;
   top: 50%;
-  margin-top: -30px;
+  margin-top: -24px;
   right: 40px;
   z-index: -1;
   overflow: hidden;
 }
 
-.box-texto-whats > span {
+.whats-float .box-texto-whats span {
   color: #fff;
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   width: 300px;
   height: 100%;
   display: -webkit-box;
@@ -481,17 +480,17 @@ body #div-footer strong {
           transform: translateX(100px);
 }
 
-.box-texto-whats > span > strong {
+.whats-float .box-texto-whats span strong {
   font-weight: 700;
-  font-size: 23px;
-  line-height: 1em;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
 }
 
 .whats-float:hover .box-texto-whats {
   width: 300px;
 }
 
-.whats-float:hover .box-texto-whats > span {
+.whats-float:hover .box-texto-whats span {
   -webkit-transform: translateX(0);
           transform: translateX(0);
   -webkit-transition-delay: 0.1s;
@@ -507,3 +506,92 @@ body #div-footer strong {
   -webkit-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
   transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
+/* //DIV Whatsapp
+.whats-float {
+	width: 80px;
+	height: 80px;
+	position: fixed;
+	bottom: 1%;
+	margin-top: -40px;
+	right: 30px;
+	display: block;
+	z-index: 99;
+	border-radius: 50%;
+}
+.whats-float:before {
+	width: 100%;
+	height: 100%;
+	background: #29b53f;
+	position: absolute;
+	content: "";
+	top: 0;
+	right: 0;
+	display: block;
+	border-radius: 50%;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.whats-float:after {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	content: "";
+	background: url(../images/whats.svg) no-repeat center;
+	top: 50%;
+	left: 50%;
+	margin: -25px 0 0 -25px;
+}
+.box-texto-whats {
+	width: 0;
+	height: 60px;
+	background: #29b53f;
+	border-radius: 30px;
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+	display: block;
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	right: 40px;
+	z-index: -1;
+	overflow: hidden;
+}
+.box-texto-whats > span {
+	color: #fff;
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	width: 300px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding-right: 30px;
+	line-height: 1em;
+	transform: translateX(100px);
+}
+.box-texto-whats > span > strong {
+	font-weight: 700;
+	font-size: 23px;
+	line-height: 1em;
+}
+.whats-float:hover .box-texto-whats {
+	width: 300px;
+}
+.whats-float:hover .box-texto-whats > span {
+	transform: translateX(0);
+	transition-delay: 0.1s;
+}
+.box-texto-whats,
+.box-texto-whats > span,
+.whats-float:hover .box-texto-whats,
+.whats-float:hover .box-texto-whats > span {
+	-webkit-transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+	-moz-transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+	-o-transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+	transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+	-webkit-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+	-moz-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+	-o-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+	transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+} */
