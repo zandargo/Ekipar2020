@@ -24,6 +24,8 @@ $glow: 0 0 0 0.25rem rgba(255, 255, 255, 0.85);
 $wpp1: #25d366;
 $wpp2: #128c7e;
 $wpp3: #075e54;
+$verdecitrico: #045f18;
+$greenwpp: $verdecitrico;
 $wpp-size0: 64px;
 
 * {
@@ -342,6 +344,7 @@ body {
 				text-align: justify;
 				font-size: 1.25rem;
 				padding: 2rem;
+				margin-bottom: 3rem;
 				box-shadow: 0.2rem 0.25rem 0.5rem 0.25rem rgba(0, 0, 0, 0.35);
 
 				p {
@@ -353,6 +356,30 @@ body {
 					font-size: 1.35rem;
 					font-weight: 600;
 					font-variant-caps: small-caps;
+				}
+
+				.box-logos {
+					display: flex;
+					flex-flow: row wrap;
+					justify-content: space-around;
+
+					.cont-logos {
+						height: 180px;
+						width: 180px;
+						// border: 1px solid black;
+						display: flex;
+						justify-content: center;
+						margin: 0.5rem auto;
+
+						img {
+							// overflow: auto;
+							max-width: 95%;
+							max-height: 95%;
+							min-width: 90%;
+							align-self: center;
+							object-fit: contain;
+						}
+					}
 				}
 			}
 		}
@@ -398,7 +425,7 @@ body {
 		width: 100%;
 		height: 100%;
 		// background: #29b53f;
-		background: $green2;
+		background: $greenwpp;
 		position: absolute;
 		content: "";
 		top: 0;
@@ -420,7 +447,7 @@ body {
 	.box-texto-whats {
 		width: 0;
 		height: $wpp-size0 * 0.75;
-		background: $green2;
+		background: $greenwpp;
 		border-radius: $wpp-size0 * 0.75 / 2 0 0 $wpp-size0 * 0.75 / 2;
 		box-shadow: $shadow-wpp;
 		display: block;
