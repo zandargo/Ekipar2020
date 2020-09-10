@@ -61,26 +61,22 @@ ${foods.map(food => `<li>${food}</li>`).join("")}
 //* ------- EVENTOS DE CLIQUE NO MOUSE: MOSTRAR SUB PÁGINA ------- */
 var i, tabcontent, tablinks
 function openTab(evt, tabName) {
-	// Ocultar todos class="tabcontent"
-	tabcontent = document.getElementsByClassName('tabcontent')
-	for (i = 0; i < tabcontent.length; i++) {
-		tabcontent[i].style.display = 'none'
-	}
+	//* Ocultar todos class="tabcontent"
+	$('.tabcontent').hide()
 
-	// Coletar todos class="tablinks" e remover class="active"
-	tablinks = document.getElementsByClassName('tablink')
-	for (i = 0; i < tablinks.length; i++) {
-		tablinks[i].className = tablinks[i].className.replace(' active', '')
-	}
+	//* Coletar todos class="tablinks" e remover class="active"
+	$('.tablink').removeClass('active')
 
-	// Mostrar a div e adicionar class="active"
-	document.getElementById(tabName).style.display = 'block'
+	//* Mostrar a div e adicionar class="active"
 	evt.currentTarget.className += ' active'
+	document.getElementById(tabName).style.display = 'block'
 
-	// Rolar para o tpo da página
+	//* Rolar para o tpo da página
 	$('html, body').animate({ scrollTop: 0 }, 'slow')
 }
 
 //* ------- INÍCIO DO CARREGAMENTO ------- */
-// Ocultar todos class="tabcontent" no início do carregamento
+//> Ocultar todos class="tabcontent" no início do carregamento
 $('.tabcontent').hide()
+$('#aempresa').show()
+$('#aempresa, #btn-aempresa').addClass('active')

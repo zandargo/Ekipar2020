@@ -54,36 +54,7 @@
 			defer
 		></script> -->
 
-		<style>
-			/* width */
-			::-webkit-scrollbar {
-				width: 16px;
-			}
-
-			/* Track */
-			::-webkit-scrollbar-track {
-				background: #333;
-				box-shadow: inset 0 0 5px black;
-			}
-
-			/* Handle */
-			::-webkit-scrollbar-thumb {
-				background: rgb(140, 198, 63);
-				/* border-radius: 6px; */
-				box-shadow: inset 0 0 5px black;
-			}
-
-			/* Handle on hover */
-			::-webkit-scrollbar-thumb:hover {
-				background: rgb(108, 157, 48);
-				box-shadow: inset 0 0 5px black;
-			}
-
-			/* ::-webkit-scrollbar-track-piece {
-				background: #ddd;
-				box-shadow: inset 0 0 5px black;
-			} */
-		</style>
+		<style></style>
 	</head>
 
 	<body>
@@ -113,7 +84,11 @@
 			<!-- Barra de navegação lateral -->
 			<div id="div-nav">
 				<div id="navbar" class="shadow Rrad">
-					<button class="tablink N0" onclick="openTab(event, 'aempresa')">
+					<button
+						id="btn-aempresa"
+						class="tablink N0"
+						onclick="openTab(event, 'aempresa')"
+					>
 						A Empresa
 					</button>
 					<button class="tablink N1" onclick="openTab(event, 'local')">

@@ -32,9 +32,42 @@ $wpp-size0: 64px;
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: "Roboto Condensed";
+	font-family: 'Roboto Condensed';
 	font-size: 11pt;
 }
+
+/* width */
+::-webkit-scrollbar {
+	width: 16px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: $gray0;
+	box-shadow: inset 0 0 5px black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: $green1;
+	/* border-radius: 6px; */
+	box-shadow: inset 0 0 5px black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: lighten($color: $green1, $amount: 1);
+	box-shadow: inset 0 0 5px black;
+}
+
+/* ::-webkit-scrollbar-track-piece {
+				background: #ddd;
+				box-shadow: inset 0 0 5px black;
+			} */
+
+//* -------------------------------------------------------------------------- */
+//*                               CORPO PRINCIPAL                              */
+//* -------------------------------------------------------------------------- */
 
 body {
 	background-color: $gray5;
@@ -427,7 +460,7 @@ body {
 		// background: #29b53f;
 		background: $greenwpp;
 		position: absolute;
-		content: "";
+		content: '';
 		top: 0;
 		right: 0;
 		display: block;
@@ -438,7 +471,7 @@ body {
 		width: $wpp-size0 * 0.625;
 		height: $wpp-size0 * 0.625;
 		position: absolute;
-		content: "";
+		content: '';
 		background: url(../img/whats.svg) no-repeat center;
 		top: 50%;
 		left: 50%;
