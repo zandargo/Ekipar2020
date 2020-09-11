@@ -1,3 +1,7 @@
+//* -------------------------------------------------------------------------- */
+//*                              VARIÁVEIS GLOBAIS                             */
+//* -------------------------------------------------------------------------- */
+
 $rad0: 2.75rem;
 $offset0: 1rem;
 
@@ -24,9 +28,16 @@ $glow: 0 0 0 0.25rem rgba(255, 255, 255, 0.85);
 $wpp1: #25d366;
 $wpp2: #128c7e;
 $wpp3: #075e54;
+$wpp4: rgb(74, 201, 89);
+$wpp5: hsl(127, 54%, 40%);
 $verdecitrico: #045f18;
-$greenwpp: $verdecitrico;
+
+$greenwpp: $wpp5;
 $wpp-size0: 64px;
+
+//* -------------------------------------------------------------------------- */
+//*                                   ESTILO                                   */
+//* -------------------------------------------------------------------------- */
 
 * {
 	padding: 0;
@@ -85,12 +96,12 @@ body {
 		box-shadow: $shadow-in;
 	}
 
-	// Raio à esquerda
+	//* Raio à esquerda
 	.Lrad {
 		border-radius: $rad0 0 $rad0 0;
 	}
 
-	// Raio à direita
+	//* Raio à direita
 	.Rrad {
 		border-radius: 0 $rad0 0 $rad0;
 	}
@@ -106,7 +117,7 @@ body {
 		font-weight: 500;
 		margin-top: $offset0;
 		padding-left: $offset0;
-		// font-variant-caps: small-caps;
+		//_ font-variant-caps: small-caps;
 	}
 
 	.N1 {
@@ -114,10 +125,10 @@ body {
 		line-height: 1.6rem;
 		font-weight: 500;
 		padding-left: 2 * $offset0;
-		// font-variant-caps: small-caps;
+		//_ font-variant-caps: small-caps;
 	}
 
-	//Imagem de fundo
+	//*	Imagem de fundo
 	.background {
 		display: float;
 		z-index: -1;
@@ -134,17 +145,17 @@ body {
 			height: 100%;
 			width: 100%;
 			object-fit: cover;
-			// filter: blur(5px);
-			// -webkit-filter: blur(5px);
+			//_ filter: blur(5px);
+			//_ -webkit-filter: blur(5px);
 			-webkit-transform: scaleX(-1);
 			transform: scaleX(-1);
 		}
 	}
 
-	// Wrapper geral do conteúdo do site
+	//_ Wrapper geral do conteúdo do site
 	#main-wrapper {
 		display: grid;
-		grid-template-columns: 230px auto;
+		grid-template-columns: 240px auto;
 		grid-template-rows: 50px 1400px;
 		column-gap: 40px;
 		row-gap: 20px;
@@ -152,14 +163,14 @@ body {
 		width: 90%;
 		max-width: calc(100% - 1em);
 
-		//Barra de Cabeçalho
+		//*	Barra de Cabeçalho
 		#div-header {
 			grid-column-start: 1;
 			grid-column-end: 3;
 			grid-row: 1;
 			display: flex;
 
-			//Barra de Título
+			//*	Barra de Título
 			#div-title {
 				display: grid;
 				justify-content: right;
@@ -169,7 +180,7 @@ body {
 				background-color: $gray0;
 				width: 100%;
 
-				//Logotipo da Ekipar
+				//*	Logotipo da Ekipar
 				#img-logo-texto {
 					height: 2rem;
 					grid-column: 2;
@@ -177,7 +188,7 @@ body {
 					top: -0.95em;
 				}
 
-				//Logomarca da Ekipar
+				//*	Logomarca da Ekipar
 				#img-logo-cubo {
 					height: 5.4rem;
 					grid-column: 3;
@@ -188,7 +199,7 @@ body {
 				}
 			}
 		}
-		//DIV da barra de navegação lateral
+		//*	DIV da barra de navegação lateral
 		#div-nav {
 			grid-column: 1;
 			grid-row-start: 2;
@@ -212,7 +223,7 @@ body {
 				//Botões tab
 				button {
 					// display: block;
-					width: 200px;
+					width: 220px;
 					text-align: left;
 					background-color: inherit;
 					color: $gray5;
@@ -236,7 +247,7 @@ body {
 						// padding-left: 1rem;
 						padding: 0;
 						text-align: center;
-						width: 240px;
+						width: 250px;
 						line-height: 2rem;
 						font-size: 1.2rem;
 						font-weight: 700;
@@ -357,19 +368,6 @@ body {
 				}
 			}
 
-			.box-title {
-				width: 100%;
-				// background-color: $gray4;
-				background-image: linear-gradient(to right, $green1b, $gray5);
-				font-size: 1.5rem;
-				border-radius: 1.5rem;
-				font-weight: 700;
-				// padding: 2.5rem, 0;
-				padding-left: 2rem;
-				line-height: 2.5rem;
-				margin-bottom: 1rem;
-			}
-
 			.box1 {
 				background-color: $gray5;
 				border-radius: $rad0 0 $rad0 0;
@@ -383,6 +381,70 @@ body {
 				p {
 					font-size: 1.2rem;
 					line-height: 1.5rem;
+				}
+
+				.box-title {
+					width: 100%;
+					// background-color: $gray4;
+					background-image: linear-gradient(to right, $green1b, $gray5);
+					font-size: 1.5rem;
+					font-variant-caps: petite-caps;
+					border-radius: 1.5rem;
+					font-weight: 700;
+					// padding: 2.5rem, 0;
+					padding-left: 2rem;
+					line-height: 2.5rem;
+					margin-bottom: 1rem;
+				}
+
+				.box-content {
+					padding: 0 16px;
+				}
+
+				.detailing {
+					display: grid;
+					grid-template-columns: auto auto;
+					// grid-template-rows: 25% 100px auto;
+
+					.box-content-list {
+						grid-column: 1; // / span 1;
+						padding: 10px;
+					}
+
+					ul {
+						list-style: none;
+						li {
+							font-size: 1.2rem;
+							line-height: 1.5rem;
+							margin: 0;
+							padding-left: 1.5em;
+							position: relative;
+
+							&:after {
+								content: '';
+								height: 8px;
+								width: 8px;
+								background: $green3;
+								display: block;
+								position: absolute;
+								transform: rotate(45deg);
+								// transform: rotate(45deg) scale(1, 3);
+								// transform: scale(1, 1.5);
+								// transform: matrix(0.5, 0.5, 0, 1, 0, 0);
+								top: 0.25em;
+								left: 0;
+								// border-radius: 3px;
+								border-radius: 0px 5px 5px 5px;
+							}
+						}
+					}
+
+					.box-content-sketch {
+						grid-column: 2;
+						width: auto;
+						justify-self: end;
+						align-self: center;
+					}
 				}
 
 				strong {

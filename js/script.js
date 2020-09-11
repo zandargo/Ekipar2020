@@ -29,12 +29,36 @@ function mapTemplate(obj) {
 	/*html*/
 	return `
 	<div id="${obj.ID}" class="tabcontent">
+		<!-- TÍTULO -->
 		<div class="box1">
 			<div class="box-title">
 				${obj.titulo}
 			</div>
-			<div class="description">
+			<div class="box-content description">
 				<p>${obj.descricao}</p>
+			</div>
+		</div>
+		<!-- FUNCIONAMENTO -->
+		<div class="box1">
+			<div class="box-title">
+				Funcionamento
+			</div>
+			<div class="box-content functioning">
+				<p>${obj.funcionamento}</p>
+			</div>
+		</div>
+		<!-- DETALHAMENTO -->
+		<div class="box1">
+			<div class="box-title">
+				Detalhamento
+			</div>
+			<div class="box-content detailing">
+				<div class="box-content-list">
+					${obj.detalhamento.join('')}
+				</div>
+				<div class="box-content-sketch">
+					<img class="img-sketch" src=${obj.croqui} alt="" /> 
+				</div>
 			</div>
 		</div>
 	</div>

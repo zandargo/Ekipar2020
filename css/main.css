@@ -120,8 +120,8 @@ body .background img {
 body #main-wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 230px auto;
-      grid-template-columns: 230px auto;
+  -ms-grid-columns: 240px auto;
+      grid-template-columns: 240px auto;
   -ms-grid-rows: 50px 1400px;
       grid-template-rows: 50px 1400px;
   -webkit-column-gap: 40px;
@@ -207,7 +207,7 @@ body #main-wrapper #div-nav #navbar {
 }
 
 body #main-wrapper #div-nav #navbar button {
-  width: 200px;
+  width: 220px;
   text-align: left;
   background-color: inherit;
   color: #f2f2f2;
@@ -229,7 +229,7 @@ body #main-wrapper #div-nav #navbar button.active {
   background-color: #8aba4a;
   padding: 0;
   text-align: center;
-  width: 240px;
+  width: 250px;
   line-height: 2rem;
   font-size: 1.2rem;
   font-weight: 700;
@@ -375,18 +375,6 @@ body #main-wrapper #div-content #local .card-in:hover {
   background-color: #545454;
 }
 
-body #main-wrapper #div-content .box-title {
-  width: 100%;
-  background-image: -webkit-gradient(linear, left top, right top, from(#8aba4a), to(#f2f2f2));
-  background-image: linear-gradient(to right, #8aba4a, #f2f2f2);
-  font-size: 1.5rem;
-  border-radius: 1.5rem;
-  font-weight: 700;
-  padding-left: 2rem;
-  line-height: 2.5rem;
-  margin-bottom: 1rem;
-}
-
 body #main-wrapper #div-content .box1 {
   background-color: #f2f2f2;
   border-radius: 2.75rem 0 2.75rem 0;
@@ -402,6 +390,73 @@ body #main-wrapper #div-content .box1 {
 body #main-wrapper #div-content .box1 p {
   font-size: 1.2rem;
   line-height: 1.5rem;
+}
+
+body #main-wrapper #div-content .box1 .box-title {
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#8aba4a), to(#f2f2f2));
+  background-image: linear-gradient(to right, #8aba4a, #f2f2f2);
+  font-size: 1.5rem;
+  font-variant-caps: petite-caps;
+  border-radius: 1.5rem;
+  font-weight: 700;
+  padding-left: 2rem;
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+body #main-wrapper #div-content .box1 .box-content {
+  padding: 0 16px;
+}
+
+body #main-wrapper #div-content .box1 .detailing {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+body #main-wrapper #div-content .box1 .detailing .box-content-list {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  padding: 10px;
+}
+
+body #main-wrapper #div-content .box1 .detailing ul {
+  list-style: none;
+}
+
+body #main-wrapper #div-content .box1 .detailing ul li {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin: 0;
+  padding-left: 1.5em;
+  position: relative;
+}
+
+body #main-wrapper #div-content .box1 .detailing ul li:after {
+  content: '';
+  height: 8px;
+  width: 8px;
+  background: #456e1c;
+  display: block;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 0.25em;
+  left: 0;
+  border-radius: 0px 5px 5px 5px;
+}
+
+body #main-wrapper #div-content .box1 .detailing .box-content-sketch {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  width: auto;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 body #main-wrapper #div-content .box1 strong {
@@ -483,7 +538,7 @@ body #div-footer strong {
 .whats-float:before {
   width: 100%;
   height: 100%;
-  background: #045f18;
+  background: #2f9d3c;
   position: absolute;
   content: '';
   top: 0;
@@ -508,7 +563,7 @@ body #div-footer strong {
 .whats-float .box-texto-whats {
   width: 0;
   height: 48px;
-  background: #045f18;
+  background: #2f9d3c;
   border-radius: 24px 0 0 24px;
   -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
           box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
