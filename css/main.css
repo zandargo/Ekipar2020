@@ -390,6 +390,9 @@ body #main-wrapper #div-content .box1 {
 body #main-wrapper #div-content .box1 p {
   font-size: 1.2rem;
   line-height: 1.5rem;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 body #main-wrapper #div-content .box1 .box-title {
@@ -407,6 +410,15 @@ body #main-wrapper #div-content .box1 .box-title {
 
 body #main-wrapper #div-content .box1 .box-content {
   padding: 0 16px;
+}
+
+body #main-wrapper #div-content .box1 .description {
+  display: inline-block;
+}
+
+body #main-wrapper #div-content .box1 .description .box-content-vr {
+  padding: 5px;
+  margin: 100px;
 }
 
 body #main-wrapper #div-content .box1 .detailing {
@@ -717,3 +729,55 @@ body #div-footer strong {
 	-o-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 	transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 } */
+.circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: #7db9e8;
+  margin: 0 25px 5px 0;
+  float: left;
+  shape-outside: circle();
+}
+
+.ellipse {
+  width: 100px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #7db9e8;
+  margin: 0 25px 5px 0;
+  float: left;
+  shape-outside: ellipse(50px 100px at 50% 50%);
+}
+
+.leftTriangle {
+  width: 150px;
+  height: 300px;
+  background-color: #7db9e8;
+  margin: 0 25px 5px 0;
+  float: left;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+  shape-outside: polygon(0% 0%, 100% 0%, 50% 100%);
+}
+
+.rightTriangle {
+  width: 150px;
+  height: 300px;
+  background-color: #7db9e8;
+  margin: 0 0 5px 25px;
+  float: right;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+  shape-outside: polygon(0% 0%, 100% 0%, 50% 100%);
+}
+
+.square1 {
+  width: 150px;
+  height: 300px;
+  background-color: #7db9e8;
+  margin: 0 0 5px 25px;
+  float: right;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+  shape-outside: polygon(0% 0%, 100% 0%, 50% 100%);
+}

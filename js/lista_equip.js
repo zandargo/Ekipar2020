@@ -116,7 +116,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: 'equipamentos/VR_CAD01',
 	},
 	{
 		ID: 'cald-didatica',

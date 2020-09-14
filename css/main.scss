@@ -381,6 +381,12 @@ body {
 				p {
 					font-size: 1.2rem;
 					line-height: 1.5rem;
+					// overflow-wrap: break-word;
+					// word-wrap: break-word;
+					-webkit-hyphens: auto;
+					-moz-hyphens: auto;
+					-ms-hyphens: auto;
+					hyphens: auto;
 				}
 
 				.box-title {
@@ -399,6 +405,33 @@ body {
 
 				.box-content {
 					padding: 0 16px;
+					// align-items: center;
+				}
+
+				.description {
+					// display: grid;
+					display: inline-block;
+					// grid-template-columns: auto 500;
+
+					.box-content-text {
+						// grid-column: 1;
+					}
+					.box-content-vr {
+						padding: 5px;
+						// top: 500px;
+						// grid-column: 2;
+						// place-self: center;
+						// -webkit-shape-outside: polygon(0% 0%, 100% 0%, 50% 100%);
+						// shape-outside: polygon(0% 0%, 100% 0%, 50% 100%);
+						// float: inline-start;
+						// float: right;
+						margin: 100px;
+
+						// img {
+						// 	float: right;
+						// 	margin: 10px;
+						// }
+					}
 				}
 
 				.detailing {
@@ -685,3 +718,71 @@ body {
 	-o-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 	transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 } */
+
+// * {
+// 	p {
+// 		font-size: 1.2rem;
+// 		line-height: 1.5rem;
+// 		overflow-wrap: break-word;
+// 		word-wrap: break-word;
+// 		-webkit-hyphens: auto;
+// 		-ms-hyphens: auto;
+// 		hyphens: auto;
+// 	}
+// }
+
+.circle {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background-color: #7db9e8;
+	margin: 0 25px 5px 0;
+	float: left;
+	-webkit-shape-outside: circle();
+	shape-outside: circle();
+}
+
+.ellipse {
+	width: 100px;
+	height: 200px;
+	border-radius: 50%;
+	background-color: #7db9e8;
+	margin: 0 25px 5px 0;
+	float: left;
+	-webkit-shape-outside: ellipse(50px 100px at 50% 50%);
+	shape-outside: ellipse(50px 100px at 50% 50%);
+}
+
+.leftTriangle {
+	width: 150px;
+	height: 300px;
+	background-color: #7db9e8;
+	margin: 0 25px 5px 0;
+	float: left;
+	-webkit-clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+	clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+	-webkit-shape-outside: polygon(0% 0%, 100% 0%, 50% 100%);
+	shape-outside: polygon(0% 0%, 100% 0%, 50% 100%);
+}
+.rightTriangle {
+	width: 150px;
+	height: 300px;
+	background-color: #7db9e8;
+	margin: 0 0 5px 25px;
+	float: right;
+	-webkit-clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+	clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+	-webkit-shape-outside: polygon(0% 0%, 100% 0%, 50% 100%);
+	shape-outside: polygon(0% 0%, 100% 0%, 50% 100%);
+}
+.square1 {
+	width: 150px;
+	height: 300px;
+	background-color: #7db9e8;
+	margin: 0 0 5px 25px;
+	float: right;
+	-webkit-clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+	clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+	-webkit-shape-outside: polygon(0% 0%, 100% 0%, 50% 100%);
+	shape-outside: polygon(0% 0%, 100% 0%, 50% 100%);
+}

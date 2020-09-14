@@ -35,8 +35,21 @@ function mapTemplate(obj) {
 				${obj.titulo}
 			</div>
 			<div class="box-content description">
-				<p>${obj.descricao}</p>
+				<div class="box-content-text">
+					<p>${obj.descricao}</p>	
+				</div>
+				<div class="box-content-vr">
+					<img src="./img/${obj.vr}/0_0.png" width="500" height="325"
+					class="reel"
+					data-speed="0"
+					data-cw="true"
+					data-cursor="default"
+					data-revolution=600
+					data-images="./img/${obj.vr}/0_#.png|0..23">
+				</div>
+				
 			</div>
+
 		</div>
 		<!-- FUNCIONAMENTO -->
 		<div class="box1">
@@ -44,6 +57,7 @@ function mapTemplate(obj) {
 				Funcionamento
 			</div>
 			<div class="box-content functioning">
+				<div class="square1"></div>
 				<p>${obj.funcionamento}</p>
 			</div>
 		</div>
@@ -81,6 +95,8 @@ ${foods.map(food => `<li>${food}</li>`).join("")}
 
 
  */
+
+//* ------------------------- ADICIONAR VR ÀS PÁGINAS ------------------------ */
 
 //* ------- EVENTOS DE CLIQUE NO MOUSE: MOSTRAR SUB PÁGINA ------- */
 var i, tabcontent, tablinks
