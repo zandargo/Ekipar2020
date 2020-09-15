@@ -18,7 +18,7 @@ var componentes = [
 			'<li>POP – Procedimento operacional Padrão.</li>',
 			'</ul>',
 		],
-		croqui: './img/componentes/croqui_Aquecedor1.png',
+		croqui: 'componentes/croqui_Aquecedor1.png',
 		img: ['img_Aquecedor1.2.png'],
 		vr: [],
 	},

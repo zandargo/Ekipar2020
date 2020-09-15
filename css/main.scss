@@ -368,6 +368,10 @@ body {
 				}
 			}
 
+			//* -------------------------------------------------------------------------- */
+			//*                    PÁGINA DE COMPONENTES E EQUIPAMENTOS                    */
+			//* -------------------------------------------------------------------------- */
+
 			.box1 {
 				background-color: $gray5;
 				border-radius: $rad0 0 $rad0 0;
@@ -409,28 +413,20 @@ body {
 				}
 
 				.description {
-					// display: grid;
-					display: inline-block;
-					// grid-template-columns: auto 500;
+					display: block;
+					position: relative;
+					min-height: 325px;
 
 					.box-content-text {
 						// grid-column: 1;
 					}
 					.box-content-vr {
-						padding: 5px;
-						// top: 500px;
-						// grid-column: 2;
-						// place-self: center;
-						// -webkit-shape-outside: polygon(0% 0%, 100% 0%, 50% 100%);
-						// shape-outside: polygon(0% 0%, 100% 0%, 50% 100%);
-						// float: inline-start;
-						// float: right;
-						margin: 100px;
-
-						// img {
-						// 	float: right;
-						// 	margin: 10px;
-						// }
+						width: 500px;
+						height: 325px;
+						position: absolute;
+						// position: relative;
+						right: 0px;
+						top: 0px;
 					}
 				}
 
@@ -440,8 +436,8 @@ body {
 					// grid-template-rows: 25% 100px auto;
 
 					.box-content-list {
-						grid-column: 1; // / span 1;
-						padding: 10px;
+						grid-column: 2; // / span 1;
+						padding: 30px;
 					}
 
 					ul {
@@ -473,10 +469,14 @@ body {
 					}
 
 					.box-content-sketch {
-						grid-column: 2;
+						grid-column: 1;
 						width: auto;
 						justify-self: end;
-						align-self: center;
+						//_ align-self: center;
+
+						img {
+							max-width: 400px;
+						}
 					}
 				}
 
@@ -731,58 +731,27 @@ body {
 // 	}
 // }
 
-.circle {
-	height: 200px;
-	width: 200px;
-	border-radius: 50%;
-	background-color: #7db9e8;
-	margin: 0 25px 5px 0;
-	float: left;
-	-webkit-shape-outside: circle();
-	shape-outside: circle();
-}
-
-.ellipse {
-	width: 100px;
-	height: 200px;
-	border-radius: 50%;
-	background-color: #7db9e8;
-	margin: 0 25px 5px 0;
-	float: left;
-	-webkit-shape-outside: ellipse(50px 100px at 50% 50%);
-	shape-outside: ellipse(50px 100px at 50% 50%);
-}
-
-.leftTriangle {
-	width: 150px;
-	height: 300px;
-	background-color: #7db9e8;
-	margin: 0 25px 5px 0;
-	float: left;
-	-webkit-clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
-	clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
-	-webkit-shape-outside: polygon(0% 0%, 100% 0%, 50% 100%);
-	shape-outside: polygon(0% 0%, 100% 0%, 50% 100%);
-}
-.rightTriangle {
-	width: 150px;
-	height: 300px;
-	background-color: #7db9e8;
-	margin: 0 0 5px 25px;
-	float: right;
-	-webkit-clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
-	clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
-	-webkit-shape-outside: polygon(0% 0%, 100% 0%, 50% 100%);
-	shape-outside: polygon(0% 0%, 100% 0%, 50% 100%);
-}
-.square1 {
-	width: 150px;
-	height: 50px;
+$shape-vr1: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+.square-vr {
+	width: 460px;
+	height: 325px;
 	// background-color: #7db9e8;
 	margin: 0 0 5px 5px;
 	float: right;
-	-webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-	clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-	-webkit-shape-outside: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-	shape-outside: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+	-webkit-clip-path: $shape-vr1;
+	clip-path: $shape-vr1;
+	-webkit-shape-outside: $shape-vr1;
+	shape-outside: $shape-vr1;
+}
+
+$shape-vr2: ellipse(250px 200px at 50% 50%);
+.ellipse-vr {
+	width: 500px;
+	height: 325px;
+	border-radius: 50%;
+	// background-color: #7db9e8;
+	// margin: 0 25px 5px 0;
+	float: right;
+	-webkit-shape-outside: $shape-vr2;
+	shape-outside: $shape-vr2;
 }

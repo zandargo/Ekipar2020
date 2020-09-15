@@ -114,7 +114,7 @@ var equipamentos = [
 			'<li>POP (Procedimento operacional padrão).</li>',
 			'</ul>',
 		],
-		croqui: '',
+		croqui: 'equipamentos/croqui_CAD01.png',
 		img: [''],
 		vr: 'equipamentos/VR_CAD01',
 	},

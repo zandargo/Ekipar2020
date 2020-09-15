@@ -36,6 +36,7 @@ function mapTemplate(obj) {
 			</div>
 			<div class="box-content description">
 				<div class="box-content-text">
+					<div class="square-vr"></div>
 					<p>${obj.descricao}</p>	
 				</div>
 				<div class="box-content-vr">
@@ -67,12 +68,13 @@ function mapTemplate(obj) {
 				Detalhamento
 			</div>
 			<div class="box-content detailing">
+				<div class="box-content-sketch">
+					<img class="img-sketch" src="./img/${obj.croqui}" alt="" /> 
+				</div>
 				<div class="box-content-list">
 					${obj.detalhamento.join('')}
 				</div>
-				<div class="box-content-sketch">
-					<img class="img-sketch" src=${obj.croqui} alt="" /> 
-				</div>
+				
 			</div>
 		</div>
 	</div>
