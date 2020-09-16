@@ -115,7 +115,14 @@ var equipamentos = [
 			'</ul>',
 		],
 		croqui: 'equipamentos/croqui_CAD01.png',
-		img: [''],
+		img: [
+			'./img/equipamentos/VR_CAD01/0_0.png',
+			'./img/equipamentos/VR_CAD01/0_4.png',
+			'./img/equipamentos/VR_CAD01/0_8.png',
+			'./img/equipamentos/VR_CAD01/0_12.png',
+			'./img/equipamentos/VR_CAD01/0_16.png',
+			'./img/equipamentos/VR_CAD01/0_20.png',
+		],
 		vr: 'equipamentos/VR_CAD01',
 	},
 	{

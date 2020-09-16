@@ -5,12 +5,18 @@ $(function () {
 
 	var $clientcarousel = $('#clients-list')
 	var clients = $clientcarousel.children().length
-	var clientwidth = clients * 220
+	console.log(clients)
+	var wLogo = 180
+	var hLogo = parseInt(wLogo * 0.8)
+	console.log(wLogo)
+	var clientwidth = clients * wLogo
+	$('#clients-list > li').css('width', wLogo)
+	$('#clients-list > li').css('height', hLogo)
 	$clientcarousel.css('width', clientwidth)
 
 	var rotating = true
-	var clientspeed = 0
-	var seeclients = setInterval(rotateClients, clientspeed)
+	var clientspeed = 5000
+	var seeclients = setInterval(rotateClients, 0)
 
 	$(document).on(
 		{
@@ -21,15 +27,17 @@ $(function () {
 				rotating = true
 			},
 		},
-		'#clients'
+		'li' //'#clients'
 	)
 
 	function rotateClients() {
 		if (rotating != false) {
+			$('#clients').width($('#clients').parent().width() - 50)
 			var $first = $('#clients-list li:first')
+			let offX = '-' + $('#clients-list li').css('width')
 			$first.animate(
-				{ 'margin-left': '-220px' },
-				12000,
+				{ 'margin-left': offX },
+				clientspeed,
 				'linear',
 				function () {
 					$first.remove().css({ 'margin-left': '0px' })

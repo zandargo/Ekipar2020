@@ -10,10 +10,14 @@ document.getElementById('navbar').insertAdjacentHTML(
 	${equipamentos.map(mapNav).join('')}
 	`
 )
+
 function mapNav(obj) {
 	/*html*/
 	return `<button class="tablink N1" onclick="openTab(event, '${obj.ID}')"> ${obj.navlink} </button>`
 }
+
+
+
 
 //* ------- INÍCIO DO CÓDIGO DE CRIAÇÃO DAS "SUB PÁGINAS" (DIVS) -------*/
 document.getElementById('div-content').insertAdjacentHTML(
@@ -29,6 +33,8 @@ function mapTemplate(obj) {
 	/*html*/
 	return `
 	<div id="${obj.ID}" class="tabcontent">
+
+
 		<!-- TÍTULO -->
 		<div class="box1">
 			<div class="box-title">
@@ -48,10 +54,10 @@ function mapTemplate(obj) {
 					data-revolution=600
 					data-images="./img/${obj.vr}/0_#.png|0..23">
 				</div>
-				
 			</div>
-
 		</div>
+
+
 		<!-- FUNCIONAMENTO -->
 		<div class="box1">
 			<div class="box-title">
@@ -61,7 +67,12 @@ function mapTemplate(obj) {
 				<div class="square1"></div>
 				<p>${obj.funcionamento}</p>
 			</div>
+			<div class="img-loop">
+
+			</div>
 		</div>
+
+
 		<!-- DETALHAMENTO -->
 		<div class="box1">
 			<div class="box-title">
@@ -78,6 +89,13 @@ function mapTemplate(obj) {
 			</div>
 		</div>
 	</div>
+	`
+}
+
+function mapListImg(obj) {
+	/*html*/
+	return `
+			<div>your content</div>
 	`
 }
 
