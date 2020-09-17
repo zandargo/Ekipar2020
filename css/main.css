@@ -655,6 +655,19 @@ body #div-footer strong {
 
 
 */
+.img-loop {
+  width: 800px;
+}
+
+.img-loop .img-ctnr {
+  height: 160px;
+  padding: 5px;
+}
+
+.img-loop .img-ctnr img {
+  width: 200px;
+}
+
 .square-vr {
   width: 460px;
   height: 325px;
@@ -723,7 +736,6 @@ body #div-footer strong {
   display: block;
   float: left;
   position: relative;
-  height: 180px;
   line-height: 100px;
   text-align: center;
 }

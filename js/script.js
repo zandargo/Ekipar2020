@@ -67,8 +67,8 @@ function mapTemplate(obj) {
 				<div class="square1"></div>
 				<p>${obj.funcionamento}</p>
 			</div>
-			<div class="img-loop">
-
+			<div class="img-ctnr">
+				${obj.img.map(mapListImg).join('')}
 			</div>
 		</div>
 
@@ -93,9 +93,12 @@ function mapTemplate(obj) {
 }
 
 function mapListImg(obj) {
+	// <div class="img-ctnr"><img src="./img/${obj}" alt="" /></div>
 	/*html*/
 	return `
-			<div>your content</div>
+			<div class="slide">
+				<img src="./img/${obj}" alt="" />
+			</div>
 	`
 }
 
@@ -140,3 +143,5 @@ function openTab(evt, tabName) {
 $('.tabcontent').hide()
 $('#aempresa').show()
 $('#aempresa, #btn-aempresa').addClass('active')
+$('html, body').animate({ scrollTop: 0 }, 'slow')
+

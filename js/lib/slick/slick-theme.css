@@ -6,7 +6,7 @@
 
 /* Icons */
 @font-face {
-  font-family: "slick";
+  font-family: 'slick';
   src: url("./fonts/slick.eot");
   src: url("./fonts/slick.eot?#iefix") format("embedded-opentype"), url("./fonts/slick.woff") format("woff"), url("./fonts/slick.ttf") format("truetype"), url("./fonts/slick.svg#slick") format("svg");
   font-weight: normal;
@@ -67,7 +67,7 @@
   left: -25px;
 }
 
-[dir="rtl"] .slick-prev {
+[dir='rtl'] .slick-prev {
   left: auto;
   right: -25px;
 }
@@ -76,7 +76,7 @@
   content: "←";
 }
 
-[dir="rtl"] .slick-prev:before {
+[dir='rtl'] .slick-prev:before {
   content: "→";
 }
 
@@ -84,7 +84,7 @@
   right: -25px;
 }
 
-[dir="rtl"] .slick-next {
+[dir='rtl'] .slick-next {
   left: -25px;
   right: auto;
 }
@@ -93,7 +93,7 @@
   content: "→";
 }
 
-[dir="rtl"] .slick-next:before {
+[dir='rtl'] .slick-next:before {
   content: "←";
 }
 
@@ -165,4 +165,18 @@
 .slick-dots li.slick-active button:before {
   color: black;
   opacity: 0.75;
+}
+
+.slick-center {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+  opacity: 1 !important;
+}
+
+.slick-list {
+  padding: 45px 60px !important;
+  margin-left: 30px !important;
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
+  opacity: 0.5;
 }

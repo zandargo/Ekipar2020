@@ -47,7 +47,7 @@
 }
 
 .slick-track:before, .slick-track:after {
-  content: "";
+  content: '';
   display: table;
 }
 
@@ -66,7 +66,7 @@
   display: none;
 }
 
-[dir="rtl"] .slick-slide {
+[dir='rtl'] .slick-slide {
   float: right;
 }
 
@@ -98,4 +98,16 @@
 
 .slick-arrow.slick-hidden {
   display: none;
+}
+
+.slick-center {
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+.slick-list {
+  padding: 45px 60px !important;
+  margin-left: 30px !important;
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
 }
