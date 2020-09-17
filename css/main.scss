@@ -643,19 +643,6 @@ body {
 
 
 */
-.img-loop {
-	width: 800px;
-
-	.img-ctnr {
-		// width: 200px;
-		height: 160px;
-		padding: 5px;
-
-		img {
-			width: 200px;
-		}
-	}
-}
 
 $shape-vr1: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 .square-vr {
@@ -683,3 +670,4 @@ $shape-vr2: ellipse(250px 200px at 50% 50%);
 }
 
 @import 'logos';
+@import 'photos';

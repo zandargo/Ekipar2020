@@ -1,0 +1,16 @@
+.img-box {
+	width: 800px;
+	height: 300px;
+	padding: 20px;
+	overflow: hidden;
+
+	.img-ctnr {
+		// width: 200px;
+		padding: 25px;
+		overflow: hidden;
+
+		img {
+			width: 200px;
+		}
+	}
+}

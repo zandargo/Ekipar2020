@@ -67,8 +67,12 @@ function mapTemplate(obj) {
 				<div class="square1"></div>
 				<p>${obj.funcionamento}</p>
 			</div>
-			<div class="img-ctnr">
-				${obj.img.map(mapListImg).join('')}
+			<div class="img-box">
+				<div class="img-ctnr">
+					<ul>
+						${obj.img.map(mapListImg).join('')}
+					</ul>
+				</div>
 			</div>
 		</div>
 
@@ -96,9 +100,7 @@ function mapListImg(obj) {
 	// <div class="img-ctnr"><img src="./img/${obj}" alt="" /></div>
 	/*html*/
 	return `
-			<div class="slide">
-				<img src="./img/${obj}" alt="" />
-			</div>
+			<li> <img src="./img/${obj}" alt="" /> </li>
 	`
 }
 
@@ -112,6 +114,9 @@ Exemplo interessante de como escrever uma função de parâmetro único de forma
 <ul class="foods-list">
 ${foods.map(food => `<li>${food}</li>`).join("")}
 </ul>
+
+
+
 
 
 
@@ -145,3 +150,28 @@ $('#aempresa').show()
 $('#aempresa, #btn-aempresa').addClass('active')
 $('html, body').animate({ scrollTop: 0 }, 'slow')
 
+$('.img-ctnr').flipster({
+    itemContainer: 'ul', //
+    itemSelector: 'li', //
+    start: 'center', // ['center'|number]  Zero based index of the starting item, or use 'center' to start in the middle
+    fadeIn: 400, // [milliseconds] Speed of the fade in animation after items have been setup
+    loop: true, //
+    autoplay: 3000, // [false|milliseconds] If a positive number, Flipster will automatically advance to next item after that number of milliseconds
+    pauseOnHover: true, //
+    style: 'carousel', // [coverflow|carousel|flat|...]
+    // Adds a class (e.g. flipster--coverflow) to the flipster element to switch between display styles
+    // Create your own theme in CSS and use this setting to have Flipster add the custom class
+    spacing: -0.75, // [number] Space between items relative to each item's width. 0 for no spacing, negative values to overlap
+    click: true, // [true|false] Clicking an item switches to that item
+    keyboard: true, // [true|false] Enable left/right arrow navigation
+    scrollwheel: true, // [true|false] Enable mousewheel/trackpad navigation; up/left = previous, down/right = next
+    touch: true, // [true|false] nable swipe navigation for touch devices
+    nav: false, // [true|false|'before'|'after'] If not false, Flipster will build an unordered list of the items
+    // Values true or 'before' will insert the navigation before the items, 'after' will append the navigation after the items
+    buttons: true, // [true|false|'custom'] If true, Flipster will insert Previous / Next buttons with SVG arrows
+    // If 'custom', Flipster will not insert the arrows and will instead use the values of `buttonPrev` and `buttonNext`
+    buttonPrev: '<', // [text|html] Changes the text for the Previous button
+    buttonNext: '>', // [text|html] Changes the text for the Next button
+    onItemSwitch: false // [function] Callback function when items are switched
+    // Arguments received: [currentItem, previousItem]
+});
