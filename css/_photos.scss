@@ -1,16 +1,18 @@
 .img-box {
-	width: 800px;
-	height: 300px;
-	padding: 20px;
-	overflow: hidden;
+	// 	width: 800px;
+	// 	height: 300px;
+	// 	padding: 20px;
+	// 	margin: auto;
+	// 	background-color: aquamarine;
 
 	.img-ctnr {
-		// width: 200px;
-		padding: 25px;
-		overflow: hidden;
+		// 		// width: 200px;
+		// 		padding: 25px;
+		// 		// background-color: $gray1;
 
 		img {
-			width: 200px;
+			// width: 200px;
+			height: 200px;
 		}
 	}
 }
