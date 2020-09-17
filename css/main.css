@@ -747,6 +747,11 @@ body #div-footer strong {
   opacity: 1;
 }
 
+.img-box {
+  width: 100%;
+  height: 300px;
+}
+
 .img-box .img-ctnr img {
-  height: 200px;
+  width: 200px;
 }
