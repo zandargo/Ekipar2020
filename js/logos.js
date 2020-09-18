@@ -32,7 +32,8 @@ $(function () {
 
 	function rotateClients() {
 		if (rotating != false) {
-			$('#clients').width($('#clients').parent().width() - 50)
+			//_ $('#clients').width($('#clients').parent().width() - 50)
+			$('#clients').width($(window).width() - 600)   //todo Melhorar para mobile
 			var $first = $('#clients-list li:first')
 			let offX = '-' + $('#clients-list li').css('width')
 			$first.animate(

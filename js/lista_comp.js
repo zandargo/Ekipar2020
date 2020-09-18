@@ -20,7 +20,7 @@ var componentes = [
 		],
 		croqui: 'componentes/croqui_Aquecedor1.png',
 		img: ['img_Aquecedor1.2.png'],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'aquecedor2',
@@ -43,7 +43,7 @@ var componentes = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'mini-centrifuga',
@@ -67,7 +67,7 @@ var componentes = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'mixer',
@@ -82,7 +82,7 @@ var componentes = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'visor-de-fluxo',
@@ -101,6 +101,6 @@ var componentes = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 ]

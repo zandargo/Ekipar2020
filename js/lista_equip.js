@@ -27,7 +27,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'biopeixe1',
@@ -54,7 +54,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'biopeixe2',
@@ -87,7 +87,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'cald-automatizada',
@@ -116,12 +116,13 @@ var equipamentos = [
 		],
 		croqui: 'equipamentos/croqui_CAD01.png',
 		img: [
-			'equipamentos/VR_CAD01/0_0.png',
-			'equipamentos/VR_CAD01/0_4.png',
-			'equipamentos/VR_CAD01/0_8.png',
-			'equipamentos/VR_CAD01/0_12.png',
-			'equipamentos/VR_CAD01/0_16.png',
-			'equipamentos/VR_CAD01/0_20.png',
+			'equipamentos/fotos/CAD_001.jpg',
+			'equipamentos/fotos/CAD_002.jpg',
+			'equipamentos/fotos/CAD_003.jpg',
+			'equipamentos/fotos/CAD_004.jpg',
+			'equipamentos/fotos/CAD_005.jpg',
+			'equipamentos/fotos/CAD_006.jpg',
+			'equipamentos/fotos/CAD_007.jpg',
 		],
 		vr: 'equipamentos/VR_CAD01',
 	},
@@ -160,7 +161,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'cavalo-de-pau',
@@ -184,7 +185,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'destilaria1',
@@ -216,7 +217,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'destilaria2',
@@ -244,7 +245,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'destilaria3',
@@ -274,7 +275,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'extr-oleos-essenc',
@@ -303,7 +304,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'extr-liquidos',
@@ -332,7 +333,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'fermentador',
@@ -356,7 +357,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'flotador',
@@ -384,7 +385,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'forno-secagem1',
@@ -409,7 +410,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'forno-secagem2',
@@ -434,7 +435,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'kid-didatico1',
@@ -468,7 +469,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'mini-reator1',
@@ -481,7 +482,7 @@ var equipamentos = [
 		detalhamento: ['<br>', '', '', ''],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'mini-torre-fracionadora',
@@ -510,7 +511,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'mini-usina1',
@@ -533,7 +534,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'mini-usina2',
@@ -576,7 +577,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'mini-usina3',
@@ -642,7 +643,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'pirolise1',
@@ -675,7 +676,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'pirolise2',
@@ -709,7 +710,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'pirolise-bancada',
@@ -741,7 +742,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'poliglicerol',
@@ -764,7 +765,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'polimerizador1',
@@ -788,7 +789,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'purificador-oleo',
@@ -819,7 +820,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'reator-batelada-20l',
@@ -831,7 +832,7 @@ var equipamentos = [
 		detalhamento: ['<br>', '', '', ''],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'reator-hiperbarico',
@@ -856,7 +857,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'reator-multifuncional',
@@ -888,7 +889,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'separador-imisciveis',
@@ -921,7 +922,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'separador-oleo',
@@ -948,7 +949,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'sist-troca-term1',
@@ -975,7 +976,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'sist-troca-term2',
@@ -1007,7 +1008,7 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 	{
 		ID: 'unidade-tratamento1',
@@ -1032,6 +1033,6 @@ var equipamentos = [
 		],
 		croqui: '',
 		img: [''],
-		vr: [],
+		vr: '',
 	},
 ]
