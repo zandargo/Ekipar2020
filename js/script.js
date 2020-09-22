@@ -79,7 +79,10 @@ function mapTemplate(obj) {
 					<img class="img-sketch" src="./img/${obj.croqui}" alt="" /> 
 				</div>
 				<div class="box-content-list">
-					${obj.detalhamento.join('')}
+					<br>
+					<ul>
+						${obj.detalhamento.map(mapList).join('')}
+					</ul>
 				</div>
 				
 			</div>
@@ -110,9 +113,7 @@ function mapVR(obj) {
 			data-images="./img/${obj}/0_#.png|0..23">
 		</div>
 		`
-	} else {
-		return ''
-	}
+	} else { return '' }
   }
 
 function mapVRsq(obj) { 
@@ -121,10 +122,18 @@ function mapVRsq(obj) {
 		return `
 		<div class="square-vr"></div>
 		`
-	} else {
-		return ''
-	}
+	} else { return '' }
 }
+
+
+function mapList(obj) { 
+	if (obj != '') {
+	/*html*/
+		return `
+		<li>${obj}</li>
+		`
+	} else { return '' }
+ }
 
 
 
@@ -207,8 +216,19 @@ $(function(){
 			spacing: -0.75,
 			autoplay: 3000,
 
-		});
-});
+		})
+})
 	
 
-$('.flipd').height(600);
+// $('.flipd').height(600)
+// $('.flipd').css('height', '400px');
+// $('.flipd > ul').css('height', '400px');
+
+// $(document).ready(function () { 
+// 	$('ul.flip-items').css('height', '400')
+// })
+
+
+$(function() {
+    $('ul.flip-items').css('height', '400')
+});

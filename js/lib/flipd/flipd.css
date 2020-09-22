@@ -2,11 +2,17 @@
 .flipster {
   display: block;
   margin: 0 auto;
-  width: 100%;
+  width: 600px;
   position: relative;
   overflow-x: hidden;
-  /* overflow-y: visible; */
-  overflow-y: clip;
+  overflow-y: hidden;
+  height: auto;
+}
+
+.flipster ul {
+  margin: 0 auto;
+  height: auto;
+  width: auto;
 }
 
 .flip-items,
@@ -15,6 +21,7 @@
   margin: 0 auto;
   padding: 0;
   list-style-type: none;
+  padding: 10px;
 }
 
 .flip-items {
@@ -45,6 +52,7 @@
 .flip-item img {
   display: block;
   width: 100%;
+  border-radius: 10px;
 }
 
 /* @end */
@@ -217,22 +225,26 @@
 
 .flipster-carousel .flip-past,
 .flipster-carousel .flip-future {
-  -webkit-opacity: 0.6;
-  -moz-opacity: 0.6;
-  opacity: 0.6;
+  -webkit-opacity: 0.25;
+  -moz-opacity: 0.25;
+  opacity: 0.25;
   z-index: 1;
   -webkit-transition-delay: 87.5ms;
   transition-delay: 87.5ms;
+  -webkit-filter: grayscale(80%) blur(2px) brightness(150%);
+          filter: grayscale(80%) blur(2px) brightness(150%);
 }
 
 .flipster-carousel .flip-prev,
 .flipster-carousel .flip-next {
-  -webkit-opacity: 0.8;
-  -moz-opacity: 0.8;
-  opacity: 0.8;
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
   z-index: 2;
   -webkit-transition-delay: 58.333333333333336ms;
   transition-delay: 58.333333333333336ms;
+  -webkit-filter: grayscale(80%) blur(2px) brightness(150%);
+          filter: grayscale(80%) blur(2px) brightness(150%);
 }
 
 .flipster-carousel .flip-current {

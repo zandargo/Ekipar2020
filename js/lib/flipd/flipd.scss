@@ -3,12 +3,20 @@
 .flipster {
 	display: block;
 	margin: 0 auto;
-	width: 100%;
+	// width: 100%;
+	width: 600px;
 	position: relative;
+	// overflow-x: hidden;
+	// /* overflow-y: visible; */
+	// overflow-y: clip;
 	overflow-x: hidden;
-
-	/* overflow-y: visible; */
-	overflow-y: clip;
+	overflow-y: hidden;
+	height: auto;
+	ul {
+		margin: 0 auto;
+		height: auto;
+		width: auto;
+	}
 }
 
 .flip-items,
@@ -17,6 +25,7 @@
 	margin: 0 auto;
 	padding: 0;
 	list-style-type: none;
+	padding: 10px; //! 																				<-- MODIFIED
 }
 
 .flip-items {
@@ -42,6 +51,8 @@
 .flip-item {
 	position: absolute;
 	opacity: 0.99;
+	//_ border: 1px SOLID black; //! 																 <-- MODIFIED
+	//_ background-color: grey; //! 																<-- MODIFIED
 
 	/* Fix for strange clipping behavior on rotated elements in Chrome. */
 }
@@ -56,6 +67,7 @@
 .flip-item img {
 	display: block;
 	width: 100%;
+	border-radius: 10px;
 }
 
 /* @end */
@@ -322,26 +334,28 @@
 .flipster-carousel {
 	.flip-past,
 	.flip-future {
-		-webkit-opacity: 0.6;
-		-moz-opacity: 0.6;
-		opacity: 0.6;
+		-webkit-opacity: 0.25;
+		-moz-opacity: 0.25;
+		opacity: 0.25;
 		z-index: 1;
 		-webkit-transition-delay: 87.5ms;
 		-moz-transition-delay: 87.5ms;
 		-o-transition-delay: 87.5ms;
 		transition-delay: 87.5ms;
+		filter: grayscale(80%) blur(2px) brightness(150%);
 	}
 
 	.flip-prev,
 	.flip-next {
-		-webkit-opacity: 0.8;
-		-moz-opacity: 0.8;
-		opacity: 0.8;
+		-webkit-opacity: 0.5;
+		-moz-opacity: 0.5;
+		opacity: 0.5;
 		z-index: 2;
 		-webkit-transition-delay: 58.333333333333336ms;
 		-moz-transition-delay: 58.333333333333336ms;
 		-o-transition-delay: 58.333333333333336ms;
 		transition-delay: 58.333333333333336ms;
+		filter: grayscale(80%) blur(2px) brightness(150%);
 	}
 
 	.flip-current {

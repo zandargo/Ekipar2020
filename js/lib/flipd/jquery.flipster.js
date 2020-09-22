@@ -398,4 +398,5 @@ $.fn.flipster = function(options) {
 		if ( !_flipster.hasClass("flipster-active") ) { init(); }
 	});
 };
+	
 })( jQuery );
