@@ -519,6 +519,7 @@ body #div-footer {
   margin-top: 200px;
   position: fixed;
   bottom: 0px;
+  left: 0px;
   text-align: center;
   -ms-flex-line-pack: center;
       align-content: center;
@@ -671,6 +672,19 @@ body #div-footer strong {
   border-radius: 50%;
   float: right;
   shape-outside: ellipse(250px 200px at 50% 50%);
+}
+
+.flipd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flipd ul {
+  margin: 0 auto;
 }
 
 /*Logo carousel*/

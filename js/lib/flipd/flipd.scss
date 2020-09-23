@@ -1,7 +1,8 @@
 /* @group Base Flipster Styles */
 
 .flipster {
-	display: block;
+	// display: block;
+
 	margin: 0 auto;
 	// width: 100%;
 	width: 600px;
@@ -16,6 +17,7 @@
 		margin: 0 auto;
 		height: auto;
 		width: auto;
+		align-self: center;
 	}
 }
 

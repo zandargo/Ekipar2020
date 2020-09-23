@@ -527,6 +527,7 @@ body {
 		margin-top: 200px;
 		position: fixed;
 		bottom: 0px;
+		left: 0px;
 		text-align: center;
 		align-content: center;
 		align-items: center;
@@ -674,6 +675,15 @@ $shape-vr2: ellipse(250px 200px at 50% 50%);
 	float: right;
 	-webkit-shape-outside: $shape-vr2;
 	shape-outside: $shape-vr2;
+}
+
+.flipd {
+	display: flex;
+	justify-content: center;
+
+	ul {
+		margin: 0 auto;
+	}
 }
 
 @import 'logos';
