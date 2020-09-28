@@ -5,7 +5,7 @@
 
 	margin: 0 auto;
 	// width: 100%;
-	width: 600px;
+	width: 800px;
 	position: relative;
 	// overflow-x: hidden;
 	// /* overflow-y: visible; */
@@ -70,6 +70,7 @@
 	display: block;
 	width: 100%;
 	border-radius: 10px;
+	transition: 500ms;
 }
 
 /* @end */
@@ -333,31 +334,57 @@
 	height: 75%;
 }
 
+// $green1b: rgb(138, 186, 74);
+
 .flipster-carousel {
 	.flip-past,
 	.flip-future {
-		-webkit-opacity: 0.25;
-		-moz-opacity: 0.25;
-		opacity: 0.25;
+		-webkit-opacity: 0.5;
+		-moz-opacity: 0.5;
+		opacity: 0.5;
 		z-index: 1;
-		-webkit-transition-delay: 87.5ms;
-		-moz-transition-delay: 87.5ms;
-		-o-transition-delay: 87.5ms;
-		transition-delay: 87.5ms;
-		filter: grayscale(80%) blur(2px) brightness(150%);
+		// -webkit-transition-delay: 87.5ms;
+		// -moz-transition-delay: 87.5ms;
+		// -o-transition-delay: 87.5ms;
+		// transition-delay: 87.5ms;
+
+		// filter: grayscale(85%) blur(5px);
+		// background-color: $green1b;
+
+		img {
+			-webkit-opacity: 0.5;
+			-moz-opacity: 0.5;
+			opacity: 0.5;
+			-webkit-filter: sepia(100%) hue-rotate(60deg) saturate(90%)
+				brightness(50%) blur(1px);
+			filter: sepia(100%) hue-rotate(60deg) saturate(90%) brightness(50%)
+				blur(1px);
+		}
 	}
 
 	.flip-prev,
 	.flip-next {
-		-webkit-opacity: 0.5;
-		-moz-opacity: 0.5;
-		opacity: 0.5;
+		-webkit-opacity: 0.6;
+		-moz-opacity: 0.6;
+		opacity: 0.6;
 		z-index: 2;
-		-webkit-transition-delay: 58.333333333333336ms;
-		-moz-transition-delay: 58.333333333333336ms;
-		-o-transition-delay: 58.333333333333336ms;
-		transition-delay: 58.333333333333336ms;
-		filter: grayscale(80%) blur(2px) brightness(150%);
+		// -webkit-transition-delay: 58ms;
+		// -moz-transition-delay: 58ms;
+		// -o-transition-delay: 58ms;
+		// transition-delay: 58ms;
+
+		// filter: grayscale(85%) blur(5px);
+		// background-color: $green1b;
+
+		img {
+			-webkit-opacity: 0.5;
+			-moz-opacity: 0.5;
+			opacity: 0.5;
+			-webkit-filter: sepia(100%) hue-rotate(60deg) saturate(90%)
+				brightness(50%) blur(1px);
+			filter: sepia(100%) hue-rotate(60deg) saturate(90%) brightness(50%)
+				blur(1px);
+		}
 	}
 
 	.flip-current {
@@ -367,10 +394,10 @@
 		-o-transform: rotateY(0deg);
 		-ms-transform: rotateY(0deg);
 		transform: rotateY(0deg);
-		-webkit-transition-delay: 58.333333333333336ms;
-		-moz-transition-delay: 58.333333333333336ms;
-		-o-transition-delay: 58.333333333333336ms;
-		transition-delay: 58.333333333333336ms;
+		-webkit-transition-delay: 58ms;
+		-moz-transition-delay: 58ms;
+		-o-transition-delay: 58ms;
+		transition-delay: 58ms;
 	}
 
 	.flip-hidden {
@@ -383,10 +410,20 @@
 		-o-transform: rotateY(0deg) translateX(0) scale(0.5);
 		-ms-transform: rotateY(0deg) translateX(0) scale(0.5);
 		transform: rotateY(0deg) translateX(0) scale(0.5);
-		-webkit-transition-delay: 116.66666666666667ms;
-		-moz-transition-delay: 116.66666666666667ms;
-		-o-transition-delay: 116.66666666666667ms;
-		transition-delay: 116.66666666666667ms;
+		// -webkit-transition-delay: 116.66666666666667ms;
+		// -moz-transition-delay: 116.66666666666667ms;
+		// -o-transition-delay: 116.66666666666667ms;
+		// transition-delay: 116.66666666666667ms;
+
+		img {
+			-webkit-opacity: 0.5;
+			-moz-opacity: 0.5;
+			opacity: 0.5;
+			-webkit-filter: sepia(100%) hue-rotate(90deg) saturate(90%)
+				brightness(50%) blur(1px);
+			filter: sepia(100%) hue-rotate(90deg) saturate(90%) brightness(50%)
+				blur(1px);
+		}
 	}
 }
 

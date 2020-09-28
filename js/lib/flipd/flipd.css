@@ -1,7 +1,7 @@
 /* @group Base Flipster Styles */
 .flipster {
   margin: 0 auto;
-  width: 600px;
+  width: 800px;
   position: relative;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -55,6 +55,8 @@
   display: block;
   width: 100%;
   border-radius: 10px;
+  -webkit-transition: 500ms;
+  transition: 500ms;
 }
 
 /* @end */
@@ -227,34 +229,44 @@
 
 .flipster-carousel .flip-past,
 .flipster-carousel .flip-future {
-  -webkit-opacity: 0.25;
-  -moz-opacity: 0.25;
-  opacity: 0.25;
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
   z-index: 1;
-  -webkit-transition-delay: 87.5ms;
-  transition-delay: 87.5ms;
-  -webkit-filter: grayscale(80%) blur(2px) brightness(150%);
-          filter: grayscale(80%) blur(2px) brightness(150%);
+}
+
+.flipster-carousel .flip-past img,
+.flipster-carousel .flip-future img {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+  -webkit-filter: sepia(100%) hue-rotate(60deg) saturate(90%) brightness(50%) blur(1px);
+  filter: sepia(100%) hue-rotate(60deg) saturate(90%) brightness(50%) blur(1px);
 }
 
 .flipster-carousel .flip-prev,
 .flipster-carousel .flip-next {
+  -webkit-opacity: 0.6;
+  -moz-opacity: 0.6;
+  opacity: 0.6;
+  z-index: 2;
+}
+
+.flipster-carousel .flip-prev img,
+.flipster-carousel .flip-next img {
   -webkit-opacity: 0.5;
   -moz-opacity: 0.5;
   opacity: 0.5;
-  z-index: 2;
-  -webkit-transition-delay: 58.333333333333336ms;
-  transition-delay: 58.333333333333336ms;
-  -webkit-filter: grayscale(80%) blur(2px) brightness(150%);
-          filter: grayscale(80%) blur(2px) brightness(150%);
+  -webkit-filter: sepia(100%) hue-rotate(60deg) saturate(90%) brightness(50%) blur(1px);
+  filter: sepia(100%) hue-rotate(60deg) saturate(90%) brightness(50%) blur(1px);
 }
 
 .flipster-carousel .flip-current {
   z-index: 999;
   -webkit-transform: rotateY(0deg);
   transform: rotateY(0deg);
-  -webkit-transition-delay: 58.333333333333336ms;
-  transition-delay: 58.333333333333336ms;
+  -webkit-transition-delay: 58ms;
+  transition-delay: 58ms;
 }
 
 .flipster-carousel .flip-hidden {
@@ -264,8 +276,14 @@
   opacity: 0;
   -webkit-transform: rotateY(0deg) translateX(0) scale(0.5);
   transform: rotateY(0deg) translateX(0) scale(0.5);
-  -webkit-transition-delay: 116.66666666666667ms;
-  transition-delay: 116.66666666666667ms;
+}
+
+.flipster-carousel .flip-hidden img {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+  -webkit-filter: sepia(100%) hue-rotate(90deg) saturate(90%) brightness(50%) blur(1px);
+  filter: sepia(100%) hue-rotate(90deg) saturate(90%) brightness(50%) blur(1px);
 }
 
 /* @end */

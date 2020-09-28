@@ -176,9 +176,9 @@ function openTab(evt, tabName) {
 	$('html, body').animate({ scrollTop: 0 }, 'slow')
 
 	//* Redim Img Caroussel
-	$(".flipd").height(300)
+	// $(".flipd").height(800)
 	// // $(".flipd").width('100%')
-	$('.flipd ul').css('margin', '0 20px');
+	// $('.flipd ul').css('margin', '0 20px');
 	// $('.flipd ul').css('margin', '0 auto');
 }
 
@@ -194,7 +194,7 @@ $('html, body').animate({ scrollTop: 0 }, 'slow')
 $(function(){ 
 		$(".flipd").flipster({
 			style: 'carousel',
-			spacing: -0.75,
+			spacing: -0.5,
 			autoplay: 3000,
 
 		})
