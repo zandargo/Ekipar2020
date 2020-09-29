@@ -1,4 +1,5 @@
-/* ------- LISTA DE EQUIMAPENTOS / MÁQUINAS palhação-------*/
+//* ------- LISTA DE EQUIMAPENTOS / MÁQUINAS -------*/
+//! EM VR, INSERIR O NOME DA PASTA COM AS IMAGENS
 var equipamentos = [
 	{
 		ID: 'bancada-hidraulica',

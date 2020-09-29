@@ -16,8 +16,8 @@ var componentes = [
 			'Controlador de temperatura',
 			'POP – Procedimento operacional Padrão.',
 		],
-		croqui: 'componentes/croqui_Aquecedor1.png',
-		img: ['img_Aquecedor1.2.png'],
+		croqui: 'componentes/aquecedor1/crq_Aquecedor1.png',
+		img: ['aquecedor1/img_Aquecedor1-001.png'],
 		vr: '',
 	},
 	{
@@ -37,8 +37,11 @@ var componentes = [
 			'Controlador de temperatura',
 			'POP – Procedimento operacional Padrão.',
 		],
-		croqui: '',
-		img: [''],
+		croqui: 'componentes/aquecedor2/crq_Aquecedor2.png',
+		img: ['componentes/aquecedor2/img_aquecedor2-001.png',
+			'componentes/aquecedor2/pht_aquecedor2-001.png',
+			'componentes/aquecedor2/pht_aquecedor2-002.png',
+			'componentes/aquecedor2/pht_aquecedor2-003.png'],
 		vr: '',
 	},
 	{
@@ -59,8 +62,8 @@ var componentes = [
 			'Quadro Elétrico',
 			'POP – Procedimento operacional Padrão.',
 		],
-		croqui: '',
-		img: [''],
+		croqui: 'componentes/mini-centrifuga/crq_mini-centrifuga.png',
+		img: ['componentes/mini-centrifuga/pht_mini-centrifuga-001.jpg'],
 		vr: '',
 	},
 	{
@@ -74,10 +77,49 @@ var componentes = [
 		detalhamento: [
 			'Equipamento com diâmetro variado (de acordo com o processo). Os diâmetros devem variar com a vazão desejada. O equipamento poderá ser em aço inox ou carbono.',
 		],
-		croqui: '',
-		img: [''],
-		vr: '',
+		croqui: 'componentes/mixer/crq_mixer.png',
+		img: ['componentes/mixer/img_mixer-002.png',
+			'componentes/mixer/pht_mixer-001.jpg'],
+		vr: 'componentes/mixer/img_mixer-001.png',
 	},
+	// {
+	// 	ID: 'trocador-horizontal',
+	// 	navlink: 'Trocador Horizontal',
+	// 	titulo: ' ',
+	// 	descricao:
+	// 		' ',
+	// 	funcionamento:
+	// 		' ',
+	// 	detalhamento: [
+	// 		' ',
+	// 		' ',
+	// 		' ',
+	// 	],
+	// 	croqui: 'componentes/trocador-horizontal/crq_trocador-horizontal.png',
+	// 	img: ['componentes/trocador-horizontal/img_trocador-horizontal-001.png',
+	// 		'componentes/trocador-horizontal/pht_trocador-horizontal-001.jpg',
+	// 		'componentes/trocador-horizontal/pht_trocador-horizontal-002.jpg',],
+	// 	vr: '',
+	// },
+	// {
+	// 	ID: 'trocador-vertical',
+	// 	navlink: 'Trocador Vertical',
+	// 	titulo: ' ',
+	// 	descricao:
+	// 		' ',
+	// 	funcionamento:
+	// 		' ',
+	// 	detalhamento: [
+	// 		' ',
+	// 		' ',
+	// 		' ',
+	// 	],
+	// 	croqui: 'componentes/trocador-vertical/crq_trocador-vertical.png',
+	// 	img: ['componentes/trocador-vertical/img_trocador-vertical-002.png',
+	// 		'componentes/trocador-vertical/pht_trocador-vertical-001.jpg',
+	// 		'componentes/trocador-vertical/pht_trocador-vertical-002.jpg',],
+	// 	vr: 'componentes/trocador-vertical/img_trocador-vertical-001.png',
+	// },
 	{
 		ID: 'visor-de-fluxo',
 		navlink: 'Visor de Fluxo',

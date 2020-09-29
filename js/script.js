@@ -101,9 +101,12 @@ function mapListImg(obj, index) {
 
 function mapVR(obj) {
 	if (obj != '') {
-		/*html*/
-		return `
-		<div class="box-content-vr">
+		let strng = 'img'
+		if (obj.search(strng)<0) {
+			console.log(`${obj}.search(${strng})=${obj.search(strng)} < 0`)
+			/*html*/
+			return `
+			<div class="box-content-vr">
 			<img src="./img/${obj}/0_0.png" width="500" height="325"
 			class="reel"
 			data-speed="0"
@@ -111,8 +114,17 @@ function mapVR(obj) {
 			data-cursor="default"
 			data-revolution=600
 			data-images="./img/${obj}/0_#.png|0..23">
-		</div>
-		`
+			</div>
+			`
+		} else {
+			console.log(`${obj}.search(${strng})=${obj.search(strng)} >= 0`)
+			/*html*/
+			return `
+			<div class="box-content-vr">
+			<img src="./img/${obj}" width="350" height="auto" margin="auto">
+			</div>
+			`
+		}
 	} else { return '' }
   }
 
