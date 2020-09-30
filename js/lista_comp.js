@@ -133,8 +133,8 @@ var componentes = [
 			'Visor em vidro boro silicato',
 			'Parafusos para fixação das placas de proteção',
 		],
-		croqui: '',
-		img: [''],
-		vr: '',
+		croqui: 'componentes/visor-de-fluxo/crq_visor-de-fluxo.png',
+		img: ['componentes/visor-de-fluxo/img_visor-de-fluxo-002.png'],
+		vr: 'componentes/visor-de-fluxo/img_visor-de-fluxo-001.png',
 	},
 ]
