@@ -674,19 +674,6 @@ body #div-footer strong {
   shape-outside: ellipse(250px 200px at 50% 50%);
 }
 
-.flipd {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.flipd ul {
-  margin: 0 auto;
-}
-
 /*Logo carousel*/
 #clients {
   margin-left: auto;
@@ -768,4 +755,42 @@ body #div-footer strong {
 
 .flipd .flip-items img {
   width: 400px;
+}
+
+.slideshow {
+  width: 650px;
+  overflow: hidden;
+  height: 300px;
+  margin: 50px auto;
+  -webkit-box-shadow: 0 0 8px #000;
+          box-shadow: 0 0 8px #000;
+  position: relative;
+}
+
+.slideshow img {
+  position: absolute;
+  z-index: 1;
+  display: none;
+  left: 0;
+}
+
+.slideshow p {
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  font-family: Arial;
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.slshwimg {
+  width: 300px;
+}
+
+.slshwimg img {
+  width: 100px;
 }

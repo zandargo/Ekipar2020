@@ -59,13 +59,17 @@ function mapTemplate(obj) {
 				<div class="square1"></div>
 				<p>${obj.funcionamento}</p>
 			</div>
-			
-				<div class="flipd">
+				<!--<div class="flipd">
 					<ul class="flip-items">
 						${obj.img.map(mapListImg).join('')}
 					</ul>
-				</div>
-			
+				</div> -->
+			<div class="slick">
+				${obj.img.map(mapListImg).join('')}
+			</div>
+
+
+
 		</div>
 
 
@@ -93,11 +97,22 @@ function mapTemplate(obj) {
 
 function mapListImg(obj, index) {
 	// <div class="img-ctnr"><img src="./img/${obj}" alt="" /></div>
+	// return `
+	// 		<li id="${index+1}"> <img src="./img/${obj}" alt="" /> </li>
+	// `
+	// <div class="slshwimg">
+	// <img src="./img/${obj}" alt="" />
+	// </div>
 	/*html*/
 	return `
-			<li id="${index+1}"> <img src="./img/${obj}" alt="" /> </li>
 	`
 }
+
+
+
+
+
+
 
 function mapVR(obj) {
 	if (obj != '') {
@@ -108,7 +123,7 @@ function mapVR(obj) {
 			return `
 			<div class="box-content-vr">
 			<img src="./img/${obj}/0_0.png" width="500" height="325"
-			class="reel"
+			class="reel"-*
 			data-speed="0"
 			data-cw="true"
 			data-cursor="default"
@@ -202,16 +217,29 @@ $('#aempresa, #btn-aempresa').addClass('active')
 $('html, body').animate({ scrollTop: 0 }, 'slow')
 
 
+// $(document).ready(function(){
+// 	$(".slideshow img:eq(0)").addClass("ativo").show();
+// })
 
-$(function(){ 
-		$(".flipd").flipster({
-			style: 'carousel',
-			spacing: -0.5,
-			autoplay: 3000,
 
-		})
-})
+// $(function(){ 
+// 		$(".flipd").flipster({
+// 			style: 'carousel',
+// 			spacing: -0.5,
+// 			autoplay: 3000,
+
+// 		})
+// })
 	
-// $('.flipd').width('75%')
-// $('.flipd ul').width('75%')
-// $('.flipd ul').width('75%')
+
+$('.slick').slick({
+  	dots: true,
+  	// infinite: true,
+  	speed: 500,
+	fade: true,
+  	// slidesToShow: 1,
+  	// centerMode: true,
+	// variableWidth: true,
+	// adaptiveHeight: true,
+  	// cssEase: 'linear'
+});

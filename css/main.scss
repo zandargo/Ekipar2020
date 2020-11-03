@@ -677,14 +677,15 @@ $shape-vr2: ellipse(250px 200px at 50% 50%);
 	shape-outside: $shape-vr2;
 }
 
-.flipd {
-	display: flex;
-	justify-content: center;
+// .flipd {
+// 	display: flex;
+// 	justify-content: center;
 
-	ul {
-		margin: 0 auto;
-	}
-}
+// 	ul {
+// 		margin: 0 auto;
+// 	}
+// }
 
 @import 'logos';
 @import 'photos';
+@import 'img';
