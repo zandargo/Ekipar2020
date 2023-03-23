@@ -9,14 +9,17 @@ $gray0: hsl(0, 0%, 20%);
 $gray1: hsl(0, 0%, 33%);
 $gray4: hsl(0, 0%, 75%);
 $gray5: hsl(0, 0%, 95%);
+$gray5b: hsla(0, 0%, 95%, 0.87);
 
 $green1: rgb(140, 198, 63);
 $green1b: rgb(138, 186, 74);
+$green2c: rgba(137, 186, 74, 0.352);
 
 $green2: rgb(108, 157, 48);
 $green3: rgb(69, 110, 28);
 $green1t90: rgba(140, 198, 63, 0.9);
 $green1bt90: rgba(138, 186, 74, 0.9);
+$green1ct90: rgb(137, 186, 74);
 $green2t90: rgba(108, 157, 48, 0.9);
 $green3t90: rgba(69, 110, 28, 0.9);
 $shadow: 0.2rem 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.35);
@@ -396,15 +399,19 @@ body {
 				.box-title {
 					width: 100%;
 					// background-color: $gray4;
-					background-image: linear-gradient(to right, $green1b, $gray5);
+					background-image: linear-gradient(to right, $green1b, $green2c);
 					font-size: 1.5rem;
 					font-variant-caps: petite-caps;
 					border-radius: 2rem;
 					font-weight: 700;
 					// padding: 2.5rem, 0;
 					padding-left: 2rem;
-					line-height: 2.5rem;
+					line-height: 2.75rem;
 					margin-bottom: 1rem;
+					top: 0.25em;
+					left: 0;
+					border-radius: 2.75rem 0 2.75rem 0;
+
 				}
 
 				.box-content {
@@ -522,8 +529,9 @@ body {
 		display: block;
 		width: 100%;
 		height: 2rem;
-		background-color: $green1t90;
+		background-color: $green1ct90;
 		color: $green3;
+		z-index: 80;
 		margin-top: 200px;
 		position: fixed;
 		bottom: 0px;

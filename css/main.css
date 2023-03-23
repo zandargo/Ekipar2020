@@ -282,14 +282,17 @@ body #main-wrapper #div-content .box1 p {
 }
 body #main-wrapper #div-content .box1 .box-title {
   width: 100%;
-  background-image: linear-gradient(to right, rgb(138, 186, 74), hsl(0, 0%, 95%));
+  background-image: linear-gradient(to right, rgb(138, 186, 74), rgba(137, 186, 74, 0.352));
   font-size: 1.5rem;
   font-variant-caps: petite-caps;
   border-radius: 2rem;
   font-weight: 700;
   padding-left: 2rem;
-  line-height: 2.5rem;
+  line-height: 2.75rem;
   margin-bottom: 1rem;
+  top: 0.25em;
+  left: 0;
+  border-radius: 2.75rem 0 2.75rem 0;
 }
 body #main-wrapper #div-content .box1 .box-content {
   padding: 0 16px;
@@ -371,8 +374,9 @@ body #div-footer {
   display: block;
   width: 100%;
   height: 2rem;
-  background-color: rgba(140, 198, 63, 0.9);
+  background-color: rgb(137, 186, 74);
   color: rgb(69, 110, 28);
+  z-index: 80;
   margin-top: 200px;
   position: fixed;
   bottom: 0px;
@@ -518,7 +522,7 @@ body #div-footer strong {
 }
 #clients #shadow-overlay {
   box-shadow: inset 80px 0px 40px -40px hsl(0, 0%, 95%), inset -80px 0px 40px -40px hsl(0, 0%, 95%);
-  z-index: 100;
+  z-index: 80;
   height: 100%;
   width: 100%;
   position: absolute;
