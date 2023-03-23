@@ -69,7 +69,7 @@ var componentes = [
 	{
 		ID: 'mixer',
 		navlink: 'Mixer',
-		titulo: 'Misturador Estático de Fluxo',
+		titulo: 'MISTURADOR ESTÁTICO DE FLUXO',
 		descricao:
 			'As unidades industriais, em sua grande maioria, produzem determinados produtos a partir da mistura e reação de outros constituintes. Muitas das correntes que possuem substâncias sólidas necessitam ser diluídas em tanques agitados. No entanto, no caso de misturas líquidas, a utilização de tanque agitados poderá ter um custo bastante elevado. Uma vez que o efeito da turbulência pode ocasionar a saída de regimes entre laminar e turbulento, a utilização de misturadores estáticos poderá facilitar e reduzir os custos.',
 		funcionamento:
@@ -123,7 +123,7 @@ var componentes = [
 	{
 		ID: 'visor-de-fluxo',
 		navlink: 'Visor de Fluxo',
-		titulo: 'Visor de Fluxo Tubular',
+		titulo: 'VISOR DE FLUXO TUBULAR',
 		descricao:
 			'Em unidades de processamento, grande parte dos reagentes e produtos são transportados por tubulações em aço. Isso ocorre devido à necessidade de manter sob controle as condições operacionais. No entanto, a necessidade de visualizar os fenômenos que ocorrem durante tais processos torna-se algo de extrema importância ao acompanhamento das unidades de transformação. Com isso, a Ekipar possui em sua linha de acessórios visores de fluxo destinados a tubulações de baixas pressões.',
 		funcionamento:
