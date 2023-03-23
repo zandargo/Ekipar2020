@@ -7,14 +7,11 @@
   overflow-y: hidden;
   height: auto;
 }
-
 .flipster ul {
   margin: 0 auto;
   height: auto;
   width: auto;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
 
 .flip-items,
@@ -28,13 +25,10 @@
 
 .flip-items {
   width: 100%;
-  -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-  -webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  -webkit-box-sizing: content-box;
   box-sizing: content-box;
 }
 
@@ -55,59 +49,42 @@
   display: block;
   width: 100%;
   border-radius: 10px;
-  -webkit-transition: 500ms;
   transition: 500ms;
 }
 
 /* @end */
 /* @group Coverflow Style */
 .flipster-coverflow .flip-items {
-  -webkit-transition: all 350ms ease-in-out;
   transition: all 350ms ease-in-out;
   position: relative;
   padding-top: 2%;
   padding-bottom: 5%;
 }
-
 .flipster-coverflow .flip-item {
   display: block;
-  -webkit-transition: all 175ms ease-in-out;
   transition: all 175ms ease-in-out;
-  -webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
-  -webkit-perspective: 800px;
   perspective: 800px;
   position: absolute;
   width: 30%;
 }
-
 .flipster-coverflow .flip-content {
-  -webkit-transition: all 350ms ease-in-out;
   transition: all 350ms ease-in-out;
   -webkit-box-reflect: below 0 -webkit-gradient(linear, left bottom, left top, color-stop(0.05, rgba(255, 255, 255, 0.12)), color-stop(0.2, transparent));
 }
-
 .flipster-coverflow .flip-past .flip-content {
-  -webkit-transform: rotateY(55deg) scale(0.75);
   transform: rotateY(55deg) scale(0.75);
 }
-
 .flipster-coverflow .flip-future .flip-content {
-  -webkit-transform: rotateY(-55deg) scale(0.75);
   transform: rotateY(-55deg) scale(0.75);
 }
-
 .flipster-coverflow.no-rotate .flip-past .flip-content,
 .flipster-coverflow.no-rotate .flip-future .flip-content {
-  -webkit-transform: scale(0.75);
   transform: scale(0.75);
 }
-
 .flipster-coverflow .flip-current .flip-content {
-  -webkit-transform: rotateY(0deg);
   transform: rotateY(0deg);
 }
-
 .flipster-coverflow .flip-hidden {
   visibility: hidden;
   -webkit-opacity: 0;
@@ -118,39 +95,28 @@
 /* @end */
 /* @group Flip Items */
 .flipster-carousel .flip-items {
-  -webkit-perspective: 2000px;
   perspective: 2000px;
 }
-
 .flipster-carousel .flip-item {
-  -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-  -webkit-transition: all 350ms ease-out;
   transition: all 350ms ease-out;
 }
 
 .no-csstransforms .flipster-carousel .flip-item {
-  -webkit-transition: none;
   transition: none;
 }
 
 .flipster-carousel .flip-items img {
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-
 .flipster-carousel .flip-past {
-  -webkit-transform: translateX(-80%) translateZ(0) rotateY(80deg) scale(0.65);
   transform: translateX(-80%) translateZ(0) rotateY(80deg) scale(0.65);
 }
-
 .flipster-carousel.no-rotate .flip-past {
-  -webkit-transform: translateX(-80%) translateZ(0) scale(0.65);
   transform: translateX(-80%) translateZ(0) scale(0.65);
 }
 
 .no-csstransforms3d .flipster-carousel .flip-past {
-  -webkit-transform: translateX(-56%) scale(0.5);
   transform: translateX(-56%) scale(0.5);
 }
 
@@ -162,17 +128,13 @@
 }
 
 .flipster-carousel .flip-future {
-  -webkit-transform: translateX(80%) translateZ(0) rotateY(-80deg) scale(0.65);
   transform: translateX(80%) translateZ(0) rotateY(-80deg) scale(0.65);
 }
-
 .flipster-carousel.no-rotate .flip-future {
-  -webkit-transform: translateX(80%) translateZ(0) scale(0.65);
   transform: translateX(80%) translateZ(0) scale(0.65);
 }
 
 .no-csstransforms3d .flipster-carousel .flip-future {
-  -webkit-transform: translateX(56%) scale(0.5);
   transform: translateX(56%) scale(0.5);
 }
 
@@ -184,17 +146,13 @@
 }
 
 .flipster-carousel .flip-prev {
-  -webkit-transform: translateX(-60%) translateZ(0) rotateY(80deg) scale(0.8);
   transform: translateX(-60%) translateZ(0) rotateY(80deg) scale(0.8);
 }
-
 .flipster-carousel.no-rotate .flip-prev {
-  -webkit-transform: translateX(-60%) translateZ(0) scale(0.8);
   transform: translateX(-60%) translateZ(0) scale(0.8);
 }
 
 .no-csstransforms3d .flipster-carousel .flip-prev {
-  -webkit-transform: translateX(-24%) scale(0.75);
   transform: translateX(-24%) scale(0.75);
 }
 
@@ -206,17 +164,13 @@
 }
 
 .flipster-carousel .flip-next {
-  -webkit-transform: translateX(60%) translateZ(0) rotateY(-80deg) scale(0.8);
   transform: translateX(60%) translateZ(0) rotateY(-80deg) scale(0.8);
 }
-
 .flipster-carousel.no-rotate .flip-next {
-  -webkit-transform: translateX(60%) translateZ(0) scale(0.8);
   transform: translateX(60%) translateZ(0) scale(0.8);
 }
 
 .no-csstransforms3d .flipster-carousel .flip-next {
-  -webkit-transform: translateX(24%) scale(0.75);
   transform: translateX(24%) scale(0.75);
 }
 
@@ -234,16 +188,13 @@
   opacity: 0.5;
   z-index: 1;
 }
-
 .flipster-carousel .flip-past img,
 .flipster-carousel .flip-future img {
   -webkit-opacity: 0.5;
   -moz-opacity: 0.5;
   opacity: 0.5;
-  -webkit-filter: sepia(100%) hue-rotate(60deg) saturate(90%) brightness(50%) blur(1px);
   filter: sepia(100%) hue-rotate(60deg) saturate(90%) brightness(50%) blur(1px);
 }
-
 .flipster-carousel .flip-prev,
 .flipster-carousel .flip-next {
   -webkit-opacity: 0.6;
@@ -251,44 +202,34 @@
   opacity: 0.6;
   z-index: 2;
 }
-
 .flipster-carousel .flip-prev img,
 .flipster-carousel .flip-next img {
   -webkit-opacity: 0.5;
   -moz-opacity: 0.5;
   opacity: 0.5;
-  -webkit-filter: sepia(100%) hue-rotate(60deg) saturate(90%) brightness(50%) blur(1px);
   filter: sepia(100%) hue-rotate(60deg) saturate(90%) brightness(50%) blur(1px);
 }
-
 .flipster-carousel .flip-current {
   z-index: 999;
-  -webkit-transform: rotateY(0deg);
   transform: rotateY(0deg);
-  -webkit-transition-delay: 58ms;
   transition-delay: 58ms;
 }
-
 .flipster-carousel .flip-hidden {
   visibility: hidden;
   -webkit-opacity: 0;
   -moz-opacity: 0;
   opacity: 0;
-  -webkit-transform: rotateY(0deg) translateX(0) scale(0.5);
   transform: rotateY(0deg) translateX(0) scale(0.5);
 }
-
 .flipster-carousel .flip-hidden img {
   -webkit-opacity: 0.5;
   -moz-opacity: 0.5;
   opacity: 0.5;
-  -webkit-filter: sepia(100%) hue-rotate(90deg) saturate(90%) brightness(50%) blur(1px);
   filter: sepia(100%) hue-rotate(90deg) saturate(90%) brightness(50%) blur(1px);
 }
 
 /* @end */
 .no-transition {
-  -webkit-transition-duration: 0ms !important;
   transition-duration: 0ms !important;
 }
 
@@ -305,16 +246,14 @@
 .clearfix {
   *zoom: 1;
 }
-
 .clearfix:before {
   display: table;
-  content: '';
+  content: "";
   line-height: 0;
 }
-
 .clearfix:after {
   display: table;
-  content: '';
+  content: "";
   line-height: 0;
   clear: both;
 }
@@ -331,7 +270,6 @@
   display: block;
   width: 100%;
   min-height: 30px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -340,7 +278,7 @@ body {
   color: #333333;
   font-weight: 400;
   font-size: 15px;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 20px;
 }
 
@@ -350,7 +288,6 @@ a {
   color: #da0d25;
   text-decoration: none;
 }
-
 a:hover, a:focus {
   color: #f22840;
   text-decoration: none;
@@ -395,7 +332,7 @@ h4,
 h5,
 h6 {
   margin: 10px 0;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 20px;
   color: inherit;
@@ -461,39 +398,30 @@ h4 small {
 .Subpage h3 {
   line-height: 30px;
 }
-
 .Subpage h1 {
   font-size: 30px;
 }
-
 .Subpage h2 {
   font-size: 26.25px;
 }
-
 .Subpage h3 {
   font-size: 22.5px;
 }
-
 .Subpage h4 {
   font-size: 18.75px;
 }
-
 .Subpage h5 {
   font-size: 15px;
 }
-
 .Subpage h6 {
   font-size: 12.75px;
 }
-
 .Subpage h1 small {
   font-size: 22.5px;
 }
-
 .Subpage h2 small {
   font-size: 18.75px;
 }
-
 .Subpage h3 small,
 .Subpage h4 small {
   font-size: 15px;
@@ -544,26 +472,21 @@ body {
   vertical-align: middle;
   cursor: pointer;
   border: 0;
-  -webkit-transition: color 300ms ease, background-color 300ms ease;
   transition: color 300ms ease, background-color 300ms ease;
 }
-
 .Button:hover, .Button:focus {
   color: #7a0715;
   background: #f22840;
 }
-
 .Button.Small {
   padding: 5px 10px;
   font-size: small;
 }
-
 .Button.Block {
   padding: 20px 40px;
   width: 300px;
   height: 200px;
 }
-
 .Button h1 {
   font-size: 2em;
   line-height: 1.25em;
@@ -598,4 +521,4 @@ body {
 
 .affix {
   position: fixed;
-}
+}/*# sourceMappingURL=flipd.css.map */
